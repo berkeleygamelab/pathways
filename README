@@ -1,0 +1,13 @@
+Pathways workflow:
+
+NEW CONTRIBUTORS:
+
+1) Click on [Fork] to create your own fork of the project on your github account. (All your work will be done on your own fork of the project, and you can submit pull requests for the admin to add your updates to the master branch.)
+
+2) Install git if you haven't already.
+
+3) Clone your fork on github to create a local repository on your computer. (You will code on this local repo, then commit and push changes to your forked repo.)
+
+git clone git@github.com:YOURGITHUBID/pathways.git
+
+Now you have a git repo called pathways.git on your computer! Open up Pathways.xcodeproj in Xcode and make sure it runs on the simulator.

@@ -1,104 +1,99 @@
 TPathways
 v7
 r0
-t318763962.366690
+t319014521.635473
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Pathways.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/Info.plist Pathways-Info.plist
-cCompileXIB /Users/berkeleygamelab/Melissa/pathways/MainWindow.xib
-cCompileXIB /Users/berkeleygamelab/Melissa/pathways/Classes/startScreenViewController.xib
-cCompileXIB /Users/berkeleygamelab/Melissa/pathways/LevelViewController.xib
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/drag-shape.png drag-shape.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/drag-shape-grey.png drag-shape-grey.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/leftSideButton.png leftSideButton.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/rightSideButton.png rightSideButton.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/map-background.png map-background.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/piece-board.png piece-board.png
-cCpResource build/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif gem_china_edit_3.aif
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/map-left.png map-left.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/map-right.png map-right.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg01.png peg01.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg02.png peg02.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg03.png peg03.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg04.png peg04.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg05.png peg05.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg06.png peg06.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg07.png peg07.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg08.png peg08.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/start-piece.png start-piece.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png Pathways_Icon_Large.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png start_screen_arrow.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/overlay-image.png overlay-image.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg01f.png peg01f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg02f.png peg02f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg03f.png peg03f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg04f.png peg04f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg05f.png peg05f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg06f.png peg06f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg07f.png peg07f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg08f.png peg08f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg09f.png peg09f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg10f.png peg10f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg11f.png peg11f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg12f.png peg12f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg13f.png peg13f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg14f.png peg14f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg15f.png peg15f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg16f.png peg16f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg17f.png peg17f.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg09.png peg09.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg10.png peg10.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg11.png peg11.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg12.png peg12.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg13.png peg13.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg14.png peg14.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg15.png peg15.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg16.png peg16.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/peg17.png peg17.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/arrow-left.png arrow-left.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/arrow-right.png arrow-right.png
-cCpResource build/Debug-iphoneos/Pathways.app/Level1LeftTiles.txt Level1LeftTiles.txt
-cCopyPlistFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/scores.plist scores.plist
-cCompileXIB /Users/berkeleygamelab/Melissa/pathways/scoreViewController.xib
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/start_screen_image.png start_screen_image.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Main_Screen_Icon.png Pathways_Main_Screen_Icon.png
-cCpResource build/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt level_02_left_pieces.txt
-cCpResource build/Debug-iphoneos/Pathways.app/level_02_right_pieces.txt level_02_right_pieces.txt
-cCpResource build/Debug-iphoneos/Pathways.app/level_02_data.txt level_02_data.txt
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01l.png level_01_peg01l.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02l.png level_01_peg02l.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03l.png level_01_peg03l.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04l.png level_01_peg04l.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05l.png level_01_peg05l.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01r.png level_01_peg01r.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02r.png level_01_peg02r.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03r.png level_01_peg03r.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04r.png level_01_peg04r.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05r.png level_01_peg05r.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_left_map.png level_01_left_map.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/level_01_right_map.png level_01_right_map.png
-cCpResource build/Debug-iphoneos/Pathways.app/level_01_data.txt level_01_data.txt
-cCpResource build/Debug-iphoneos/Pathways.app/level_01_left_pieces.txt level_01_left_pieces.txt
-cCpResource build/Debug-iphoneos/Pathways.app/level_01_right_pieces.txt level_01_right_pieces.txt
-cProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fpwrnpzwxgtbdselkvdfubjwqexp/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/Melissa/pathways/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/Melissa/pathways/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/Melissa/pathways/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/Melissa/pathways/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/Melissa/pathways/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o /Users/berkeleygamelab/Melissa/pathways/LevelViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/Melissa/pathways/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o /Users/berkeleygamelab/Melissa/pathways/Classes/sideButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/Melissa/pathways/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/Melissa/pathways/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/Melissa/pathways/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
-cGenerateDSYMFile /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app.dSYM /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/Pathways
-cProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/85921B75-B4D7-406C-9BC2-4A6B44E73BB7.mobileprovision" /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision
-cTouch /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
-cCodeSign /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app
+cProcessInfoPlistFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Info.plist Pathways-Info.plist
+cCopyPlistFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/scores.plist scores.plist
+cCpResource build/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif Resources/sounds/gem_china_edit_3.aif
+cCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/LevelViewController.xib"
+cCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/MainWindow.xib"
+cCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib"
+cCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/startScreenViewController.xib"
+cCpResource build/Debug-iphoneos/Pathways.app/level_01_data.txt "Resources/level data/level 01/level_01_data.txt"
+cCpResource build/Debug-iphoneos/Pathways.app/level_01_left_pieces.txt "Resources/level data/level 01/level_01_left_pieces.txt"
+cCpResource build/Debug-iphoneos/Pathways.app/level_01_right_pieces.txt "Resources/level data/level 01/level_01_right_pieces.txt"
+cCpResource build/Debug-iphoneos/Pathways.app/level_02_data.txt "Resources/level data/level 02/level_02_data.txt"
+cCpResource build/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt "Resources/level data/level 02/level_02_left_pieces.txt"
+cCpResource build/Debug-iphoneos/Pathways.app/level_02_right_pieces.txt "Resources/level data/level 02/level_02_right_pieces.txt"
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Main_Screen_Icon.png Resources/images/start_screen_images/Pathways_Main_Screen_Icon.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png Resources/images/start_screen_images/start_screen_arrow.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start-piece.png Resources/images/start_screen_images/start-piece.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-left.png Resources/images/general_images/arrow-left.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-right.png Resources/images/general_images/arrow-right.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/leftSideButton.png Resources/images/general_images/leftSideButton.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/map-background.png Resources/images/general_images/map-background.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/overlay-image.png Resources/images/general_images/overlay-image.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png Resources/images/general_images/Pathways_Icon_Final.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/piece-board.png Resources/images/general_images/piece-board.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/rightSideButton.png Resources/images/general_images/rightSideButton.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_left_map.png Resources/images/level_01_images/level_01_left_map.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_right_map.png Resources/images/level_01_images/level_01_right_map.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg01r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg02r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg03r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg04r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg05r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg01l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg02l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg03l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg04l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg05l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_left_map.png Resources/images/level_02_images/level_02_left_map.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_right_map.png Resources/images/level_02_images/level_02_right_map.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png
+cCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png
+cProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/pathwaysrepo/pathways/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/pathwaysrepo/pathways/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/sideButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
+cGenerateDSYMFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
+cProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/85921B75-B4D7-406C-9BC2-4A6B44E73BB7.mobileprovision" /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision
+cTouch /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
+cCodeSign /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
 c000000004C5A53C10000000000000110
@@ -2741,6 +2736,356 @@ s177
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/Pathways_Icon_Final.png
+c000000004CD08A22000000000000A778
+t1288735266
+s42872
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/arrow-left.png
+c000000004CFCA7A000000000000023C0
+t1291626400
+s9152
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/arrow-right.png
+c000000004CFCA7B6000000000000232A
+t1291626422
+s9002
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/leftSideButton.png
+c000000004CCD2A6F00000000000012E3
+t1288514159
+s4835
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/map-background.png
+c000000004CD7B39C00000000000012C1
+t1289204636
+s4801
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/overlay-image.png
+c000000004CFC342A00000000000027F9
+t1291596842
+s10233
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/piece-board.png
+c000000004CECD5CC00000000000012C0
+t1290589644
+s4800
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/general_images/rightSideButton.png
+c000000004CCD2A930000000000001302
+t1288514195
+s4866
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_left_map.png
+c000000004D4F13C90000000000003615
+t1297028041
+s13845
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_left_pegs/level_01_peg01l.png
+c000000004D4A177B00000000000006CF
+t1296701307
+s1743
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_left_pegs/level_01_peg02l.png
+c000000004D4A099C000000000000088B
+t1296697756
+s2187
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_left_pegs/level_01_peg03l.png
+c000000004D49E5A200000000000006A0
+t1296688546
+s1696
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_left_pegs/level_01_peg04l.png
+c000000004D49E56600000000000006D0
+t1296688486
+s1744
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_left_pegs/level_01_peg05l.png
+c000000004D49E6440000000000000681
+t1296688708
+s1665
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_right_map.png
+c000000004D4F1405000000000000347D
+t1297028101
+s13437
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_right_pegs/level_01_peg01r.png
+c000000004D4A0A150000000000000701
+t1296697877
+s1793
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_right_pegs/level_01_peg02r.png
+c000000004D4A0A07000000000000094A
+t1296697863
+s2378
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_right_pegs/level_01_peg03r.png
+c000000004D4A09D90000000000000692
+t1296697817
+s1682
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_right_pegs/level_01_peg04r.png
+c000000004D4A09E80000000000000687
+t1296697832
+s1671
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_01_images/level_01_right_pegs/level_01_peg05r.png
+c000000004D4A09F70000000000000688
+t1296697847
+s1672
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_map.png
+c000000004CEB7A4C00000000000051C6
+t1290500684
+s20934
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png
+c000000004CE3172F0000000000000669
+t1289951023
+s1641
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png
+c000000004CE3178500000000000005A5
+t1289951109
+s1445
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png
+c000000004CE318BA00000000000005B3
+t1289951418
+s1459
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png
+c000000004CE318D80000000000000507
+t1289951448
+s1287
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png
+c000000004CE318F20000000000000566
+t1289951474
+s1382
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png
+c000000004CE319010000000000000684
+t1289951489
+s1668
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png
+c000000004CE319130000000000000630
+t1289951507
+s1584
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png
+c000000004CE3191F00000000000005CD
+t1289951519
+s1485
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png
+c000000004CE3192E00000000000006D5
+t1289951534
+s1749
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png
+c000000004CE3193F0000000000000757
+t1289951551
+s1879
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png
+c000000004CE3194A00000000000004F0
+t1289951562
+s1264
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png
+c000000004CE3196A00000000000006E1
+t1289951594
+s1761
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png
+c000000004CE319790000000000000720
+t1289951609
+s1824
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png
+c000000004CE3198400000000000003E9
+t1289951620
+s1001
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png
+c000000004CE319940000000000000624
+t1289951636
+s1572
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png
+c000000004CE319A100000000000008D6
+t1289951649
+s2262
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png
+c000000004D4A21C900000000000010A9
+t1296703945
+s4265
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_map.png
+c000000004CEB7A670000000000005336
+t1290500711
+s21302
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png
+c000000004CE31AB30000000000000D21
+t1289951923
+s3361
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png
+c000000004CE31ADC0000000000000B3D
+t1289951964
+s2877
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png
+c000000004CE31AE60000000000000B3D
+t1289951974
+s2877
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png
+c000000004CE31AF00000000000000B7E
+t1289951984
+s2942
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png
+c000000004CE31AFA0000000000000ACE
+t1289951994
+s2766
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png
+c000000004CE31AFA0000000000000C4B
+t1289951994
+s3147
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png
+c000000004CE31AFA0000000000000C69
+t1289951994
+s3177
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png
+c000000004CE31AFA0000000000000B99
+t1289951994
+s2969
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png
+c000000004CE31AFA0000000000000DE8
+t1289951994
+s3560
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png
+c000000004CE31AFA0000000000000DC3
+t1289951994
+s3523
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png
+c000000004CE31AFA0000000000000D2D
+t1289951994
+s3373
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png
+c000000004CE31AFA0000000000000CF6
+t1289951994
+s3318
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png
+c000000004CE31AFA0000000000000C9A
+t1289951994
+s3226
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png
+c000000004CE31AFA0000000000000B8A
+t1289951994
+s2954
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png
+c000000004CE31AFA0000000000000BD2
+t1289951994
+s3026
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png
+c000000004CE31AFA0000000000000ED9
+t1289951994
+s3801
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png
+c000000004D4A21F400000000000010AF
+t1296703988
+s4271
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/Pathways_Main_Screen_Icon.png
+c000000004D4BC4EB000000000000B665
+t1296811243
+s46693
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/start-piece.png
+c000000004D4BAEC800000000000011EE
+t1296805576
+s4590
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/start_screen_arrow.png
+c000000004CFADBA80000000000001B6A
+t1291508648
+s7018
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 01/level_01_data.txt
+c000000004D4FA4350000000000000067
+t1297065013
+s103
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 01/level_01_left_pieces.txt
+c000000004D4F1F79000000000000008B
+t1297031033
+s139
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 01/level_01_right_pieces.txt
+c000000004D4F20BD000000000000008B
+t1297031357
+s139
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_data.txt
+c000000004D536702000000000000005F
+t1297311490
+s95
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_left_pieces.txt
+c000000004D536A9400000000000001DB
+t1297312404
+s475
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_right_pieces.txt
+c000000004D536A3800000000000001DB
+t1297312312
+s475
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/sounds/gem_china_edit_3.aif
+c000000004CD909DC00000000000078F6
+t1289292252
+s30966
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/LevelViewController.xib
+c000000004D4C5D26000000000000C679
+t1296850214
+s50809
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/MainWindow.xib
+c000000004CB3E6D50000000000003E5E
+t1286858453
+s15966
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib
+c000000004D4BDBCE0000000000006AFD
+t1296817102
+s27389
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/startScreenViewController.xib
+c000000004D4BC7020000000000006533
+t1296811778
+s25907
+
 N/Users/berkeleygamelab/pathwaysrepo/pathways/arrow-left.png
 c000000004CFCA7A000000000000023C0
 t1291626400
@@ -2757,11 +3102,11 @@ t1289292252
 s30966
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-t1297071162
-s2924
+t1297321721
+s4148
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM
-t1297071162
+t1297321720
 s102
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Info.plist
@@ -2781,8 +3126,8 @@ t1293772688
 s981
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
-t1297071162
-s95568
+t1297321720
+s89436
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png
 t1293772689
@@ -2893,16 +3238,160 @@ t1297031888
 s139
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_data.txt
-t1297065080
-s77
+t1297321703
+s95
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_left_map.png
+t1297321711
+s19099
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt
-t1297031887
-s305
+t1297321703
+s475
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01l.png
+t1297321707
+s1656
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01r.png
+t1297321711
+s2479
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02l.png
+t1297321707
+s1491
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02r.png
+t1297321711
+s2219
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03l.png
+t1297321707
+s1580
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03r.png
+t1297321712
+s2286
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04l.png
+t1297321708
+s1414
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04r.png
+t1297321712
+s2196
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05l.png
+t1297321708
+s1232
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05r.png
+t1297321712
+s2094
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06l.png
+t1297321708
+s1431
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06r.png
+t1297321712
+s2281
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07l.png
+t1297321708
+s1585
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07r.png
+t1297321712
+s2474
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08l.png
+t1297321708
+s1482
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08r.png
+t1297321712
+s2406
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09l.png
+t1297321709
+s1798
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09r.png
+t1297321712
+s2740
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10l.png
+t1297321709
+s1639
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10r.png
+t1297321712
+s2581
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11l.png
+t1297321710
+s1491
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11r.png
+t1297321712
+s2364
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12l.png
+t1297321710
+s1584
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12r.png
+t1297321712
+s2430
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13l.png
+t1297321711
+s1528
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13r.png
+t1297321712
+s2476
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14l.png
+t1297321711
+s1061
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14r.png
+t1297321712
+s2074
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15l.png
+t1297321711
+s1302
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15r.png
+t1297321712
+s2161
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16l.png
+t1297321711
+s2124
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16r.png
+t1297321712
+s2797
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17l.png
+t1297321711
+s4102
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17r.png
+t1297321712
+s4110
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_right_map.png
+t1297321712
+s18967
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_right_pieces.txt
-t1297031887
-s322
+t1297321703
+s475
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/map-background.png
 t1293772688
@@ -3089,53 +3578,57 @@ t1296813929
 s45332
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o
-t1296813933
-s37104
+t1297321718
+s37116
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o
-t1297071162
-s123952
+t1297321719
+s123964
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList
-c000000004D4F22CF0000000000000581
-t1297031887
-s1409
+c000000004D538EE700000000000005B8
+t1297321703
+s1464
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o
-t1296813934
-s49992
+t1297321718
+s50000
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o
-t1297068916
-s57796
+t1297321718
+s57812
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o
-t1296813933
-s6432
+t1297321718
+s6444
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o
-t1296813935
-s37100
+t1297321719
+s37108
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o
-t1296813935
-s37128
+t1297321718
+s37140
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o
-t1296817115
-s49836
+t1297321719
+s49844
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o
-t1296813935
-s39504
+t1297321718
+s39516
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o
-t1296813933
-s37184
+t1297321718
+s37192
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o
-t1297069012
-s59052
+t1297321718
+s59068
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
+t1293772694
+s422
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/drag-shape-grey.png
 c000000004CBDE4900000000000000B46
@@ -3764,8 +4257,8 @@ t1288736606
 s9421460
 
 N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch.gch
-t2
-s0
+t1297321717
+s10446552
 
 N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gxononctromdpfadylcrfjlkxweo/Pathways_Prefix.pch.gch
 t2
@@ -3778,7 +4271,7 @@ s1107
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies318763961#318763961#0(0"0(0#1#0"3343187568374212096#0"0#
+lSLF07#2@18"Check dependencies319014503#319014503#0(0"0(0#1#0"8611381248#0"0#
 
 CCodeSign /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
 s317947194.416067
@@ -3800,7 +4293,12 @@ CCodeSign /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathways.app
 r0
 
 CCodeSign /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-r0
+s319014520.515731
+e319014521.635429
+r1
+xCodeSign
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Pathways.app319014520#319014521#0(0"0(0#0#78"/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app8598727488#678"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Greg Niemeyer (DMKLZ66H9R)" --resource-rules=/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/ResourceRules.plist --entitlements /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465493.021335
@@ -3832,7 +4330,17 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/pathwaysrepo/pathways/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.400032
+e319014518.514363
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Level1View.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Level1View.m319014518#319014518#0(0"0(0#0#57"/Users/berkeleygamelab/pathwaysrepo/pathways/Level1View.m8611241888#1869"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Level1View.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1ViewController.o /Users/berkeleygamelab/Melissa/game/Level1ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s317947193.651177
@@ -3927,7 +4435,35 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.499730
+e319014519.057955
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: 'LevelViewController' may not respond to '-showOverlay'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: (Messages without a matching method signature
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: will be assumed to return 'id' and accept
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: '...' as arguments.)
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController showOverlay]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:382: warning: 'LevelViewController' may not respond to '-makeScoreButton'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:385: warning: 'LevelViewController' may not respond to '-makeNextLevelButton'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController leftSideTouchUp:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:436: warning: 'LevelViewController' may not respond to '-leftToCenter'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController rightSideTouchUp:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:508: warning: 'LevelViewController' may not respond to '-rightToCenter'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController piecePlacedAction:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:616: warning: 'LevelViewController' may not respond to '-completedAction'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController completedAction]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:642: warning: 'LevelViewController' may not respond to '-loadScores'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:643: warning: 'LevelViewController' may not respond to '-updateScores'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:644: warning: 'LevelViewController' may not respond to '-saveScores'
+lSLF07#2@74"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m319014518#319014519#0(2398"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: 'LevelViewController' may not respond to '-showOverlay'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:319: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController showOverlay]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:382: warning: 'LevelViewController' may not respond to '-makeScoreButton'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:385: warning: 'LevelViewController' may not respond to '-makeNextLevelButton'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController leftSideTouchUp:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:436: warning: 'LevelViewController' may not respond to '-leftToCenter'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController rightSideTouchUp:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:508: warning: 'LevelViewController' may not respond to '-rightToCenter'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController piecePlacedAction:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:616: warning: 'LevelViewController' may not respond to '-completedAction'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController completedAction]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:642: warning: 'LevelViewController' may not respond to '-loadScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:643: warning: 'LevelViewController' may not respond to '-updateScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:644: warning: 'LevelViewController' may not respond to '-saveScores'10(22@55"'LevelViewController' may not respond to '-showOverlay'319014518#183#137#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#319#0#319#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319014518#320#127#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#319#0#319#0#0"0(22@59"'LevelViewController' may not respond to '-makeScoreButton'319014518#790#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#382#0#382#0#26"'*' may not respond to '*'0(22@63"'LevelViewController' may not respond to '-makeNextLevelButton'319014518#931#145#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#385#0#385#0#26"'*' may not respond to '*'0(22@56"'LevelViewController' may not respond to '-leftToCenter'319014518#1199#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#436#0#436#0#26"'*' may not respond to '*'0(22@57"'LevelViewController' may not respond to '-rightToCenter'319014518#1461#139#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#508#0#508#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-completedAction'319014518#1725#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#616#0#616#0#26"'*' may not respond to '*'0(22@54"'LevelViewController' may not respond to '-loadScores'319014518#1988#136#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#642#0#642#0#26"'*' may not respond to '*'0(22@56"'LevelViewController' may not respond to '-updateScores'319014518#2124#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#643#0#643#0#26"'*' may not respond to '*'0(22@54"'LevelViewController' may not respond to '-saveScores'319014518#2262#136#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m318763961#644#0#644#0#26"'*' may not respond to '*'0(0#0#66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m8602701984#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465493.112057
@@ -3973,7 +4509,24 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.514474
+e319014518.704571
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m: In function '-[draggable touchesEnded:withEvent:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: 'UIViewController' may not respond to '-pieceMisplacedAction:'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: (Messages without a matching method signature
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: will be assumed to return 'id' and accept
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: '...' as arguments.)
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m: In function '-[draggable snapIntoPlaceAtX:AtY:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:101: warning: 'UIViewController' may not respond to '-piecePlacedAction:'
+lSLF07#2@72"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m319014518#319014518#0(857"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m: In function '-[draggable touchesEnded:withEvent:]':/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: 'UIViewController' may not respond to '-pieceMisplacedAction:'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:89: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m: In function '-[draggable snapIntoPlaceAtX:AtY:]':/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m:101: warning: 'UIViewController' may not respond to '-piecePlacedAction:'3(22@62"'UIViewController' may not respond to '-pieceMisplacedAction:'319014518#118#141#0(6@64"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m313206698#89#0#89#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319014518#259#124#0(6@64"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m313206698#89#0#89#0#0"0(22@59"'UIViewController' may not respond to '-piecePlacedAction:'319014518#718#139#0(6@64"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m313206698#101#0#101#0#26"'*' may not respond to '*'0(0#0#64"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m8590252512#1875"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/draggable.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s317943358.957536
@@ -4005,7 +4558,17 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014517.744102
+e319014518.311261
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m319014517#319014518#0(0"0(0#0#70"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m8611262976#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/Melissa/game/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465492.746222
@@ -4037,7 +4600,17 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/pathwaysrepo/pathways/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014517.742465
+e319014518.298095
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/main.m319014517#319014518#0(0"0(0#0#51"/Users/berkeleygamelab/pathwaysrepo/pathways/main.m8611871008#1857"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/main.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465493.371678
@@ -4069,7 +4642,17 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.877447
+e319014519.020890
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/mapBoard.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/mapBoard.m319014518#319014519#0(0"0(0#0#63"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/mapBoard.m8611377728#1873"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/mapBoard.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465493.314069
@@ -4101,7 +4684,17 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.785261
+e319014518.877331
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/pieceBoard.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/pieceBoard.m319014518#319014518#0(0"0(0#0#65"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/pieceBoard.m8590264064#1877"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/pieceBoard.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/Melissa/game/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s317945829.484743
@@ -4130,7 +4723,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/berkeleygamelab/Melissa/pathways/scoreViewController.m318509914#318509915#0(0"0(0#0#61"/Users/berkeleygamelab/Melissa/pathways/scoreViewController.m8620549856#1827"    cd /Users/berkeleygamelab/Melissa/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/pathways -I/Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fpwrnpzwxgtbdselkvdfubjwqexp/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/pathways/scoreViewController.m -o /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014519.020990
+e319014519.141994
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m319014519#319014519#0(0"0(0#0#66"/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m8608903872#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/pathwaysrepo/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -4165,7 +4768,17 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/sideButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.704834
+e319014518.785152
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/sideButton.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/sideButton.m319014518#319014518#0(0"0(0#0#65"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/sideButton.m8603488224#1877"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/sideButton.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/Melissa/game/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465492.950521
@@ -4194,7 +4807,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/berkeleygamelab/Melissa/pathways/startScreenView.m318506733#318506733#0(0"0(0#0#57"/Users/berkeleygamelab/Melissa/pathways/startScreenView.m8611108864#1819"    cd /Users/berkeleygamelab/Melissa/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/pathways -I/Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fpwrnpzwxgtbdselkvdfubjwqexp/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/pathways/startScreenView.m -o /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014518.311373
+e319014518.399923
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.m319014518#319014518#0(0"0(0#0#62"/Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.m8607631744#1879"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/pathwaysrepo/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -4235,6 +4858,34 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319014518.298202
+e319014518.499623
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o
+x/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: In function '-[startScreenViewController piecePlacedAction:]':
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: 'startScreenViewController' may not respond to '-makeLevel2WithLevelData:withLeftScore:withRightScore:withScore:'
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: (Messages without a matching method signature
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: will be assumed to return 'id' and accept
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: '...' as arguments.)
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:84: warning: 'startScreenViewController' may not respond to '-makeLevel1WithLevelData:withLeftScore:withRightScore:withScore:'
+lSLF07#2@88"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m319014518#319014518#0(952"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: In function '-[startScreenViewController piecePlacedAction:]':/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: 'startScreenViewController' may not respond to '-makeLevel2WithLevelData:withLeftScore:withRightScore:withScore:'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:83: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:84: warning: 'startScreenViewController' may not respond to '-makeLevel1WithLevelData:withLeftScore:withRightScore:withScore:'3(22@113"'startScreenViewController' may not respond to '-makeLevel2WithLevelData:withLeftScore:withRightScore:withScore:'319014518#145#208#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m318761809#83#0#83#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319014518#353#140#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m318761809#83#0#83#0#0"0(22@113"'startScreenViewController' may not respond to '-makeLevel1WithLevelData:withLeftScore:withRightScore:withScore:'319014518#744#208#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m318761809#84#0#84#0#26"'*' may not respond to '*'0(0#0#80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m8604784160#1907"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o0#
+
+CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/LevelViewController.xib"
+r0
+
+CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib"
+r0
+
+CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/startScreenViewController.xib"
 r0
 
 CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/xib files/LevelViewController.xib"
@@ -5292,13 +5943,25 @@ r0
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png Resources/images/general_images/Pathways_Icon_Final.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png Pathways_Icon_Large.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Main_Screen_Icon.png Pathways_Main_Screen_Icon.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Main_Screen_Icon.png Resources/images/start_screen_images/Pathways_Main_Screen_Icon.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-left.png Resources/images/general_images/arrow-left.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-left.png arrow-left.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-right.png Resources/images/general_images/arrow-right.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-right.png arrow-right.png
@@ -5310,43 +5973,409 @@ r0
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/drag-shape.png drag-shape.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/leftSideButton.png Resources/images/general_images/leftSideButton.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/leftSideButton.png leftSideButton.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_left_map.png Resources/images/level_01_images/level_01_left_map.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_left_map.png level_01_left_map.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg01l.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01l.png level_01_peg01l.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg01r.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg01r.png level_01_peg01r.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg02l.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02l.png level_01_peg02l.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg02r.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg02r.png level_01_peg02r.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg03l.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03l.png level_01_peg03l.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg03r.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg03r.png level_01_peg03r.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg04l.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04l.png level_01_peg04l.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg04r.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg04r.png level_01_peg04r.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05l.png Resources/images/level_01_images/level_01_left_pegs/level_01_peg05l.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05l.png level_01_peg05l.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05r.png Resources/images/level_01_images/level_01_right_pegs/level_01_peg05r.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_peg05r.png level_01_peg05r.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_right_map.png Resources/images/level_01_images/level_01_right_map.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_01_right_map.png level_01_right_map.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_left_map.png Resources/images/level_02_images/level_02_left_map.png
+s319014511.658037
+e319014511.846841
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_left_map.png
+xResources/images/level_02_images/level_02_left_map.png
+lSLF07#2@122"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_left_map.png Resources/images/level_02_images/level_02_left_map.png319014511#319014511#0(0"0(0#0#99"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_map.png8608878688#634"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_map.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_left_map.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png
+s319014503.141865
+e319014507.762382
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg01l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png319014503#319014507#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png8611107872#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg01l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png
+s319014511.846953
+e319014511.894658
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg01r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png319014511#319014511#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png8603544768#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg01r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg01r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png
+s319014503.294792
+e319014507.680497
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg02l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png319014503#319014507#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png8606985408#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg02l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png
+s319014511.894777
+e319014511.933112
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg02r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png319014511#319014511#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png8598880640#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg02r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg02r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png
+s319014507.680662
+e319014507.883518
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg03l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png319014507#319014507#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png8609226592#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg03l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png
+s319014511.933218
+e319014512.080690
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg03r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png319014511#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png8611259456#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg03r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg03r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png
+s319014507.762496
+e319014508.238456
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg04l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png319014507#319014508#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png8604558048#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg04l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png
+s319014512.080820
+e319014512.144801
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg04r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png8609592736#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg04r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg04r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png
+s319014507.883665
+e319014508.637592
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg05l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png319014507#319014508#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png8609168512#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg05l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png
+s319014512.089855
+e319014512.152544
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg05r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png8607480640#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg05r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg05r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png
+s319014508.238563
+e319014508.740878
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg06l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png319014508#319014508#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png8611642176#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg06l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png
+s319014512.144900
+e319014512.252916
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg06r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png8604840320#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg06r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg06r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png
+s319014508.637700
+e319014508.987760
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg07l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png319014508#319014508#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png8607469920#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg07l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png
+s319014512.152647
+e319014512.251521
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg07r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png8611302720#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg07r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg07r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png
+s319014508.740993
+e319014509.040874
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg08l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png319014508#319014509#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png8614290944#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg08l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png
+s319014512.251650
+e319014512.297733
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg08r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png8610363584#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg08r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg08r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png
+s319014508.987859
+e319014509.529456
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg09l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png319014508#319014509#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png8611615808#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg09l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png
+s319014512.252998
+e319014512.305615
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg09r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png8608941760#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg09r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg09r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png
+s319014509.040974
+e319014509.491086
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg10l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png319014509#319014509#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png8611060448#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg10l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png
+s319014512.297864
+e319014512.350585
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg10r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png8603228224#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg10r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg10r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png
+s319014509.491228
+e319014510.590733
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg11l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png319014509#319014510#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png8610728544#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg11l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png
+s319014512.305770
+e319014512.359979
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg11r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png8605640544#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg11r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg11r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png
+s319014509.529552
+e319014510.680182
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg12l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png319014509#319014510#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png8610108704#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg12l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png
+s319014512.350689
+e319014512.416604
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg12r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png8602239808#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg12r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg12r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png
+s319014510.590881
+e319014511.602423
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg13l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png319014510#319014511#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png8609596960#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg13l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png
+s319014512.360101
+e319014512.416415
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg13r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png8610567776#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg13r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg13r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png
+s319014510.680316
+e319014511.600899
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg14l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png319014510#319014511#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png8609111840#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg14l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png
+s319014512.416685
+e319014512.465320
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg14r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png8611910752#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg14r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg14r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png
+s319014511.601046
+e319014511.657956
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg15l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png319014511#319014511#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png8604274784#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg15l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png
+s319014512.417581
+e319014512.467045
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg15r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png8611516288#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg15r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png
+s319014511.602504
+e319014511.656559
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg16l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png319014511#319014511#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png8598152864#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg16l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png
+s319014512.465423
+e319014512.522920
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg16r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png8611110880#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg16r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png
+s319014511.656665
+e319014511.754952
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17l.png
+xResources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png
+lSLF07#2@137"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg17l.png Resources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png319014511#319014511#0(0"0(0#0#116"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png8610109024#649"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_left_pegs/level_02_peg17l.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17l.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png
+s319014512.467132
+e319014512.520383
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17r.png
+xResources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png
+lSLF07#2@138"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_peg17r.png Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png319014512#319014512#0(0"0(0#0#117"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png8610952608#650"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_peg17r.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_right_map.png Resources/images/level_02_images/level_02_right_map.png
+s319014511.755053
+e319014512.089747
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_right_map.png
+xResources/images/level_02_images/level_02_right_map.png
+lSLF07#2@124"CopyPNGFile build/Debug-iphoneos/Pathways.app/level_02_right_map.png Resources/images/level_02_images/level_02_right_map.png319014511#319014512#0(0"0(0#0#100"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_map.png8607198592#636"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/level_02_images/level_02_right_map.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/level_02_right_map.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/map-background.png Resources/images/general_images/map-background.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/map-background.png map-background.png
@@ -5356,6 +6385,9 @@ CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/P
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/map-right.png map-right.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/overlay-image.png Resources/images/general_images/overlay-image.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/overlay-image.png overlay-image.png
@@ -5463,13 +6495,25 @@ r0
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/peg17f.png peg17f.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/piece-board.png Resources/images/general_images/piece-board.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/piece-board.png piece-board.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/rightSideButton.png Resources/images/general_images/rightSideButton.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/rightSideButton.png rightSideButton.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start-piece.png Resources/images/start_screen_images/start-piece.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start-piece.png start-piece.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png Resources/images/start_screen_images/start_screen_arrow.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png start_screen_arrow.png
@@ -5517,6 +6561,9 @@ lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3
 CCpResource build/Debug-iphoneos/Pathways.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 r0
 
+CCpResource build/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif Resources/sounds/gem_china_edit_3.aif
+r0
+
 CCpResource build/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif audio/gem_china_edit_3.aif
 r0
 
@@ -5529,6 +6576,9 @@ xbuild/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif
 xgem_china_edit_3.aif
 lSLF07#2@25"Copy gem_china_edit_3.aif315465488#315465489#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/gem_china_edit_3.aif8606007200#442"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/gem_china_edit_3.aif /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app0#
 
+CCpResource build/Debug-iphoneos/Pathways.app/level_01_data.txt "Resources/level data/level 01/level_01_data.txt"
+r0
+
 CCpResource build/Debug-iphoneos/Pathways.app/level_01_data.txt level_01_data.txt
 s318757880.255859
 e318757880.325513
@@ -5537,6 +6587,9 @@ xCpResource
 xbuild/Debug-iphoneos/Pathways.app/level_01_data.txt
 xlevel_01_data.txt
 lSLF07#2@22"Copy level_01_data.txt318757880#318757880#0(0"0(0#0#57"/Users/berkeleygamelab/Melissa/pathways/level_01_data.txt8619364064#465"    cd /Users/berkeleygamelab/Melissa/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/berkeleygamelab/Melissa/pathways/level_01_data.txt /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app0#
+
+CCpResource build/Debug-iphoneos/Pathways.app/level_01_left_pieces.txt "Resources/level data/level 01/level_01_left_pieces.txt"
+r0
 
 CCpResource build/Debug-iphoneos/Pathways.app/level_01_left_pieces.txt level_01_left_pieces.txt
 s318724688.178746
@@ -5547,6 +6600,9 @@ xbuild/Debug-iphoneos/Pathways.app/level_01_left_pieces.txt
 xlevel_01_left_pieces.txt
 lSLF07#2@29"Copy level_01_left_pieces.txt318724688#318724688#0(0"0(0#0#64"/Users/berkeleygamelab/Melissa/pathways/level_01_left_pieces.txt8616723424#472"    cd /Users/berkeleygamelab/Melissa/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/berkeleygamelab/Melissa/pathways/level_01_left_pieces.txt /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app0#
 
+CCpResource build/Debug-iphoneos/Pathways.app/level_01_right_pieces.txt "Resources/level data/level 01/level_01_right_pieces.txt"
+r0
+
 CCpResource build/Debug-iphoneos/Pathways.app/level_01_right_pieces.txt level_01_right_pieces.txt
 s318724688.181614
 e318724688.193824
@@ -5555,6 +6611,15 @@ xCpResource
 xbuild/Debug-iphoneos/Pathways.app/level_01_right_pieces.txt
 xlevel_01_right_pieces.txt
 lSLF07#2@30"Copy level_01_right_pieces.txt318724688#318724688#0(0"0(0#0#65"/Users/berkeleygamelab/Melissa/pathways/level_01_right_pieces.txt8618661920#473"    cd /Users/berkeleygamelab/Melissa/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/berkeleygamelab/Melissa/pathways/level_01_right_pieces.txt /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app0#
+
+CCpResource build/Debug-iphoneos/Pathways.app/level_02_data.txt "Resources/level data/level 02/level_02_data.txt"
+s319014503.104727
+e319014503.293404
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pathways.app/level_02_data.txt
+xResources/level data/level 02/level_02_data.txt
+lSLF07#2@52"Copy Resources/level data/level 02/level_02_data.txt319014503#319014503#0(0"0(0#0#92"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_data.txt8607555584#512"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_data.txt" /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
 
 CCpResource build/Debug-iphoneos/Pathways.app/level_02_data.txt level_02_data.txt
 s318757880.253962
@@ -5568,6 +6633,15 @@ lSLF07#2@22"Copy level_02_data.txt318757880#318757880#0(0"0(0#0#57"/Users/berkel
 CCpResource build/Debug-iphoneos/Pathways.app/level_02_left_pieces level_02_left_pieces
 r0
 
+CCpResource build/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt "Resources/level data/level 02/level_02_left_pieces.txt"
+s319014503.139642
+e319014503.294142
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt
+xResources/level data/level 02/level_02_left_pieces.txt
+lSLF07#2@59"Copy Resources/level data/level 02/level_02_left_pieces.txt319014503#319014503#0(0"0(0#0#99"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_left_pieces.txt8590263776#519"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_left_pieces.txt" /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
+
 CCpResource build/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt level_02_left_pieces.txt
 s318724687.108332
 e318724687.152617
@@ -5576,6 +6650,15 @@ xCpResource
 xbuild/Debug-iphoneos/Pathways.app/level_02_left_pieces.txt
 xlevel_02_left_pieces.txt
 lSLF07#2@29"Copy level_02_left_pieces.txt318724687#318724687#0(0"0(0#0#64"/Users/berkeleygamelab/Melissa/pathways/level_02_left_pieces.txt8604780352#472"    cd /Users/berkeleygamelab/Melissa/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/berkeleygamelab/Melissa/pathways/level_02_left_pieces.txt /Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/Pathways.app0#
+
+CCpResource build/Debug-iphoneos/Pathways.app/level_02_right_pieces.txt "Resources/level data/level 02/level_02_right_pieces.txt"
+s319014503.140472
+e319014503.294709
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pathways.app/level_02_right_pieces.txt
+xResources/level data/level 02/level_02_right_pieces.txt
+lSLF07#2@60"Copy Resources/level data/level 02/level_02_right_pieces.txt319014503#319014503#0(0"0(0#0#100"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_right_pieces.txt8611571200#520"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 02/level_02_right_pieces.txt" /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
 
 CCpResource build/Debug-iphoneos/Pathways.app/level_02_right_pieces.txt level_02_right_pieces.txt
 s318724687.109130
@@ -5608,7 +6691,13 @@ CGenerateDSYMFile /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathw
 r0
 
 CGenerateDSYMFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
-r0
+s319014520.331561
+e319014520.509460
+r1
+xGenerateDSYMFile
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Pathways.app.dSYM build/Debug-iphoneos/Pathways.app/Pathways319014520#319014520#0(0"0(0#0#87"/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways8609837984#383"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM0#
 
 CLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
 s317947194.106003
@@ -5634,7 +6723,14 @@ CLd /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathways.app/Pathwa
 r0
 
 CLd /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
-r0
+s319014519.142095
+e319014520.331210
+r1
+xLd
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
+xnormal
+xarmv7
+lSLF07#2@92"Link /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways319014519#319014520#0(0"0(0#0#0"8611225568#928"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -filelist /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways0#
 
 CProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Info.plist Pathways-Info.plist
 s315465487.711537
@@ -5694,7 +6790,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile Pathways_Prefix.pch310429405#310429406#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch8608742912#1611"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -c /Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fwwxknmggljppzbecdndufpneagm/Pathways_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
+s319014512.523031
+e319014517.742227
+r1
+xProcessPCH
+x/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch.gch
+xPathways_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Pathways_Prefix.pch319014512#319014517#0(0"0(0#0#64"/Users/berkeleygamelab/pathwaysrepo/pathways/Pathways_Prefix.pch8610524032#1748"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -c /Users/berkeleygamelab/pathwaysrepo/pathways/Pathways_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gxononctromdpfadylcrfjlkxweo/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -5764,5 +6870,10 @@ CTouch /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathways.app
 r0
 
 CTouch /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-r0
+s319014520.509628
+e319014520.515578
+r1
+xTouch
+x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
+lSLF07#2@84"Touch /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app319014520#319014520#0(0"0(0#0#0"8605286080#277"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
 
