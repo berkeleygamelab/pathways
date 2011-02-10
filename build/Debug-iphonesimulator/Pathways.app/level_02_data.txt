@@ -1,5 +1,0 @@
-map-left.png
-map-right.png
-level_02_left_pieces
-level_02_right_pieces
-17

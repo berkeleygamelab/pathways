@@ -1,0 +1,17 @@
+level_02_peg01l.png 702 142
+level_02_peg02l.png 776 142
+level_02_peg03l.png 817 216
+level_02_peg04l.png 770 293
+level_02_peg05l.png 816 372
+level_02_peg06l.png 744 386
+level_02_peg07l.png 776 469
+level_02_peg08l.png 716 457
+level_02_peg09l.png 614 455
+level_02_peg10l.png 649 374
+level_02_peg11l.png 585 352
+level_02_peg12l.png 686 304
+level_02_peg13l.png 609 279
+level_02_peg14l.png 658 219
+level_02_peg15l.png 573 201
+level_02_peg16l.png 614 146
+level_02_peg17l.png 756 227
