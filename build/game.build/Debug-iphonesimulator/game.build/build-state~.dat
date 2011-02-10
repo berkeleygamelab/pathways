@@ -1,0 +1,246 @@
+Tgame
+v7
+r0
+t308551560.346069
+cCheck dependencies
+cProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/Info.plist game-Info.plist
+cCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
+cCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+cProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch.gch game_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o /Users/berkeleygamelab/Melissa/game/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h
+c000000004CB3E7AA00000000000001C3
+t1286858666
+s451
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
+c000000004CB3E7ED0000000000000712
+t1286858733
+s1810
+i"gameAppDelegate.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.h
+c000000004CB3E7810000000000000146
+t1286858625
+s326
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
+c000000004CB3E7080000000000000535
+t1286858504
+s1333
+i"startScreenViewController.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+c000000004CB3E7FD0000000000003ED1
+t1286858749
+s16081
+
+N/Users/berkeleygamelab/Melissa/game/MainWindow.xib
+c000000004CB3E6D50000000000003E5E
+t1286858453
+s15966
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app.dSYM
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/Info.plist
+t1286858758
+s786
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/MainWindow.nib
+t1286858758
+s981
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/PkgInfo
+t1286858758
+s8
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/game
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/startScreenViewController.nib
+t1286858758
+s795
+
+N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/game.LinkFileList
+c000000004CB3E8060000000000000173
+t1286858758
+s371
+
+N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/gameAppDelegate.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o
+t1286858760
+s6296
+
+N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/startScreenViewController.o
+t1286858760
+s34956
+
+N/Users/berkeleygamelab/Melissa/game/game_Prefix.pch
+c000000004CB3E6D500000000000000B1
+t1286858453
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/main.m
+c000000004CB3E6D5000000000000016C
+t1286858453
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch.gch
+t1286858759
+s13825936
+
+Ngame-Info.plist
+c000000004CB3E6D500000000000004D6
+t1286858453
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies308551558#308551558#0(0"0(0#1#0"8618834080#0"0#
+
+CCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308551560.179131
+e308551560.242017
+r0
+xCompileC
+xbuild/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/gameAppDelegate.o
+x/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:9:
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h:13: error: expected specifier-qualifier-list before 'startScreenViewController'
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h:17: error: expected specifier-qualifier-list before 'startScreenViewController'
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:14: error: no declaration of property 'startViewController' found in the interface
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m: In function '-[gameAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:23: error: 'startViewController' undeclared (first use in this function)
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:23: error: (Each undeclared identifier is reported only once
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:23: error: for each function it appears in.)
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m: In function '-[gameAppDelegate dealloc]':
+o/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:63: error: 'startViewController' undeclared (first use in this function)
+lSLF07#2@69"Compile /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551560#308551560#0(1261"In file included from /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:9:/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h:13: error: expected specifier-qualifier-list before 'startScreenViewController'/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h:17: error: expected specifier-qualifier-list before 'startScreenViewController'/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:14: error: no declaration of property 'startViewController' found in the interface/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m: In function '-[gameAppDelegate application:didFinishLaunchingWithOptions:]':/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:23: error: 'startViewController' undeclared (first use in this function)/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:23: error: (Each undeclared identifier is reported only once/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:23: error: for each function it appears in.)/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m: In function '-[gameAppDelegate dealloc]':/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m:63: error: 'startViewController' undeclared (first use in this function)5(4@68"Expected specifier-qualifier-list before 'startScreenViewController'308551560#87#142#2(7@83"In file included from /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551560#18446744073709551615#0#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551533#9#0#9#0#0"0(13@133"Expected specifier-qualifier-list before 'startScreenViewController' in /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h308551560#18446744073709551615#0#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h308551466#13#0#13#0#0"0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h308551466#13#0#13#0#19"expected * before *0(4@68"Expected specifier-qualifier-list before 'startScreenViewController'308551560#229#142#2(7@83"In file included from /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551560#18446744073709551615#0#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551533#9#0#9#0#0"0(13@133"Expected specifier-qualifier-list before 'startScreenViewController' in /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h308551560#18446744073709551615#0#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h308551466#17#0#17#0#0"0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h308551466#17#0#17#0#19"expected * before *0(4@71"No declaration of property 'startViewController' found in the interface308551560#371#145#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551533#14#0#14#0#0"0(4@61"'startViewController' undeclared (first use in this function)308551560#656#135#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551533#23#0#23#0#43"'*' undeclared (first use in this function)0(4@61"'startViewController' undeclared (first use in this function)308551560#1126#135#0(6@61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m308551533#63#0#63#0#43"'*' undeclared (first use in this function)0(0#0#61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m8603122848#1892"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/gameAppDelegate.o1#
+
+CCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o /Users/berkeleygamelab/Melissa/game/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308551560.177327
+e308551560.268096
+r1
+xCompileC
+xbuild/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o
+x/Users/berkeleygamelab/Melissa/game/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/berkeleygamelab/Melissa/game/main.m308551560#308551560#0(0"0(0#0#42"/Users/berkeleygamelab/Melissa/game/main.m8620204864#1862"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/main.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/main.o0#
+
+CCompileC build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308551560.242243
+e308551560.345930
+r1
+xCompileC
+xbuild/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/startScreenViewController.o
+x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m:58: warning: property 'startButton' requires method '-startButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m:58: warning: property 'startButton' requires the method 'setStartButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@79"Compile /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m308551560#308551560#0(439"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m:58: warning: property 'startButton' requires method '-startButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m:58: warning: property 'startButton' requires the method 'setStartButton:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@130"Property 'startButton' requires method '-startButton' to be defined - use @synthesize, @dynamic or provide a method implementation308551560#0#216#0(6@71"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m308551304#58#0#58#0#0"0(22@137"Property 'startButton' requires the method 'setStartButton:' to be defined - use @synthesize, @dynamic or provide a method implementation308551560#216#223#0(6@71"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m308551304#58#0#58#0#0"0(0#0#71"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m8607620896#1912"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/Objects-normal/i386/startScreenViewController.o0#
+
+CCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+s308551558.157596
+e308551558.892374
+r1
+xCompileXIB
+x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+lSLF07#2@48"CompileXIB Classes/startScreenViewController.xib308551558#308551558#0(0"0(0#0#73"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib8618638976#596"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/startScreenViewController.nib /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
+s308551558.156814
+e308551558.892224
+r1
+xCompileXIB
+x/Users/berkeleygamelab/Melissa/game/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib308551558#308551558#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/MainWindow.xib8618357632#558"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/MainWindow.nib /Users/berkeleygamelab/Melissa/game/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CGenerateDSYMFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app.dSYM /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/game
+r0
+
+CLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/game normal i386
+r0
+
+CProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/Info.plist game-Info.plist
+s308551558.150766
+e308551558.156726
+r1
+xProcessInfoPlistFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/Info.plist
+xgame-Info.plist
+lSLF07#2@23"Process game-Info.plist308551558#308551558#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/game-Info.plist8619279008#461"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility game-Info.plist -genpkginfo /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app/Info.plist0#
+
+CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch.gch game_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s308551558.892492
+e308551560.177106
+r1
+xProcessPCH
+x/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch.gch
+xgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile game_Prefix.pch308551558#308551560#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/game_Prefix.pch8619414336#1760"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphonesimulator/game.build/DerivedSources -c /Users/berkeleygamelab/Melissa/game/game_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-eofeipvwijlovhbmynsnktybzmwo/game_Prefix.pch.gch0#
+
+CTouch /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/game.app
+r0
+

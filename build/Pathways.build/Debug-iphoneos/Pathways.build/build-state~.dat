@@ -1,0 +1,1534 @@
+TPathways
+v7
+r0
+t315465403.586619
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C5A53C10000000000000110
+t1280988097
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004C06E99F00000000000001A7
+t1275521439
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004C06E99F00000000000001E5
+t1275521439
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C0059B600000000002DE3B0
+t1275091382
+s3007408
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004C0059880000000000000A22
+t1275091336
+s2594
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C005A1C00000000003B4B70
+t1275091484
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C005A45000000000036A640
+t1275091525
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C005A310000000000001355
+t1275091505
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C00642C000000000000098F
+t1275094060
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0064A60000000002703220
+t1275094182
+s40907296
+
+N/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision
+c000000004CA2798C0000000000002CD4
+t1285716364
+s11476
+
+N/Users/berkeleygamelab/Melissa/game/Classes/draggable.h
+c000000004CFAEEA90000000000000395
+t1291513513
+s917
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/berkeleygamelab/Melissa/game/Classes/draggable.m
+c000000004CFAF02A0000000000000BED
+t1291513898
+s3053
+i"draggable.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h
+c000000004CD8FDA800000000000001EE
+t1289289128
+s494
+i<UIKit/UIKit.h>
+i"startScreenViewController.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
+c000000004CD8FDCC0000000000000898
+t1289289164
+s2200
+i"gameAppDelegate.h"
+i"startScreenViewController.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.h
+c000000004CCE64F800000000000000D2
+t1288594680
+s210
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m
+c000000004CCE635B000000000000023C
+t1288594267
+s572
+i"mapBoard.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.h
+c000000004CCFB4C800000000000000D6
+t1288680648
+s214
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m
+c000000004CCE634D0000000000000242
+t1288594253
+s578
+i"pieceBoard.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/sideButton.h
+c000000004CCE69A40000000000000111
+t1288595876
+s273
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m
+c000000004CCE69B60000000000000359
+t1288595894
+s857
+i"sideButton.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.h
+c000000004CFCB10F0000000000000309
+t1291628815
+s777
+i<UIKit/UIKit.h>
+i"Level1ViewController.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
+c000000004CFCB12A0000000000000BD1
+t1291628842
+s3025
+i"startScreenViewController.h"
+i"Level1ViewController.h"
+
+N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+c000000004CFCB3960000000000005BDA
+t1291629462
+s23514
+
+N/Users/berkeleygamelab/Melissa/game/Level1View.h
+c000000004CB3F43900000000000000D1
+t1286861881
+s209
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/Level1View.m
+c000000004CB3F4390000000000000242
+t1286861881
+s578
+i"Level1View.h"
+
+N/Users/berkeleygamelab/Melissa/game/Level1ViewController.h
+c000000004CFCC0850000000000000A53
+t1291632773
+s2643
+i<UIKit/UIKit.h>
+i"draggable.h"
+i"sideButton.h"
+i"mapBoard.h"
+i"pieceBoard.h"
+
+N/Users/berkeleygamelab/Melissa/game/Level1ViewController.m
+c000000004D009FA10000000000003A78
+t1291886497
+s14968
+i"Level1ViewController.h"
+
+N/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
+c000000004D00A111000000000000BA75
+t1291886865
+s47733
+
+N/Users/berkeleygamelab/Melissa/game/MainWindow.xib
+c000000004CB3E6D50000000000003E5E
+t1286858453
+s15966
+
+N/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png
+c000000004CD08A22000000000000A778
+t1288735266
+s42872
+
+N/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Large.png
+c000000004CFAD6F60000000000037999
+t1291507446
+s227737
+
+N/Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch
+c000000004CB3E6D500000000000000B1
+t1286858453
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/arrow-left.png
+c000000004CFCA7A000000000000023C0
+t1291626400
+s9152
+
+N/Users/berkeleygamelab/Melissa/game/arrow-right.png
+c000000004CFCA7B6000000000000232A
+t1291626422
+s9002
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app.dSYM
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Info.plist
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Level1ViewController.nib
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/MainWindow.nib
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/PkgInfo
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/ResourceRules.plist
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-left.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-right.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape-grey.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision
+t1288736607
+s11476
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/left-shape.png
+t1288736604
+s6736
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/leftSideButton.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-background.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-left.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-right.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/overlay-image.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17f.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/piece-board.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/right-shape.png
+t1288736604
+s7203
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/rightSideButton.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start-piece.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/startScreenViewController.nib
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/timer-shape.png
+t1288736604
+s3746
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1ViewController.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o
+t2
+s0
+
+N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
+t1289293883
+s422
+
+N/Users/berkeleygamelab/Melissa/game/drag-shape-grey.png
+c000000004CBDE4900000000000000B46
+t1287513232
+s2886
+
+N/Users/berkeleygamelab/Melissa/game/drag-shape.png
+c000000004CB41F0A0000000000000DA1
+t1286872842
+s3489
+
+N/Users/berkeleygamelab/Melissa/game/gem_china_edit_3.aif
+c000000004CD909DC00000000000078F6
+t1289292252
+s30966
+
+N/Users/berkeleygamelab/Melissa/game/left-shape.png
+c000000004CB415B70000000000001860
+t1286870455
+s6240
+
+N/Users/berkeleygamelab/Melissa/game/leftSideButton.png
+c000000004CCD2A6F00000000000012E3
+t1288514159
+s4835
+
+N/Users/berkeleygamelab/Melissa/game/main.m
+c000000004CB3E6D5000000000000016C
+t1286858453
+s364
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/map-background.png
+c000000004CD7B39C00000000000012C1
+t1289204636
+s4801
+
+N/Users/berkeleygamelab/Melissa/game/map-left.png
+c000000004CEB7A4C00000000000051C6
+t1290500684
+s20934
+
+N/Users/berkeleygamelab/Melissa/game/map-right.png
+c000000004CEB7A670000000000005336
+t1290500711
+s21302
+
+N/Users/berkeleygamelab/Melissa/game/overlay-image.png
+c000000004CFC342A00000000000027F9
+t1291596842
+s10233
+
+N/Users/berkeleygamelab/Melissa/game/peg01.png
+c000000004CE3172F0000000000000669
+t1289951023
+s1641
+
+N/Users/berkeleygamelab/Melissa/game/peg01f.png
+c000000004CE31AB30000000000000D21
+t1289951923
+s3361
+
+N/Users/berkeleygamelab/Melissa/game/peg02.png
+c000000004CE3178500000000000005A5
+t1289951109
+s1445
+
+N/Users/berkeleygamelab/Melissa/game/peg02f.png
+c000000004CE31ADC0000000000000B3D
+t1289951964
+s2877
+
+N/Users/berkeleygamelab/Melissa/game/peg03.png
+c000000004CE318BA00000000000005B3
+t1289951418
+s1459
+
+N/Users/berkeleygamelab/Melissa/game/peg03f.png
+c000000004CE31AE60000000000000B3D
+t1289951974
+s2877
+
+N/Users/berkeleygamelab/Melissa/game/peg04.png
+c000000004CE318D80000000000000507
+t1289951448
+s1287
+
+N/Users/berkeleygamelab/Melissa/game/peg04f.png
+c000000004CE31AF00000000000000B7E
+t1289951984
+s2942
+
+N/Users/berkeleygamelab/Melissa/game/peg05.png
+c000000004CE318F20000000000000566
+t1289951474
+s1382
+
+N/Users/berkeleygamelab/Melissa/game/peg05f.png
+c000000004CE31AFA0000000000000ACE
+t1289951994
+s2766
+
+N/Users/berkeleygamelab/Melissa/game/peg06.png
+c000000004CE319010000000000000684
+t1289951489
+s1668
+
+N/Users/berkeleygamelab/Melissa/game/peg06f.png
+c000000004CE31AFA0000000000000C4B
+t1289951994
+s3147
+
+N/Users/berkeleygamelab/Melissa/game/peg07.png
+c000000004CE319130000000000000630
+t1289951507
+s1584
+
+N/Users/berkeleygamelab/Melissa/game/peg07f.png
+c000000004CE31AFA0000000000000C69
+t1289951994
+s3177
+
+N/Users/berkeleygamelab/Melissa/game/peg08.png
+c000000004CE3191F00000000000005CD
+t1289951519
+s1485
+
+N/Users/berkeleygamelab/Melissa/game/peg08f.png
+c000000004CE31AFA0000000000000B99
+t1289951994
+s2969
+
+N/Users/berkeleygamelab/Melissa/game/peg09.png
+c000000004CE3192E00000000000006D5
+t1289951534
+s1749
+
+N/Users/berkeleygamelab/Melissa/game/peg09f.png
+c000000004CE31AFA0000000000000DE8
+t1289951994
+s3560
+
+N/Users/berkeleygamelab/Melissa/game/peg10.png
+c000000004CE3193F0000000000000757
+t1289951551
+s1879
+
+N/Users/berkeleygamelab/Melissa/game/peg10f.png
+c000000004CE31AFA0000000000000DC3
+t1289951994
+s3523
+
+N/Users/berkeleygamelab/Melissa/game/peg11.png
+c000000004CE3194A00000000000004F0
+t1289951562
+s1264
+
+N/Users/berkeleygamelab/Melissa/game/peg11f.png
+c000000004CE31AFA0000000000000D2D
+t1289951994
+s3373
+
+N/Users/berkeleygamelab/Melissa/game/peg12.png
+c000000004CE3196A00000000000006E1
+t1289951594
+s1761
+
+N/Users/berkeleygamelab/Melissa/game/peg12f.png
+c000000004CE31AFA0000000000000CF6
+t1289951994
+s3318
+
+N/Users/berkeleygamelab/Melissa/game/peg13.png
+c000000004CE319790000000000000720
+t1289951609
+s1824
+
+N/Users/berkeleygamelab/Melissa/game/peg13f.png
+c000000004CE31AFA0000000000000C9A
+t1289951994
+s3226
+
+N/Users/berkeleygamelab/Melissa/game/peg14.png
+c000000004CE3198400000000000003E9
+t1289951620
+s1001
+
+N/Users/berkeleygamelab/Melissa/game/peg14f.png
+c000000004CE31AFA0000000000000B8A
+t1289951994
+s2954
+
+N/Users/berkeleygamelab/Melissa/game/peg15.png
+c000000004CE319940000000000000624
+t1289951636
+s1572
+
+N/Users/berkeleygamelab/Melissa/game/peg15f.png
+c000000004CE31AFA0000000000000BD2
+t1289951994
+s3026
+
+N/Users/berkeleygamelab/Melissa/game/peg16.png
+c000000004CE319A100000000000008D6
+t1289951649
+s2262
+
+N/Users/berkeleygamelab/Melissa/game/peg16f.png
+c000000004CE31AFA0000000000000ED9
+t1289951994
+s3801
+
+N/Users/berkeleygamelab/Melissa/game/peg17.png
+c000000004CFC9BDC000000000000101D
+t1291623388
+s4125
+
+N/Users/berkeleygamelab/Melissa/game/peg17f.png
+c000000004CFC9BF2000000000000101C
+t1291623410
+s4124
+
+N/Users/berkeleygamelab/Melissa/game/piece-board.png
+c000000004CECD5CC00000000000012C0
+t1290589644
+s4800
+
+N/Users/berkeleygamelab/Melissa/game/right-shape.png
+c000000004CB4158B0000000000001A60
+t1286870411
+s6752
+
+N/Users/berkeleygamelab/Melissa/game/rightSideButton.png
+c000000004CCD2A930000000000001302
+t1288514195
+s4866
+
+N/Users/berkeleygamelab/Melissa/game/start-piece.png
+c000000004CFAD8200000000000001D01
+t1291507744
+s7425
+
+N/Users/berkeleygamelab/Melissa/game/startScreenView.h
+c000000004CB3F42200000000000000DB
+t1286861858
+s219
+i<UIKit/UIKit.h>
+
+N/Users/berkeleygamelab/Melissa/game/startScreenView.m
+c000000004CB3F4220000000000000251
+t1286861858
+s593
+i"startScreenView.h"
+
+N/Users/berkeleygamelab/Melissa/game/start_screen_arrow.png
+c000000004CFADBA80000000000001B6A
+t1291508648
+s7018
+
+N/Users/berkeleygamelab/Melissa/game/timer-shape.png
+c000000004CB415F80000000000000E53
+t1286870520
+s3667
+
+N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fwwxknmggljppzbecdndufpneagm/Pathways_Prefix.pch.gch
+t1288736606
+s9421460
+
+NPathways-Info.plist
+c000000004CD90FD30000000000000453
+t1289293779
+s1107
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315465408#315465408#0(99"[BEROR]Code Sign error: Provisioning profile '3099AD5F-798E-456E-BE04-25082E11EFEF' can't be found1(4@91"Code Sign error: Provisioning profile '3099AD5F-798E-456E-BE04-25082E11EFEF' can't be found315465408#18446744073709551615#0#0(1@0"0(0#1#0"8611906144#0"0#
+
+CCodeSign /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
+s313579672.322605
+e313579674.384099
+r1
+xCodeSign
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
+o/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app: replacing existing signature
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Pathways.app313579672#313579674#0(100"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app: replacing existing signature0(0#0#69"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app8615780000#642"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Greg Niemeyer (DMKLZ66H9R)" --resource-rules=/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/ResourceRules.plist --entitlements /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986680.870027
+e310986680.968628
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o
+x/Users/berkeleygamelab/Melissa/game/Level1View.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/berkeleygamelab/Melissa/game/Level1View.m310986680#310986680#0(0"0(0#0#48"/Users/berkeleygamelab/Melissa/game/Level1View.m8627166240#1761"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Level1View.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1ViewController.o /Users/berkeleygamelab/Melissa/game/Level1ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313579299.272709
+e313579299.600171
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1ViewController.o
+x/Users/berkeleygamelab/Melissa/game/Level1ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController leftSideTouchUp:]':
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: 'Level1ViewController' may not respond to '-leftToCenter'
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: (Messages without a matching method signature
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: will be assumed to return 'id' and accept
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: '...' as arguments.)
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController rightSideTouchUp:]':
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:373: warning: 'Level1ViewController' may not respond to '-rightToCenter'
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController piecePlacedAction:]':
+o/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:467: warning: 'Level1ViewController' may not respond to '-completedAction'
+lSLF07#2@66"Compile /Users/berkeleygamelab/Melissa/game/Level1ViewController.m313579299#313579299#0(1076"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController leftSideTouchUp:]':/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: 'Level1ViewController' may not respond to '-leftToCenter'/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: (Messages without a matching method signature/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:307: warning: '...' as arguments.)/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController rightSideTouchUp:]':/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:373: warning: 'Level1ViewController' may not respond to '-rightToCenter'/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController piecePlacedAction:]':/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:467: warning: 'Level1ViewController' may not respond to '-completedAction'4(22@57"'Level1ViewController' may not respond to '-leftToCenter'313579299#116#131#0(6@58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m313579297#307#0#307#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313579299#247#119#0(6@58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m313579297#307#0#307#0#0"0(22@58"'Level1ViewController' may not respond to '-rightToCenter'313579299#692#132#0(6@58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m313579297#373#0#373#0#26"'*' may not respond to '*'0(22@60"'Level1ViewController' may not respond to '-completedAction'313579299#942#134#0(6@58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m313579297#467#0#467#0#26"'*' may not respond to '*'0(0#0#58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m8613129216#1781"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Level1ViewController.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1ViewController.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313206702.546412
+e313206702.724701
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o
+x/Users/berkeleygamelab/Melissa/game/Classes/draggable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m: In function '-[draggable touchesEnded:withEvent:]':
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: 'UIViewController' may not respond to '-pieceMisplacedAction:'
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: (Messages without a matching method signature
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: will be assumed to return 'id' and accept
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: '...' as arguments.)
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m: In function '-[draggable snapIntoPlaceAtX:AtY:]':
+o/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:101: warning: 'UIViewController' may not respond to '-piecePlacedAction:'
+lSLF07#2@63"Compile /Users/berkeleygamelab/Melissa/game/Classes/draggable.m313206702#313206702#0(794"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m: In function '-[draggable touchesEnded:withEvent:]':/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: 'UIViewController' may not respond to '-pieceMisplacedAction:'/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: (Messages without a matching method signature/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:89: warning: '...' as arguments.)/Users/berkeleygamelab/Melissa/game/Classes/draggable.m: In function '-[draggable snapIntoPlaceAtX:AtY:]':/Users/berkeleygamelab/Melissa/game/Classes/draggable.m:101: warning: 'UIViewController' may not respond to '-piecePlacedAction:'3(22@62"'UIViewController' may not respond to '-pieceMisplacedAction:'313206702#109#132#0(6@55"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m313206698#89#0#89#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313206702#241#115#0(6@55"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m313206698#89#0#89#0#0"0(22@59"'UIViewController' may not respond to '-piecePlacedAction:'313206702#664#130#0(6@55"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m313206698#101#0#101#0#26"'*' may not respond to '*'0(0#0#55"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m8618012480#1767"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/draggable.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313325824.954940
+e313325825.186165
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o
+x/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m313325824#313325825#0(0"0(0#0#61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m8641608576#1779"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/Melissa/game/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986680.609534
+e310986680.735725
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o
+x/Users/berkeleygamelab/Melissa/game/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/berkeleygamelab/Melissa/game/main.m310986680#310986680#0(0"0(0#0#42"/Users/berkeleygamelab/Melissa/game/main.m8617259712#1749"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/main.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986681.333221
+e310986681.551193
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o
+x/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m310986681#310986681#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m8621630784#1765"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/mapBoard.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986681.181574
+e310986681.342924
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o
+x/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m310986681#310986681#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m8622906720#1769"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/pieceBoard.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986681.160648
+e310986681.333103
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o
+x/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m310986681#310986681#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m8623478432#1769"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/Melissa/game/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986680.811855
+e310986680.869904
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o
+x/Users/berkeleygamelab/Melissa/game/startScreenView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/berkeleygamelab/Melissa/game/startScreenView.m310986680#310986680#0(0"0(0#0#53"/Users/berkeleygamelab/Melissa/game/startScreenView.m8627452864#1771"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/startScreenView.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenView.o0#
+
+CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313325824.959317
+e313325825.247325
+r1
+xCompileC
+xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o
+x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m313325824#313325825#0(0"0(0#0#71"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m8639938848#1799"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o0#
+
+CCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+s313322271.660565
+e313322272.801988
+r1
+xCompileXIB
+x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
+lSLF07#2@48"CompileXIB Classes/startScreenViewController.xib313322271#313322272#0(0"0(0#0#73"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib8633106048#572"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/startScreenViewController.nib /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
+s313579670.183196
+e313579672.314355
+r1
+xCompileXIB
+x/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
+lSLF07#2@35"CompileXIB Level1ViewController.xib313579670#313579672#0(0"0(0#0#60"/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib8614167072#554"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Level1ViewController.nib /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
+s310429403.883779
+e310429404.406412
+r1
+xCompileXIB
+x/Users/berkeleygamelab/Melissa/game/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310429403#310429404#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/MainWindow.xib8609605280#534"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/MainWindow.nib /Users/berkeleygamelab/Melissa/game/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
+s310429405.052297
+e310429405.244547
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png
+xPathways_Icon_Final.png
+lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png Pathways_Icon_Final.png310429405#310429405#0(0"0(0#0#59"/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png8609385920#578"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png Pathways_Icon_Large.png
+s313202522.281743
+e313202524.152083
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png
+xPathways_Icon_Large.png
+lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png Pathways_Icon_Large.png313202522#313202524#0(0"0(0#0#59"/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Large.png8598576128#578"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/Pathways_Icon_Large.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Large.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-left.png arrow-left.png
+s313320153.365558
+e313320153.585272
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-left.png
+xarrow-left.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Pathways.app/arrow-left.png arrow-left.png313320153#313320153#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/arrow-left.png8634701024#560"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/arrow-left.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-left.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-right.png arrow-right.png
+s313320153.366535
+e313320153.631992
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-right.png
+xarrow-right.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pathways.app/arrow-right.png arrow-right.png313320153#313320153#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/arrow-right.png8634538240#562"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/arrow-right.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/arrow-right.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape-grey.png drag-shape-grey.png
+s310429404.750147
+e310429404.775144
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape-grey.png
+xdrag-shape-grey.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/Pathways.app/drag-shape-grey.png drag-shape-grey.png310429404#310429404#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/drag-shape-grey.png8609908928#570"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/drag-shape-grey.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape-grey.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape.png drag-shape.png
+s310429404.720301
+e310429404.750020
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape.png
+xdrag-shape.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Pathways.app/drag-shape.png drag-shape.png310429404#310429404#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/drag-shape.png8610018752#560"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/drag-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/drag-shape.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/left-shape.png left-shape.png
+s310429404.423063
+e310429404.591563
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/left-shape.png
+xleft-shape.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Pathways.app/left-shape.png left-shape.png310429404#310429404#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/left-shape.png8610381632#560"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/left-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/left-shape.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/leftSideButton.png leftSideButton.png
+s310429404.775269
+e310429404.814017
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/leftSideButton.png
+xleftSideButton.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Pathways.app/leftSideButton.png leftSideButton.png310429404#310429404#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/leftSideButton.png8609764736#568"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/leftSideButton.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/leftSideButton.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-background.png map-background.png
+s310986678.639068
+e310986679.601008
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-background.png
+xmap-background.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Pathways.app/map-background.png map-background.png310986678#310986679#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/map-background.png8618670240#568"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/map-background.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-background.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-left.png map-left.png
+s312198742.811455
+e312198743.969638
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-left.png
+xmap-left.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Pathways.app/map-left.png map-left.png312198742#312198743#0(0"0(0#0#48"/Users/berkeleygamelab/Melissa/game/map-left.png8616246848#556"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/map-left.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-left.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-right.png map-right.png
+s312198742.812382
+e312198744.013815
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-right.png
+xmap-right.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Pathways.app/map-right.png map-right.png312198742#312198744#0(0"0(0#0#49"/Users/berkeleygamelab/Melissa/game/map-right.png8615436768#558"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/map-right.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/map-right.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/overlay-image.png overlay-image.png
+s313290627.040638
+e313290627.459329
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/overlay-image.png
+xoverlay-image.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Pathways.app/overlay-image.png overlay-image.png313290627#313290627#0(0"0(0#0#53"/Users/berkeleygamelab/Melissa/game/overlay-image.png8612510176#566"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/overlay-image.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/overlay-image.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01.png peg01.png
+s312198744.012641
+e312198744.085645
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01.png
+xpeg01.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg01.png peg01.png312198744#312198744#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg01.png8615939584#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg01.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01f.png peg01f.png
+s313311951.921270
+e313311951.998303
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01f.png
+xpeg01f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg01f.png peg01f.png313311951#313311951#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg01f.png8629052832#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg01f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg01f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02.png peg02.png
+s312369461.851162
+e312369462.348172
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02.png
+xpeg02.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg02.png peg02.png312369461#312369462#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg02.png8614157216#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg02.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02f.png peg02f.png
+s313311951.922357
+e313311951.998467
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02f.png
+xpeg02f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg02f.png peg02f.png313311951#313311951#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg02f.png8628286688#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg02f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg02f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03.png peg03.png
+s312369461.852325
+e312369462.318751
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03.png
+xpeg03.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg03.png peg03.png312369461#312369462#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg03.png8619655616#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg03.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03f.png peg03f.png
+s313311951.998553
+e313311952.051509
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03f.png
+xpeg03f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg03f.png peg03f.png313311951#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg03f.png8627561888#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg03f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg03f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04.png peg04.png
+s312370050.442304
+e312370051.087399
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04.png
+xpeg04.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg04.png peg04.png312370050#312370051#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg04.png8621204704#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg04.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04f.png peg04f.png
+s313311951.999463
+e313311952.100807
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04f.png
+xpeg04f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg04f.png peg04f.png313311951#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg04f.png8627228192#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg04f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg04f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05.png peg05.png
+s312370050.497147
+e312370051.107810
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05.png
+xpeg05.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg05.png peg05.png312370050#312370051#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg05.png8621049344#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg05.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05f.png peg05f.png
+s313311952.051604
+e313311952.122688
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05f.png
+xpeg05f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg05f.png peg05f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg05f.png8628891040#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg05f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg05f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06.png peg06.png
+s312370051.087512
+e312370051.143341
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06.png
+xpeg06.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg06.png peg06.png312370051#312370051#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg06.png8615476672#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg06.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06f.png peg06f.png
+s313311952.100906
+e313311952.154258
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06f.png
+xpeg06f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg06f.png peg06f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg06f.png8628337664#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg06f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg06f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07.png peg07.png
+s312370051.107909
+e312370051.151908
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07.png
+xpeg07.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg07.png peg07.png312370051#312370051#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg07.png8620226400#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg07.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07f.png peg07f.png
+s313311952.122791
+e313311952.172720
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07f.png
+xpeg07f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg07f.png peg07f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg07f.png8628129888#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg07f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg07f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08.png peg08.png
+s312370051.143438
+e312370051.183971
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08.png
+xpeg08.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg08.png peg08.png312370051#312370051#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg08.png8614556096#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg08.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08f.png peg08f.png
+s313311952.154348
+e313311952.208552
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08f.png
+xpeg08f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg08f.png peg08f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg08f.png8628080192#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg08f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg08f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09.png peg09.png
+s313317008.417783
+e313317008.496028
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09.png
+xpeg09.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg09.png peg09.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg09.png8631539392#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg09.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09f.png peg09f.png
+s313311952.172820
+e313311952.219259
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09f.png
+xpeg09f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg09f.png peg09f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg09f.png8627153120#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg09f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg09f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10.png peg10.png
+s313317008.421969
+e313317008.508499
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10.png
+xpeg10.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg10.png peg10.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg10.png8627642336#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg10.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10f.png peg10f.png
+s313311952.208646
+e313311952.253663
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10f.png
+xpeg10f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg10f.png peg10f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg10f.png8628071872#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg10f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg10f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11.png peg11.png
+s313317008.496116
+e313317008.578872
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11.png
+xpeg11.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg11.png peg11.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg11.png8632126016#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg11.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11f.png peg11f.png
+s313311952.219357
+e313311952.267897
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11f.png
+xpeg11f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg11f.png peg11f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg11f.png8627838272#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg11f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg11f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12.png peg12.png
+s313317008.508600
+e313317008.570370
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12.png
+xpeg12.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg12.png peg12.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg12.png8627191040#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg12.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12f.png peg12f.png
+s313311952.253759
+e313311952.298382
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12f.png
+xpeg12f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg12f.png peg12f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg12f.png8627490848#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg12f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg12f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13.png peg13.png
+s313317008.570468
+e313317008.643317
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13.png
+xpeg13.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg13.png peg13.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg13.png8633438560#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg13.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13f.png peg13f.png
+s313311952.268000
+e313311952.312781
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13f.png
+xpeg13f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg13f.png peg13f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg13f.png8627278944#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg13f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg13f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14.png peg14.png
+s313317008.579032
+e313317008.650246
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14.png
+xpeg14.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg14.png peg14.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg14.png8632855456#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg14.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14f.png peg14f.png
+s313311952.298478
+e313311952.341853
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14f.png
+xpeg14f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg14f.png peg14f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg14f.png8626896288#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg14f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg14f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15.png peg15.png
+s313317008.643411
+e313317008.706407
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15.png
+xpeg15.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg15.png peg15.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg15.png8632270688#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg15.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15f.png peg15f.png
+s313311952.312884
+e313311952.358366
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15f.png
+xpeg15f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg15f.png peg15f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg15f.png8626543232#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg15f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg15f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16.png peg16.png
+s313317008.650866
+e313317008.699742
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16.png
+xpeg16.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg16.png peg16.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg16.png8632109824#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg16.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16f.png peg16f.png
+s313311952.341950
+e313311952.388795
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16f.png
+xpeg16f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg16f.png peg16f.png313311952#313311952#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg16f.png8626264000#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg16f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg16f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17.png peg17.png
+s313317008.699924
+e313317008.751292
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17.png
+xpeg17.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg17.png peg17.png313317008#313317008#0(0"0(0#0#45"/Users/berkeleygamelab/Melissa/game/peg17.png8631872672#550"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg17.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17f.png peg17f.png
+s313316367.826441
+e313316367.868133
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17f.png
+xpeg17f.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pathways.app/peg17f.png peg17f.png313316367#313316367#0(0"0(0#0#46"/Users/berkeleygamelab/Melissa/game/peg17f.png8628528768#552"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/peg17f.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/peg17f.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/piece-board.png piece-board.png
+s312342929.070413
+e312342929.603195
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/piece-board.png
+xpiece-board.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pathways.app/piece-board.png piece-board.png312342929#312342929#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/piece-board.png34058888801615976#562"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/piece-board.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/piece-board.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/right-shape.png right-shape.png
+s310429404.591721
+e310429404.685735
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/right-shape.png
+xright-shape.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pathways.app/right-shape.png right-shape.png310429404#310429404#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/right-shape.png8610303712#562"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/right-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/right-shape.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/rightSideButton.png rightSideButton.png
+s310429404.814122
+e310429404.864476
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/rightSideButton.png
+xrightSideButton.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/Pathways.app/rightSideButton.png rightSideButton.png310429404#310429404#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/rightSideButton.png8609673984#570"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/rightSideButton.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/rightSideButton.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start-piece.png start-piece.png
+s313202521.699360
+e313202522.287322
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start-piece.png
+xstart-piece.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pathways.app/start-piece.png start-piece.png313202521#313202522#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/start-piece.png8614352064#562"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/start-piece.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start-piece.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png start_screen_arrow.png
+s313202522.287419
+e313202522.365441
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png
+xstart_screen_arrow.png
+lSLF07#2@91"CopyPNGFile build/Debug-iphoneos/Pathways.app/start_screen_arrow.png start_screen_arrow.png313202522#313202522#0(0"0(0#0#58"/Users/berkeleygamelab/Melissa/game/start_screen_arrow.png8598646368#576"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/start_screen_arrow.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/start_screen_arrow.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/timer-shape.png timer-shape.png
+s310429404.685832
+e310429404.720201
+r1
+xCopyPNGFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/timer-shape.png
+xtimer-shape.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pathways.app/timer-shape.png timer-shape.png310429404#310429404#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/timer-shape.png8610154240#562"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/timer-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/timer-shape.png0#
+
+CCpResource build/Debug-iphoneos/Pathways.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s310429403.842076
+e310429403.883687
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pathways.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist310429403#310429403#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8609847328#475"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app0#
+
+CCpResource build/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif gem_china_edit_3.aif
+s310986679.537350
+e310986679.544379
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pathways.app/gem_china_edit_3.aif
+xgem_china_edit_3.aif
+lSLF07#2@25"Copy gem_china_edit_3.aif310986679#310986679#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/gem_china_edit_3.aif8627019904#442"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/gem_china_edit_3.aif /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app0#
+
+CGenerateDSYMFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app.dSYM /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways
+s313579299.639651
+e313579299.670179
+r1
+xGenerateDSYMFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app.dSYM
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Pathways.app.dSYM build/Debug-iphoneos/Pathways.app/Pathways313579299#313579299#0(0"0(0#0#78"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways8595635968#356"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app.dSYM0#
+
+CLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
+s313579299.600269
+e313579299.639552
+r1
+xLd
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways
+xnormal
+xarmv7
+lSLF07#2@83"Link /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways313579299#313579299#0(0"0(0#0#0"8613463616#874"    cd /Users/berkeleygamelab/Melissa/game    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -filelist /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways0#
+
+CProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Info.plist Pathways-Info.plist
+s310986678.609916
+e310986678.637366
+r1
+xProcessInfoPlistFile
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Info.plist
+xPathways-Info.plist
+lSLF07#2@27"Process Pathways-Info.plist310986678#310986678#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Pathways-Info.plist8627370912#554"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pathways-Info.plist -genpkginfo /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/ResourceRules.plist -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Info.plist0#
+
+CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310986679.601159
+e310986680.609324
+r1
+xProcessPCH
+x/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch.gch
+xPathways_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Pathways_Prefix.pch310986679#310986680#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch8624990816#1649"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -c /Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-bajspezykipppwgwztlifwbbsjoi/Pathways_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fwwxknmggljppzbecdndufpneagm/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310429405.244687
+e310429406.230141
+r1
+xProcessPCH
+x/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fwwxknmggljppzbecdndufpneagm/Pathways_Prefix.pch.gch
+xPathways_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Pathways_Prefix.pch310429405#310429406#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch8608742912#1611"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -c /Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fwwxknmggljppzbecdndufpneagm/Pathways_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision
+s310429407.328831
+e310429407.346534
+r1
+xProcessProductPackaging
+x/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" build/Debug-iphoneos/Pathways.app/embedded.mobileprovision310429407#310429407#0(0"0(0#0#94"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision8610697024#428"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
+s310986683.612078
+e310986683.641638
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent310986683#310986683#0(0"0(0#0#101"/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent8603297152#429"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent0#
+
+CTouch /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
+s313579672.318486
+e313579672.322420
+r1
+xTouch
+x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
+lSLF07#2@75"Touch /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app313579672#313579672#0(0"0(0#0#0"8616046272#259"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app0#
+

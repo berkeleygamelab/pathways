@@ -1,0 +1,17 @@
+peg01.png 702 142
+peg02.png 776 142
+peg03.png 817 216
+peg04.png 770 293
+peg05.png 816 372
+peg06.png 744 386
+peg07.png 776 469
+peg08.png 716 457
+peg09.png 614 455
+peg10.png 649 374
+peg11.png 585 352
+peg12.png 686 304
+peg13.png 609 279
+peg14.png 658 219
+peg15.png 573 201
+peg16.png 614 146
+peg17.png 756 227

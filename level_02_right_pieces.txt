@@ -1,0 +1,17 @@
+peg01f.png 208 142
+peg02f.png 164 142
+peg03f.png 113 216
+peg04f.png 144 293
+peg05f.png 113 372
+peg06f.png 184 386
+peg07f.png 164 469
+peg08f.png 235 457
+peg09f.png 295 455
+peg10f.png 263 374
+peg11f.png 340 352
+peg12f.png 225 304
+peg13f.png 313 279
+peg14f.png 264 219
+peg15f.png 347 201
+peg16f.png 300 146
+peg17f.png 174 227
