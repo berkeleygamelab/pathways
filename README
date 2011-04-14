@@ -1,7 +1,7 @@
 Pathways workflow:
 
-NEW CONTRIBUTORS:
-
+SETTING UP:
+---------------
 1) Click on [Fork] to create your own fork of the project on your github account. (All your work will be done on your own fork of the project, and you can submit pull requests for the admin to add your updates to the master branch.)
 
 2) Install git if you haven't already.
@@ -11,3 +11,34 @@ NEW CONTRIBUTORS:
 git clone git@github.com:YOURGITHUBID/pathways.git
 
 Now you have a git repo called pathways.git on your computer! Open up Pathways.xcodeproj in Xcode and make sure it runs on the simulator.
+
+4) Add remote (called "upstream") so you can get changes from the original repo
+
+git remote add upstream git@github.com:berkeleygamelab/pathways.git
+
+
+NORMAL WORKFLOW:
+-------------------
+1) After doing some work, when you are ready commit changes, first fetch changes from the master repo:
+
+git fetch upstream
+
+2) and merge those changes into your master branch:
+
+git rebase upstream/master
+
+3) Add your modified files to commit:
+
+git add --all
+or
+git add FILENAME
+
+4) Commit with message describing changes:
+
+git commit -m "blah blah blah"
+
+5) Push to forked project:
+
+git push origin master
+
+6) Submit pull request to berkeleygamelab to pull your changes to the main repo.
