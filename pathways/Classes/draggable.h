@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioToolbox.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface draggable : UIImageView {
 	BOOL canMove;
@@ -31,5 +32,6 @@
 - (void)snapIntoPlaceAtX:(int)finalX AtY:(int)finalY;
 - (void)reactivate;
 - (void)playSound;
+- (void)showShadow;
 
 @end

@@ -19,6 +19,12 @@
 		93908C7F12EC175E00972FFE /* scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93908C7E12EC175E00972FFE /* scores.plist */; };
 		93908C8312EC1BEC00972FFE /* scoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93908C8112EC1BEC00972FFE /* scoreViewController.m */; };
 		9390C0961289470900F7DE83 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9390C0951289470900F7DE83 /* AudioToolbox.framework */; };
+		9391D0A4134EE8940049EB3D /* blue-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9391D09E134EE8940049EB3D /* blue-peg.png */; };
+		9391D0A5134EE8940049EB3D /* green-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9391D09F134EE8940049EB3D /* green-peg.png */; };
+		9391D0A6134EE8940049EB3D /* orange-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9391D0A0134EE8940049EB3D /* orange-peg.png */; };
+		9391D0A7134EE8940049EB3D /* purple-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9391D0A1134EE8940049EB3D /* purple-peg.png */; };
+		9391D0A8134EE8940049EB3D /* start-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9391D0A2134EE8940049EB3D /* start-screen.png */; };
+		9391D0A9134EE8940049EB3D /* yellow-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9391D0A3134EE8940049EB3D /* yellow-peg.png */; };
 		9392090D12641E88007C9949 /* startScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392090B12641E88007C9949 /* startScreenViewController.m */; };
 		9392098812642BA2007C9949 /* startScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392098712642BA2007C9949 /* startScreenView.m */; };
 		9392098B12642BB9007C9949 /* Level1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392098A12642BB9007C9949 /* Level1View.m */; };
@@ -117,6 +123,12 @@
 		93908C8012EC1BEC00972FFE /* scoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreViewController.h; sourceTree = "<group>"; };
 		93908C8112EC1BEC00972FFE /* scoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreViewController.m; sourceTree = "<group>"; };
 		9390C0951289470900F7DE83 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9391D09E134EE8940049EB3D /* blue-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-peg.png"; sourceTree = "<group>"; };
+		9391D09F134EE8940049EB3D /* green-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-peg.png"; sourceTree = "<group>"; };
+		9391D0A0134EE8940049EB3D /* orange-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-peg.png"; sourceTree = "<group>"; };
+		9391D0A1134EE8940049EB3D /* purple-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple-peg.png"; sourceTree = "<group>"; };
+		9391D0A2134EE8940049EB3D /* start-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-screen.png"; sourceTree = "<group>"; };
+		9391D0A3134EE8940049EB3D /* yellow-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-peg.png"; sourceTree = "<group>"; };
 		9392090A12641E88007C9949 /* startScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = startScreenViewController.h; path = Classes/startScreenViewController.h; sourceTree = "<group>"; };
 		9392090B12641E88007C9949 /* startScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = startScreenViewController.m; path = Classes/startScreenViewController.m; sourceTree = "<group>"; };
 		9392098612642BA2007C9949 /* startScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startScreenView.h; sourceTree = "<group>"; };
@@ -287,6 +299,7 @@
 		931DC06B129D0330004B1699 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9391D097134EE87B0049EB3D /* new_startscreen */,
 				9388871C12FF53CC007BEE5D /* level1images */,
 				93DC173012FA5EF7000330AE /* start_screen_images */,
 				931DC084129D04A0004B1699 /* generalimages */,
@@ -404,6 +417,20 @@
 			name = level_02_right_pegs;
 			sourceTree = "<group>";
 		};
+		9391D097134EE87B0049EB3D /* new_startscreen */ = {
+			isa = PBXGroup;
+			children = (
+				93AE66331303993900E370F7 /* start_screen_arrow.png */,
+				9391D09E134EE8940049EB3D /* blue-peg.png */,
+				9391D09F134EE8940049EB3D /* green-peg.png */,
+				9391D0A0134EE8940049EB3D /* orange-peg.png */,
+				9391D0A1134EE8940049EB3D /* purple-peg.png */,
+				9391D0A2134EE8940049EB3D /* start-screen.png */,
+				9391D0A3134EE8940049EB3D /* yellow-peg.png */,
+			);
+			name = new_startscreen;
+			sourceTree = "<group>";
+		};
 		9392098412642B63007C9949 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,7 +507,6 @@
 			isa = PBXGroup;
 			children = (
 				93AE66321303993900E370F7 /* Pathways_Main_Screen_Icon.png */,
-				93AE66331303993900E370F7 /* start_screen_arrow.png */,
 				93AE66341303993900E370F7 /* start-piece.png */,
 			);
 			name = start_screen_images;
@@ -606,6 +632,12 @@
 				93AE66B01303A63100E370F7 /* level_02_peg15r.png in Resources */,
 				93AE66B11303A63100E370F7 /* level_02_peg16r.png in Resources */,
 				93AE66B21303A63100E370F7 /* level_02_peg17r.png in Resources */,
+				9391D0A4134EE8940049EB3D /* blue-peg.png in Resources */,
+				9391D0A5134EE8940049EB3D /* green-peg.png in Resources */,
+				9391D0A6134EE8940049EB3D /* orange-peg.png in Resources */,
+				9391D0A7134EE8940049EB3D /* purple-peg.png in Resources */,
+				9391D0A8134EE8940049EB3D /* start-screen.png in Resources */,
+				9391D0A9134EE8940049EB3D /* yellow-peg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

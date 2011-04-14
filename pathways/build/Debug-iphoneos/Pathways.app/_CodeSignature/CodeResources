@@ -44,6 +44,10 @@
 		<data>
 		jBJIu7rByt48YNG+5K17jkntkRw=
 		</data>
+		<key>blue-peg.png</key>
+		<data>
+		2AU7LZ9Hw53N34KDwDfs0hxOIqg=
+		</data>
 		<key>drag-shape-grey.png</key>
 		<data>
 		vWiWg7DSSMCNp9fHXxAnWYZAeto=
@@ -54,11 +58,15 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		3fTaNeCFjLjHY5BO+oOkjr2E+Ow=
+		A0Y9WhO+/W3C0MlbNtLZaKp2JbQ=
 		</data>
 		<key>gem_china_edit_3.aif</key>
 		<data>
 		JGO4jkYmw1Jw4VKF8GtDpCepykw=
+		</data>
+		<key>green-peg.png</key>
+		<data>
+		lQx6hAaeNjHYiMyiYnvpkJSNBK4=
 		</data>
 		<key>leftSideButton.png</key>
 		<data>
@@ -292,6 +300,10 @@
 		<data>
 		VvraOzYBPKC9d7Yx1dfNUZJ4D9Y=
 		</data>
+		<key>orange-peg.png</key>
+		<data>
+		jF2Od/UjYIB2nBstdfSMPI82mm4=
+		</data>
 		<key>overlay-image.png</key>
 		<data>
 		SeDCklm/RgkprkYTXeqDxRobOcw=
@@ -436,6 +448,10 @@
 		<data>
 		d7TGg3KRjQm4nJ1FZGPoKEkQ0gY=
 		</data>
+		<key>purple-peg.png</key>
+		<data>
+		7pkJkgf9eFWGUODECNMfwI2Vuog=
+		</data>
 		<key>rightSideButton.png</key>
 		<data>
 		ulBoEgj8ky2W/XqffiyYqmrr0aM=
@@ -452,9 +468,13 @@
 		<data>
 		zY6JpT/ZmnhD4jcdS+jlYLVYjEk=
 		</data>
+		<key>start-screen.png</key>
+		<data>
+		3SEMgROsIPEGIG1iHScWBdzMWWE=
+		</data>
 		<key>startScreenViewController.nib</key>
 		<data>
-		5AcHE2Hz6XZCATqWwnM53W+7Alw=
+		HXaGuNiMJpRqFBHdDk8rqcnqVAw=
 		</data>
 		<key>start_screen_arrow.png</key>
 		<data>
@@ -463,6 +483,10 @@
 		<key>start_screen_image.png</key>
 		<data>
 		Wr9IzF5t1HfgEgYa+R/KpeF01aw=
+		</data>
+		<key>yellow-peg.png</key>
+		<data>
+		RJ6Vn0ST7xl/Pt8rSQ7+QyJJ7fA=
 		</data>
 	</dict>
 	<key>rules</key>

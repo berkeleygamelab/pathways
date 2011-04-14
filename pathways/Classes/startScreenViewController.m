@@ -13,10 +13,11 @@
 
 @implementation startScreenViewController
 
-@synthesize draggable1;
+@synthesize draggable1, player1Draggable;
 @synthesize level1ViewController, level2ViewController;
 @synthesize gamestate;
 @synthesize aScoreViewController;
+@synthesize player1Button;
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -24,7 +25,7 @@
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
 		self.gamestate = STARTSCREEN;
-		[self createDraggable];
+		//[self createDraggable];
 		
     }
     return self;
@@ -66,6 +67,16 @@
     // e.g. self.myOutlet = nil;
 }
 
+-(IBAction)player1Pressed:(UIButton *)sender{
+	NSLog(@"player 1 button pressed");
+	player1Button.hidden=YES;
+	player1Draggable = [[draggable alloc] initWithImage:[UIImage imageNamed:@"green-peg.png"] withInitX:600 withInitY:126 withFinalX:181 withFinalY:156];
+	[player1Draggable setFrame:CGRectOffset([player1Draggable frame], 600, 126)];
+	[player1Draggable setUserInteractionEnabled:YES];
+	[self.view addSubview:player1Draggable];
+	player1Draggable.containingview=self;
+	[player1Draggable release];
+}
 
 -(IBAction)scoreButtonPressed:(UIButton *)sender {
 	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle]];
@@ -78,8 +89,9 @@
 
  
 -(void)piecePlacedAction:(draggable *)piece{
-	draggable1.alpha = 0.0;
-	[self createDraggable];
+	player1Draggable.alpha = 0.0;
+	player1Button.hidden = NO;
+	//[self createDraggable];
 	[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
 	[self makeLevel1WithLevelData:@"level_01_data" withLeftScore:0 withRightScore:0 withScore:0];
 }

@@ -22,6 +22,9 @@ typedef enum
 	draggable *draggable1;
 	PathwaysGamestate gamestate;
 	scoreViewController *aScoreViewController;
+	draggable *player1Draggable;
+	IBOutlet UIButton *player1Button;
+
 
 }
 
@@ -29,10 +32,13 @@ typedef enum
 @property (nonatomic, retain) LevelViewController *level2ViewController;
 
 @property (nonatomic, retain) draggable *draggable1;
+@property (nonatomic, retain) draggable *player1Draggable;
 @property (nonatomic, retain) scoreViewController *aScoreViewController;
 @property PathwaysGamestate gamestate;
 
+@property (nonatomic, retain) IBOutlet UIButton *player1Button;
 
+-(IBAction)player1Pressed:(UIButton *)sender;
 -(IBAction)scoreButtonPressed:(UIButton *)sender;
 -(void)piecePlacedAction:(draggable *)piece;
 -(void)pieceMisplacedAction:(draggable *)piece;

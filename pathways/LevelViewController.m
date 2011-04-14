@@ -201,49 +201,6 @@ NSString *nextLevelData;
 			
 		}
 		
-		/*
-		NSString *rightPieceNames[]={
-			@"peg01f.png",
-			@"peg02f.png",
-			@"peg03f.png",
-			@"peg04f.png",
-			@"peg05f.png",
-			@"peg06f.png",
-			@"peg07f.png",
-			@"peg08f.png",
-			@"peg09f.png",
-			@"peg10f.png",
-			@"peg11f.png",
-			@"peg12f.png",
-			@"peg13f.png",
-			@"peg14f.png",
-			@"peg15f.png",
-			@"peg16f.png",
-			@"peg17f.png"
-		};
-		 */
-		/*
-		int rightPiecesFinalLocs[]={
-			208,142,
-			164,142,
-			113,216,
-			144,293,
-			113,372,
-			184,386,
-			164,469,
-			235,457,
-			295,455,
-			263,374,
-			340,352,
-			225,304,
-			313,279,
-			264,219,
-			347,201,
-			300,146,
-			174,227
-		};
-		*/
-		
 		leftPieces = [[NSMutableArray alloc] init];
 		for (int i = 0; i < numPieces; i++) {
 			int initX;
@@ -263,6 +220,8 @@ NSString *nextLevelData;
 			[piece setUserInteractionEnabled:YES];
 			[self.view addSubview:piece];
 			piece.containingview = self;
+			piece.alpha=0.60;
+			//[piece showShadow];
 			[leftPieces addObject:piece];
 		}
 		
@@ -285,6 +244,7 @@ NSString *nextLevelData;
 			[piece setUserInteractionEnabled:YES];
 			[self.view addSubview:piece];
 			piece.containingview = self;
+			piece.alpha=0.60;
 			[rightPieces addObject:piece];
 		}
 		
@@ -317,6 +277,8 @@ NSString *nextLevelData;
 		//rightTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(countSeconds) userInfo:nil repeats:YES];
 		
 		[self showOverlay];
+		
+
     }
     return self;
 }
@@ -369,10 +331,28 @@ NSString *nextLevelData;
 	blurbLabel.hidden=YES;
 	leftArrow.hidden=YES;
 	rightArrow.hidden=YES;
+	for(draggable *piece in leftPieces){
+		piece.alpha = 0.6;
+	}
+	for(draggable *piece in rightPieces){
+		piece.alpha = 0.6;
+	}
 }
 
 -(void)showOverlay {
 	NSLog(@"GAMESTATE: %i", gamestate);
+	//leftButton.exclusiveTouch = YES;
+	//rightButton.exclusiveTouch = YES;
+	leftButton.enabled = YES;
+	rightButton.enabled = YES;
+	
+	for (draggable *piece in leftPieces){
+		piece.alpha = 0.2;
+	}
+	for (draggable *piece in rightPieces){
+		piece.alpha = 0.2;
+	}
+	
 	if (gamestate==COMPLETE) {
 		blurbLabel.hidden=YES;
 		leftArrow.hidden=YES;
@@ -398,11 +378,15 @@ NSString *nextLevelData;
 	
 }
 
+
 -(IBAction)leftSideTouchDown:(UIButton *)leftButton{
+	
 	if(gamestate==NONEACTIVE){
 		gamestate = RIGHTACTIVE;
 	}
 	[self hideOverlay];
+	//leftButton.exclusiveTouch = NO;
+	rightButton.enabled = FALSE;
 	rightButton.hidden = YES;
 	
 	timerLabel.text = [NSString stringWithFormat:@"%i",rightTime];
@@ -475,6 +459,8 @@ NSString *nextLevelData;
 		gamestate = LEFTACTIVE;
 	}
 	[self hideOverlay];
+	//rightButton.exclusiveTouch = NO;
+	leftButton.enabled = NO;
 	leftButton.hidden = YES;
 
 	timerLabel.text = [NSString stringWithFormat:@"%i",leftTime];
@@ -585,7 +571,7 @@ NSString *nextLevelData;
 
 
 -(void)piecePlacedAction:(draggable *)piece{
-	piece.alpha = 0.25;
+	piece.alpha = 1;
 	piece.canMove = NO;
 	piece.active = NO;
 	if(gamestate == LEFTACTIVE){

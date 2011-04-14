@@ -57,6 +57,7 @@ CGPoint startLocation;
 		CGPoint pt = [[touches anyObject] locationInView:self];
 		startLocation = pt;
 		[[self superview] bringSubviewToFront:self];
+		[self showShadow];
 	}
 }
 - (void) touchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
@@ -83,6 +84,7 @@ CGPoint startLocation;
 		CGRect frame = [self frame];
 		frame.origin.x += lastTouch.x - startLocation.x;
 		frame.origin.y += lastTouch.y - startLocation.y;
+		[self hideShadow];
 		if (frame.origin.x > finalLocX-20 & frame.origin.x < finalLocX+20 & frame.origin.y > finalLocY-20 & frame.origin.y < finalLocY+20) {
 			[self snapIntoPlaceAtX:finalLocX AtY: finalLocY];
 		} else {
@@ -103,6 +105,18 @@ CGPoint startLocation;
 
 - (void)reactivate{
 	self.canMove = YES;
+}
+
+
+- (void)showShadow{
+	self.layer.shadowColor = [UIColor blackColor].CGColor;
+	self.layer.shadowOffset = CGSizeMake(0, 3);
+	self.layer.shadowOpacity = 0.8;
+	self.layer.shadowRadius = 3.0;
+}
+
+-(void)hideShadow{
+	self.layer.shadowOpacity = 0;
 }
 
 - (void) playSound{
