@@ -19,6 +19,10 @@ git remote add upstream git@github.com:berkeleygamelab/pathways.git
 
 NORMAL WORKFLOW:
 -------------------
+0) To check status of modified files, etc:
+
+git status
+
 1) After doing some work, when you are ready commit changes, first fetch changes from the master repo:
 
 git fetch upstream
