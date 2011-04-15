@@ -20,6 +20,10 @@ typedef enum
 	LevelViewController *level1ViewController;
 	LevelViewController *level2ViewController;
 	draggable *draggable1;
+	draggable *draggable2;
+	draggable *draggable3;
+	draggable *draggable4;
+	draggable *draggable5;
 	PathwaysGamestate gamestate;
 	scoreViewController *aScoreViewController;
 	draggable *player1Draggable;
@@ -32,15 +36,23 @@ typedef enum
 @property (nonatomic, retain) LevelViewController *level2ViewController;
 
 @property (nonatomic, retain) draggable *draggable1;
+@property (nonatomic, retain) draggable *draggable2;
+@property (nonatomic, retain) draggable *draggable3;
+@property (nonatomic, retain) draggable *draggable4;
+@property (nonatomic, retain) draggable *draggable5;
 @property (nonatomic, retain) draggable *player1Draggable;
 @property (nonatomic, retain) scoreViewController *aScoreViewController;
 @property PathwaysGamestate gamestate;
 
 @property (nonatomic, retain) IBOutlet UIButton *player1Button;
 
--(IBAction)player1Pressed:(UIButton *)sender;
 -(IBAction)scoreButtonPressed:(UIButton *)sender;
 -(void)piecePlacedAction:(draggable *)piece;
 -(void)pieceMisplacedAction:(draggable *)piece;
--(void)createDraggable;
+//-(void)createDraggable;
+-(void) createPlayer1Draggable;
+-(void)makeLevel1WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
+-(void)makeLevel2WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
+
+
 @end

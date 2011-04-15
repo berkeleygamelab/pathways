@@ -13,7 +13,7 @@
 
 @implementation startScreenViewController
 
-@synthesize draggable1, player1Draggable;
+@synthesize draggable1, draggable2, draggable3, draggable4, draggable5;
 @synthesize level1ViewController, level2ViewController;
 @synthesize gamestate;
 @synthesize aScoreViewController;
@@ -25,7 +25,12 @@
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
 		self.gamestate = STARTSCREEN;
-		//[self createDraggable];
+		[self createPlayer1Draggable];
+		[self createPlayer2Draggable];
+		[self createPlayer3Draggable];
+		[self createPlayer4Draggable];
+		[self createPlayer5Draggable];
+
 		
     }
     return self;
@@ -38,6 +43,7 @@
 }
 */
 
+/*
 -(void) createDraggable {
 	draggable1 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"start-piece.png"] withInitX:720 withInitY:130 withFinalX:336 withFinalY:147];
 	[draggable1 setFrame:CGRectOffset([draggable1 frame], 720, 130)];
@@ -45,6 +51,72 @@
 	[self.view addSubview:draggable1];
 	draggable1.containingview = self;
 	[draggable release];
+}
+*/
+
+-(void) createPlayer1Draggable {
+	draggable1 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"green-peg.png"] 
+										withInitX:710 withInitY:156 
+										withFinalX:46 withFinalY:167
+									 scaleToHeight:100];
+	[draggable1 setFrame:CGRectOffset([draggable1 frame], 710, 156)];
+	[draggable1 setUserInteractionEnabled:YES];
+	[self.view addSubview:draggable1];
+	draggable1.containingview = self;
+	[draggable1 release];
+	[draggable1 scaleImageSmaller];
+}
+
+-(void) createPlayer2Draggable {
+	draggable2 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"blue-peg.png"] 
+										withInitX:686 withInitY:263 
+									   withFinalX:195 withFinalY:157
+									scaleToHeight:90];
+	[draggable2 setFrame:CGRectOffset([draggable2 frame], 686, 263)];
+	[draggable2 setUserInteractionEnabled:YES];
+	[self.view addSubview:draggable2];
+	draggable2.containingview = self;
+	[draggable2 release];
+	[draggable2 scaleImageSmaller];
+}
+
+-(void) createPlayer3Draggable {
+	draggable3 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"red-peg.png"] 
+										withInitX:688 withInitY:362 
+									   withFinalX:292 withFinalY:293
+									scaleToHeight:94];
+	[draggable3 setFrame:CGRectOffset([draggable3 frame], 688, 362)];
+	[draggable3 setUserInteractionEnabled:YES];
+	[self.view addSubview:draggable3];
+	draggable3.containingview = self;
+	[draggable3 release];
+	[draggable3 scaleImageSmaller];
+}
+
+-(void) createPlayer4Draggable {
+	draggable4 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"yellow-peg.png"] 
+										withInitX:720 withInitY:464 
+									   withFinalX:185 withFinalY:254
+									scaleToHeight:95];
+	[draggable4 setFrame:CGRectOffset([draggable4 frame], 720, 464)];
+	[draggable4 setUserInteractionEnabled:YES];
+	[self.view addSubview:draggable4];
+	draggable4.containingview = self;
+	[draggable4 release];
+	[draggable4 scaleImageSmaller];
+}
+
+-(void) createPlayer5Draggable {
+	draggable5 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"purple-peg.png"] 
+										withInitX:688 withInitY:576 
+									   withFinalX:280 withFinalY:470
+									scaleToHeight:58];
+	[draggable5 setFrame:CGRectOffset([draggable5 frame], 688, 156)];
+	[draggable5 setUserInteractionEnabled:YES];
+	[self.view addSubview:draggable5];
+	draggable5.containingview = self;
+	[draggable5 release];
+	[draggable5 scaleImageSmaller];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -67,6 +139,7 @@
     // e.g. self.myOutlet = nil;
 }
 
+/*
 -(IBAction)player1Pressed:(UIButton *)sender{
 	NSLog(@"player 1 button pressed");
 	player1Button.hidden=YES;
@@ -77,6 +150,7 @@
 	player1Draggable.containingview=self;
 	[player1Draggable release];
 }
+*/
 
 -(IBAction)scoreButtonPressed:(UIButton *)sender {
 	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle]];
@@ -89,9 +163,10 @@
 
  
 -(void)piecePlacedAction:(draggable *)piece{
-	player1Draggable.alpha = 0.0;
-	player1Button.hidden = NO;
-	//[self createDraggable];
+	[piece scaleImageSmaller];
+	piece.canMove = YES;
+	//draggable1.alpha = 0.0;
+	//[self createPlayer1Draggable];
 	[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
 	[self makeLevel1WithLevelData:@"level_01_data" withLeftScore:0 withRightScore:0 withScore:0];
 }
@@ -103,7 +178,6 @@
 	[aViewController release];
 	UIView *Level1View = [level1ViewController view];
 	[self.view addSubview:Level1View];
-	NSLog(@"here doin some stuff");
 }
 -(void)makeLevel2WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore{
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData
@@ -115,6 +189,7 @@
 }
 
 -(void)pieceMisplacedAction:(draggable *)piece{
+	[piece scaleImageSmaller];
 }
 
 - (void)dealloc {

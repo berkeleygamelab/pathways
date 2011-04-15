@@ -115,5 +115,8 @@ typedef enum
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData 
 		withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
 
+-(void)showOverlay;
+-(void)hideOverlay;
+
 
 @end

@@ -14,7 +14,7 @@
 @synthesize containingview;
 @synthesize canMove, active;
 @synthesize initLocX, initLocY;
-
+@synthesize scaledHeight;
 
 CGPoint startLocation;
 
@@ -37,6 +37,25 @@ CGPoint startLocation;
 		finalLocY = finalY;	
 		initLocX = initX;
 		initLocY = initY;
+		needScaling = NO;
+	}
+	return self;
+}
+
+- (id)initWithImage:(UIImage *)image withInitX:(int)initX withInitY:(int)initY 
+		 withFinalX:(int)finalX withFinalY:(int)finalY scaleToHeight:(int)height{
+	if ((self = [super initWithImage:image])){
+		canMove = YES;
+		active = NO;
+		finalLocX = finalX;
+		finalLocY = finalY;	
+		initLocX = initX;
+		initLocY = initY;
+		CGRect frame = [self frame];
+		origH = (float)frame.size.height;
+		origW = (float)frame.size.width;
+		scaledHeight = height;
+		needScaling = YES;
 	}
 	return self;
 }
@@ -58,6 +77,9 @@ CGPoint startLocation;
 		startLocation = pt;
 		[[self superview] bringSubviewToFront:self];
 		[self showShadow];
+		if (needScaling) {
+			[self scaleImageLarger];
+		}
 	}
 }
 - (void) touchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
@@ -107,6 +129,17 @@ CGPoint startLocation;
 	self.canMove = YES;
 }
 
+- (void)scaleImageSmaller{
+	float scaleAmount = ((float)scaledHeight/origH);
+	NSLog(@"%f / %f = scale by %f", origH, (float)scaledHeight, scaleAmount);
+	self.contentMode = UIViewContentModeScaleAspectFit;
+	float scaledWidth = (origW * scaleAmount);
+	[self setFrame:CGRectMake(initLocX, initLocY, scaledWidth, scaledHeight)];
+}
+
+-(void)scaleImageLarger{
+	[self setFrame:CGRectMake(initLocX, initLocY, origW, origH)];
+}
 
 - (void)showShadow{
 	self.layer.shadowColor = [UIColor blackColor].CGColor;

@@ -102,8 +102,6 @@ NSString *nextLevelData;
 		//PARSING LEFT PIECES TEXT FILE
 		NSString *filePath = [[NSBundle mainBundle] pathForResource:leftPiecesTextFile ofType:@"txt"];
 		NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-		NSLog(@"printing file contents:");
-		NSLog(@"%@", fileContents);
 		
 		//array of lines e.g.: peg01.png 783 123
 		NSArray *piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
@@ -131,55 +129,9 @@ NSString *nextLevelData;
 			*/
 		}
 				
-		/*
-		NSString *leftPieceNames[]={
-			@"peg01.png",
-			@"peg02.png",
-			@"peg03.png",
-			@"peg04.png",
-			@"peg05.png",
-			@"peg06.png",
-			@"peg07.png",
-			@"peg08.png",
-			@"peg09.png",
-			@"peg10.png",
-			@"peg11.png",
-			@"peg12.png",
-			@"peg13.png",
-			@"peg14.png",
-			@"peg15.png",
-			@"peg16.png",
-			@"peg17.png"
-		};
-		 */
-		/*
-		int leftPiecesFinalLocs[]={
-			702, 142, //peg1
-			776, 142, //peg2
-			817, 216, //peg3
-			770, 293, //peg4
-			816, 372, //peg5
-			744, 386, //peg6
-			776, 469, //peg7
-			716, 457, //peg8
-			614,455,
-			649,374,
-			585,352,
-			686,304,
-			609,279,
-			658,219,
-			573,201,
-			614,146,
-			756,227
-			
-		};
-		*/
-		
 		//PARSING RIGHT PIECES TEXT FILE
 		filePath = [[NSBundle mainBundle] pathForResource:rightPiecesTextFile ofType:@"txt"];
 		fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-		NSLog(@"printing file contents:");
-		NSLog(@"%@", fileContents);
 		
 		//array of lines e.g.: peg01.png 783 123
 		piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];

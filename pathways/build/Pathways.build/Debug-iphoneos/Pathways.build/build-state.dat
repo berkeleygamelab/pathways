@@ -3048,15 +3048,45 @@ c000000004D4BC4EB000000000000B665
 t1296811243
 s46693
 
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/blue-peg.png
+c000000004DA6ADCC00000000000017A7
+t1302769100
+s6055
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/green-peg.png
+c000000004DA6ADCC0000000000002790
+t1302769100
+s10128
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/purple-peg.png
+c000000004DA6ADCC00000000000007D0
+t1302769100
+s2000
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/red-peg.png
+c000000004DA6ADCC00000000000014E1
+t1302769100
+s5345
+
 N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/start-piece.png
 c000000004D4BAEC800000000000011EE
 t1296805576
 s4590
 
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/start-screen.png
+c000000004DA6ADCC000000000000466F
+t1302769100
+s18031
+
 N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/start_screen_arrow.png
 c000000004CFADBA80000000000001B6A
 t1291508648
 s7018
+
+N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/images/start_screen_images/yellow-peg.png
+c000000004DA6ADCC0000000000001119
+t1302769100
+s4377
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/level data/level 01/level_01_data.txt
 c000000004D4FA4350000000000000067
@@ -3129,9 +3159,9 @@ t1289292252
 s30966
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/blue-peg.png
-c000000004D9EB09A00000000000007B8
-t1302245530
-s1976
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
 t1302299014
@@ -3597,6 +3627,10 @@ N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/
 t1302298507
 s3953
 
+N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/red-peg.png
+t2
+s0
+
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/rightSideButton.png
 t1293772688
 s5847
@@ -3702,9 +3736,9 @@ t2
 s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/green-peg.png
-c000000004D9EB09A00000000000008B0
-t1302245530
-s2224
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/leftSideButton.png
 c000000004CCD2A6F00000000000012E3
@@ -3823,9 +3857,9 @@ t1290500711
 s21302
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/orange-peg.png
-c000000004D9EB09A00000000000007F2
-t1302245530
-s2034
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/overlay-image.png
 c000000004CFC342A00000000000027F9
@@ -4008,9 +4042,9 @@ t1290589644
 s4800
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/purple-peg.png
-c000000004D9EB09A0000000000000E2D
-t1302245530
-s3629
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/rightSideButton.png
 c000000004CCD2A930000000000001302
@@ -4045,9 +4079,9 @@ t1296805576
 s4590
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/start-screen.png
-c000000004D9EB09A000000000000185B
-t1302245530
-s6235
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/startScreenView.h
 c000000004CB3F42200000000000000DB
@@ -4092,9 +4126,9 @@ t1296811778
 s25907
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/yellow-peg.png
-c000000004D9EB09A00000000000003B3
-t1302245530
-s947
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/berkeleygamelab/pathwaysrepo/peg01.png
 c000000004CE3172F0000000000000669
@@ -6055,6 +6089,9 @@ r0
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/arrow-right.png arrow-right.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/blue-peg.png Resources/images/start_screen_images/blue-peg.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/blue-peg.png blue-peg.png
 s323991306.469708
 e323991306.976680
@@ -6068,6 +6105,9 @@ CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/P
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/drag-shape.png drag-shape.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/green-peg.png Resources/images/start_screen_images/green-peg.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/green-peg.png green-peg.png
@@ -6616,6 +6656,9 @@ r0
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/piece-board.png piece-board.png
 r0
 
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/purple-peg.png Resources/images/start_screen_images/purple-peg.png
+r0
+
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/purple-peg.png purple-peg.png
 s323991307.113778
 e323991307.236878
@@ -6624,6 +6667,9 @@ xCopyPNGFile
 x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/purple-peg.png
 xpurple-peg.png
 lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Pathways.app/purple-peg.png purple-peg.png323991307#323991307#0(0"0(0#0#59"/Users/berkeleygamelab/pathwaysrepo/pathways/purple-peg.png8609324288#587"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/pathwaysrepo/pathways/purple-peg.png /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/purple-peg.png0#
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/red-peg.png Resources/images/start_screen_images/red-peg.png
+r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/rightSideButton.png Resources/images/general_images/rightSideButton.png
 r0
@@ -6635,6 +6681,9 @@ CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/P
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start-piece.png start-piece.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start-screen.png Resources/images/start_screen_images/start-screen.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start-screen.png start-screen.png
@@ -6653,6 +6702,9 @@ CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/P
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/start_screen_image.png start_screen_image.png
+r0
+
+CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/yellow-peg.png Resources/images/start_screen_images/yellow-peg.png
 r0
 
 CCopyPNGFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/yellow-peg.png yellow-peg.png
