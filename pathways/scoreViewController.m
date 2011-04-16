@@ -71,10 +71,11 @@
 	
 	for (int i = 0; i < [scoreArray count]; i++) {
 		NSMutableArray *currScoreField = [scoreArray objectAtIndex:i];
-		NSDate *currScoreDate = [currScoreField objectAtIndex:0];
-		int *currLeftScore = (int *)[[currScoreField objectAtIndex:1] intValue];
-		int *currRightScore = (int *)[[currScoreField objectAtIndex:2] intValue];
-		int *currTotalScore = (int *)[[currScoreField objectAtIndex:3] intValue];
+		NSString *playerName = [currScoreField objectAtIndex:0];
+		NSDate *currScoreDate = [currScoreField objectAtIndex:1];
+		int *currLeftScore = (int *)[[currScoreField objectAtIndex:2] intValue];
+		int *currRightScore = (int *)[[currScoreField objectAtIndex:3] intValue];
+		int *currTotalScore = (int *)[[currScoreField objectAtIndex:4] intValue];
 		UIColor *scoreColor;
 		
 		if(i == 0){
@@ -83,6 +84,11 @@
 			scoreColor = [UIColor whiteColor];
 		}
 		
+		UILabel *playerNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(56, 140+20*i, 200, 20)];
+		playerNameLabel.text = [NSString stringWithFormat:@"%@", playerName];
+		playerNameLabel.backgroundColor = [UIColor clearColor];
+		playerNameLabel.textColor = scoreColor;
+		playerNameLabel.textAlignment = UITextAlignmentLeft;		
 		
 		NSDateFormatter *format = [[NSDateFormatter alloc] init];
 		[format setDateFormat:@"MMM dd, yyyy HH:mm"];
@@ -113,6 +119,7 @@
 		totalScoreLabel.textColor = scoreColor;
 		totalScoreLabel.textAlignment = UITextAlignmentCenter;
 		
+		[self.view addSubview:playerNameLabel];
 		[self.view addSubview:dateAndTimeLabel];
 		[self.view addSubview:leftScoreLabel];
 		[self.view addSubview:rightScoreLabel];

@@ -32,6 +32,9 @@
 @synthesize quitAlert,infoAlert;
 @synthesize aScoreViewController, nextLevelViewController;
 
+@synthesize containingView;
+@synthesize playerScore;
+
 BOOL leftSideCompleted;
 BOOL rightSideCompleted;
 BOOL isLastLevel;
@@ -77,28 +80,13 @@ NSString *nextLevelData;
 		}
 		else {
 			isLastLevel = NO;
-			
 		}
 
-		
-		//CREATE BOARDS
-		leftMapBoard = [[mapBoard alloc] initWithImage:[UIImage imageNamed:leftMapImageName]];
-		[leftMapBoard setFrame:CGRectMake(LEFTBOARDACTIVE_X, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
-		[self.view addSubview:leftMapBoard];
-		
-		rightMapBoard = [[mapBoard alloc] initWithImage:[UIImage imageNamed:rightMapImageName]];
-		[rightMapBoard setFrame:CGRectMake(RIGHTBOARDACTIVE_X, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
-		[self.view addSubview:rightMapBoard];
-		
-		leftPieceBoard = [[pieceBoard alloc] initWithImage:[UIImage imageNamed:@"piece-board.png"]];
-		[leftPieceBoard setFrame:CGRectMake(LEFTBOARDACTIVE_X-OFFBOARDX, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
-		[self.view addSubview:leftPieceBoard];
-		
-		rightPieceBoard = [[pieceBoard alloc] initWithImage:[UIImage imageNamed:@"piece-board.png"]];
-		[rightPieceBoard setFrame:CGRectMake(RIGHTBOARDACTIVE_X+OFFBOARDX, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
-		[self.view addSubview:rightPieceBoard];
+		[self createBoards];
+		[self makeLeftPieces];
+		[self makeRightPieces];
 
-				
+		/*				
 		//PARSING LEFT PIECES TEXT FILE
 		NSString *filePath = [[NSBundle mainBundle] pathForResource:leftPiecesTextFile ofType:@"txt"];
 		NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
@@ -122,19 +110,16 @@ NSString *nextLevelData;
 			leftPiecesFinalLocs[(2*i)] = [[pieceProperties objectAtIndex:1] intValue];
 			leftPiecesFinalLocs[(2*i+1)] = [[pieceProperties objectAtIndex:2] intValue];
 			i++;
-			/*
-			for (int i = 0; i < leftPiecesCount; i++) {
-				leftPieceNames[i] = (@"%@", [leftPiecesArray objectAtIndex:i]);
-			}
-			*/
+			
 		}
-				
+		*/
+		/*
 		//PARSING RIGHT PIECES TEXT FILE
-		filePath = [[NSBundle mainBundle] pathForResource:rightPiecesTextFile ofType:@"txt"];
-		fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+		NSString *filePath = [[NSBundle mainBundle] pathForResource:rightPiecesTextFile ofType:@"txt"];
+		NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
 		
 		//array of lines e.g.: peg01.png 783 123
-		piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
+		NSArray *piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
 		
 		//array of piece .png names
 		NSString *rightPieceNames[numPieces];
@@ -142,7 +127,7 @@ NSString *nextLevelData;
 		//array of piece locations
 		int rightPiecesFinalLocs[(numPieces*2)];
 		
-		i = 0;
+		int i = 0;
 		for (NSString *pieceTextArray in piecesTextArray) {
 			NSArray *pieceProperties = [pieceTextArray componentsSeparatedByString:@" "];
 			
@@ -152,7 +137,8 @@ NSString *nextLevelData;
 			i++;
 			
 		}
-		
+		 */
+		/*
 		leftPieces = [[NSMutableArray alloc] init];
 		for (int i = 0; i < numPieces; i++) {
 			int initX;
@@ -173,10 +159,11 @@ NSString *nextLevelData;
 			[self.view addSubview:piece];
 			piece.containingview = self;
 			piece.alpha=0.60;
-			//[piece showShadow];
 			[leftPieces addObject:piece];
 		}
-		
+		 
+		 */
+		/*
 		rightPieces = [[NSMutableArray alloc] init];
 		for (int i = 0; i < numPieces; i++) {
 			int initX;
@@ -199,7 +186,7 @@ NSString *nextLevelData;
 			piece.alpha=0.60;
 			[rightPieces addObject:piece];
 		}
-		
+		*/
 		 
 		CGRect overlayRect = CGRectMake(0,0,1024,748);
 		overlayImage = [[UIImageView alloc] initWithFrame:overlayRect];
@@ -207,7 +194,6 @@ NSString *nextLevelData;
 		overlayImage.alpha = 0.85;
 		[self.view addSubview:overlayImage];
 		[overlayImage release];
-		
 		
 		[self.view sendSubviewToBack:overlayImage];
 		[self.view sendSubviewToBack:leftMapBoard];
@@ -218,21 +204,209 @@ NSString *nextLevelData;
 		numBlocksLeft = [leftPieces count];
 		numBlocksRight = [rightPieces count];
 		numBlocks = [leftPieces count] + [rightPieces count];
-		//numBlocks = 4;
 		
 		timerValid = YES;
-		//timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(countSeconds) userInfo:nil repeats:YES];
 		leftTime = MAXPIECEPOINTS;
 		rightTime = MAXPIECEPOINTS;
-		timerLabel.text = [NSString stringWithFormat:@"%i",leftTime];
 		timerLabel.hidden = YES;
-		//rightTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(countSeconds) userInfo:nil repeats:YES];
 		
 		[self showOverlay];
 		
 
     }
     return self;
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData withScoreObject:(scoreObject *)theScore{
+    NSLog(@"making level with scoreobject");
+	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+		gamestate = NONEACTIVE;
+		//leftScore = oldLeftScore;
+		//rightScore = oldRightScore;
+		//score = oldTotalScore;
+		self.playerScore = theScore;
+		
+		leftSideCompleted = NO;
+		rightSideCompleted = NO;
+		leftSideCompletedLabel.hidden = YES;
+		rightSideCompletedLabel.hidden = YES;
+		
+		//PARSE LEVEL DATA TEXT FILE
+		NSString *levelDataFilePath = [[NSBundle mainBundle] pathForResource:levelData ofType:@"txt"];
+		NSString *levelDataFileContents = [NSString stringWithContentsOfFile:levelDataFilePath encoding:NSUTF8StringEncoding error:nil];
+		NSArray *levelDataArray = [levelDataFileContents componentsSeparatedByString:@"\n"];
+		leftMapImageName = [levelDataArray objectAtIndex:0];
+		rightMapImageName = [levelDataArray objectAtIndex:1];
+		leftPiecesTextFile = [levelDataArray objectAtIndex:2];
+		rightPiecesTextFile = [levelDataArray objectAtIndex:3];
+		numPieces = [[levelDataArray objectAtIndex:4] intValue];
+		nextLevelData = [levelDataArray objectAtIndex:5];
+		NSLog(@"next level data is: %@", nextLevelData);
+		if ([nextLevelData isEqualToString:@"null"]) {
+			NSLog(@"islastlevel");
+			isLastLevel = YES;
+		}
+		else {
+			isLastLevel = NO;
+		}
+		
+		[self createBoards];
+		[self makeLeftPieces];
+		[self makeRightPieces];
+		
+		CGRect overlayRect = CGRectMake(0,0,1024,748);
+		overlayImage = [[UIImageView alloc] initWithFrame:overlayRect];
+		[overlayImage setImage:[UIImage imageNamed:@"overlay-image.png"]];
+		overlayImage.alpha = 0.85;
+		[self.view addSubview:overlayImage];
+		[overlayImage release];
+		
+		[self.view sendSubviewToBack:overlayImage];
+		[self.view sendSubviewToBack:leftMapBoard];
+		[self.view sendSubviewToBack:rightMapBoard];
+		[self.view sendSubviewToBack:leftPieceBoard];
+		[self.view sendSubviewToBack:rightPieceBoard];
+		
+		numBlocksLeft = [leftPieces count];
+		numBlocksRight = [rightPieces count];
+		numBlocks = [leftPieces count] + [rightPieces count];
+		
+		timerValid = YES;
+		leftTime = MAXPIECEPOINTS;
+		rightTime = MAXPIECEPOINTS;
+		timerLabel.hidden = YES;
+		
+		[self showOverlay];
+		
+		
+    }
+    return self;
+}
+
+
+-(void)createBoards{
+	leftMapBoard = [[mapBoard alloc] initWithImage:[UIImage imageNamed:leftMapImageName]];
+	[leftMapBoard setFrame:CGRectMake(LEFTBOARDACTIVE_X, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
+	[self.view addSubview:leftMapBoard];
+	
+	rightMapBoard = [[mapBoard alloc] initWithImage:[UIImage imageNamed:rightMapImageName]];
+	[rightMapBoard setFrame:CGRectMake(RIGHTBOARDACTIVE_X, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
+	[self.view addSubview:rightMapBoard];
+	
+	leftPieceBoard = [[pieceBoard alloc] initWithImage:[UIImage imageNamed:@"piece-board.png"]];
+	[leftPieceBoard setFrame:CGRectMake(LEFTBOARDACTIVE_X-OFFBOARDX, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
+	[self.view addSubview:leftPieceBoard];
+	
+	rightPieceBoard = [[pieceBoard alloc] initWithImage:[UIImage imageNamed:@"piece-board.png"]];
+	[rightPieceBoard setFrame:CGRectMake(RIGHTBOARDACTIVE_X+OFFBOARDX, BOARD_Y, BOARDWIDTH, BOARDHEIGHT)];
+	[self.view addSubview:rightPieceBoard];
+	
+}
+
+-(void) makeLeftPieces{
+	
+	//PARSING LEFT PIECES TEXT FILE
+	NSString *filePath = [[NSBundle mainBundle] pathForResource:leftPiecesTextFile ofType:@"txt"];
+	NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+	
+	//array of lines e.g.: peg01.png 783 123
+	NSArray *piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
+	//int piecesCount = [piecesTextArray count];
+	//NSLog(@"sizeof array: %d",piecesCount);
+	
+	//array of piece .png names
+	NSString *leftPieceNames[numPieces];
+	
+	//array of piece locations
+	int leftPiecesFinalLocs[(numPieces*2)];
+	
+	int i = 0;
+	for (NSString *pieceTextArray in piecesTextArray) {
+		NSArray *pieceProperties = [pieceTextArray componentsSeparatedByString:@" "];
+		
+		leftPieceNames[i] = (@"%@", [pieceProperties objectAtIndex:0]);
+		leftPiecesFinalLocs[(2*i)] = [[pieceProperties objectAtIndex:1] intValue];
+		leftPiecesFinalLocs[(2*i+1)] = [[pieceProperties objectAtIndex:2] intValue];
+		i++;
+		/*
+		 for (int i = 0; i < leftPiecesCount; i++) {
+		 leftPieceNames[i] = (@"%@", [leftPiecesArray objectAtIndex:i]);
+		 }
+		 */
+	}
+	leftPieces = [[NSMutableArray alloc] init];
+	for (int i = 0; i < numPieces; i++) {
+		int initX;
+		int initY;
+		if(i < 6){
+			initX = LEFTBOARDACTIVE_X-OFFBOARDX+20;
+			initY = BOARD_Y+10+(i*110);
+		}else if((6 <= i) && (i < 12)){
+			initX = LEFTBOARDACTIVE_X-OFFBOARDX+140;
+			initY = BOARD_Y+10+((i-6)*110);
+		}else {
+			initX = LEFTBOARDACTIVE_X-OFFBOARDX+260;
+			initY = BOARD_Y+20+((i-12)*120);
+		}
+		draggable *piece = [[draggable alloc] initWithImage:[UIImage imageNamed:leftPieceNames[i]] withInitX:initX withInitY:initY withFinalX:leftPiecesFinalLocs[i*2] withFinalY:leftPiecesFinalLocs[i*2+1]];
+		[piece setFrame:CGRectOffset([piece frame], initX, initY)];
+		[piece setUserInteractionEnabled:YES];
+		[self.view addSubview:piece];
+		piece.containingview = self;
+		piece.alpha=0.60;
+		[leftPieces addObject:piece];
+	}
+}
+
+-(void) makeRightPieces{
+	
+	//PARSING RIGHT PIECES TEXT FILE
+	NSString *filePath = [[NSBundle mainBundle] pathForResource:rightPiecesTextFile ofType:@"txt"];
+	NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+	
+	//array of lines e.g.: peg01.png 783 123
+	NSArray *piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
+	
+	//array of piece .png names
+	NSString *rightPieceNames[numPieces];
+	
+	//array of piece locations
+	int rightPiecesFinalLocs[(numPieces*2)];
+	
+	int i = 0;
+	for (NSString *pieceTextArray in piecesTextArray) {
+		NSArray *pieceProperties = [pieceTextArray componentsSeparatedByString:@" "];
+		
+		rightPieceNames[i] = (@"%@", [pieceProperties objectAtIndex:0]);
+		rightPiecesFinalLocs[(2*i)] = [[pieceProperties objectAtIndex:1] intValue];
+		rightPiecesFinalLocs[(2*i+1)] = [[pieceProperties objectAtIndex:2] intValue];
+		i++;
+		
+	}
+	
+	rightPieces = [[NSMutableArray alloc] init];
+	for (int i = 0; i < numPieces; i++) {
+		int initX;
+		int initY;
+		if(i < 6){
+			initX = RIGHTBOARDACTIVE_X+OFFBOARDX+20;
+			initY = BOARD_Y+10+(i*110);
+		}else if((6 <= i) && (i < 12)){
+			initX = RIGHTBOARDACTIVE_X+OFFBOARDX+140;
+			initY = BOARD_Y+10+((i-6)*110);
+		}else{
+			initX = RIGHTBOARDACTIVE_X+OFFBOARDX+260;
+			initY = BOARD_Y+10+((i-12)*120);
+		}
+		draggable *piece = [[draggable alloc] initWithImage:[UIImage imageNamed:rightPieceNames[i]] withInitX:initX withInitY:initY withFinalX:rightPiecesFinalLocs[i*2] withFinalY:rightPiecesFinalLocs[i*2+1]];
+		[piece setFrame:CGRectOffset([piece frame], initX, initY)];
+		[piece setUserInteractionEnabled:YES];
+		[self.view addSubview:piece];
+		piece.containingview = self;
+		piece.alpha=0.60;
+		[rightPieces addObject:piece];
+	}
+	
 }
 
 -(void)countSeconds {
@@ -277,6 +451,9 @@ NSString *nextLevelData;
 }
 
 - (void)hideOverlay {
+	//hacky -- to update score
+	scoreLabel.text	= [NSString stringWithFormat:@" SCORE: %i", playerScore.totalScore];
+
 	overlayImage.alpha=0;
 	pausedLabel.hidden=YES; 
 	pressButtonsLabel.hidden=YES;
@@ -293,8 +470,6 @@ NSString *nextLevelData;
 
 -(void)showOverlay {
 	NSLog(@"GAMESTATE: %i", gamestate);
-	//leftButton.exclusiveTouch = YES;
-	//rightButton.exclusiveTouch = YES;
 	leftButton.enabled = YES;
 	rightButton.enabled = YES;
 	
@@ -337,7 +512,6 @@ NSString *nextLevelData;
 		gamestate = RIGHTACTIVE;
 	}
 	[self hideOverlay];
-	//leftButton.exclusiveTouch = NO;
 	rightButton.enabled = FALSE;
 	rightButton.hidden = YES;
 	
@@ -411,7 +585,6 @@ NSString *nextLevelData;
 		gamestate = LEFTACTIVE;
 	}
 	[self hideOverlay];
-	//rightButton.exclusiveTouch = NO;
 	leftButton.enabled = NO;
 	leftButton.hidden = YES;
 
@@ -486,7 +659,6 @@ NSString *nextLevelData;
 		[quitAlert show];
 		[quitAlert release];
 	}
-	//[self.view removeFromSuperview];
 }
 
 - (void)alertView : (UIAlertView *)alertView clickedButtonAtIndex : (NSInteger)buttonIndex{	
@@ -513,7 +685,7 @@ NSString *nextLevelData;
 	if ((gamestate==NONEACTIVE)||(gamestate==COMPLETE)) {
 		
 		infoAlert = [[UIAlertView alloc] initWithTitle:@"Pathways Information"
-											message:@"Pathways is a puzzle game based on the Purdue Pegboard Test meant to help train the visual and motor skills of people who have suffered damage to the visual or motor cortex. Pathways is played with both hands in order to facilitate recovery of fine motor function. Pathways was created by UC Berkeley Game Lab" 
+											message:@"Pathways is a puzzle game based on the Purdue Pegboard Test meant to help train the visual and motor skills of people who have suffered damage to the visual or motor cortex. Pathways is played with both hands in order to facilitate recovery of fine motor function. Pathways was created by UC Berkeley's Social App Lab at Citris" 
 											  delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		
 		[infoAlert show];
@@ -527,8 +699,10 @@ NSString *nextLevelData;
 	piece.canMove = NO;
 	piece.active = NO;
 	if(gamestate == LEFTACTIVE){
-		leftScore = (leftScore + leftTime);
-		score = (score+leftTime);
+		//leftScore = (leftScore + leftTime);
+		//score = (score+leftTime);
+		[playerScore addToLeftScore:leftTime];
+		
 		leftTime = MAXPIECEPOINTS+1;
 		numBlocksLeft--;
 		if(numBlocksLeft==0){
@@ -536,8 +710,10 @@ NSString *nextLevelData;
 			leftSideCompletedLabel.hidden=NO;
 		}
 	} else if (gamestate == RIGHTACTIVE) {
-		rightScore = (rightScore + rightTime);
-		score = (score+rightTime);
+		//rightScore = (rightScore + rightTime);
+		//score = (score+rightTime);
+		[playerScore addToRightScore:rightTime];
+		
 		rightTime = MAXPIECEPOINTS+1;
 		numBlocksRight--;
 		if(numBlocksRight==0){
@@ -545,7 +721,8 @@ NSString *nextLevelData;
 			rightSideCompletedLabel.hidden=NO;
 		}
 	}
-	scoreLabel.text = [NSString stringWithFormat:@" SCORE: %i",score];
+	//scoreLabel.text = [NSString stringWithFormat:@" SCORE: %i",score];
+	scoreLabel.text	= [NSString stringWithFormat:@" SCORE: %i", playerScore.totalScore];
 	numBlocks--;
 	
 	
@@ -573,7 +750,7 @@ NSString *nextLevelData;
 	gamestate = COMPLETE;
 	NSLog(@"GAMESTATE: %i", gamestate);
 	pausedLabel.text = [NSString stringWithFormat:@"GREAT JOB!"];
-	pressButtonsLabel.text = [NSString stringWithFormat:@"Your final score is: %i", score];
+	pressButtonsLabel.text = [NSString stringWithFormat:@"Your final score is: %i", playerScore.totalScore];
 	[self.view bringSubviewToFront:pausedLabel];
 	[self.view bringSubviewToFront:pressButtonsLabel];
 	if(isLastLevel){
@@ -612,6 +789,7 @@ NSString *nextLevelData;
 	isLastLevel = YES;
 	[self.view removeFromSuperview];
 	NSLog(@"should go to level 2");
+
 	//[[self parentViewController] makeLevelWithLevelData:nextLevelData withLeftScore:leftScore withRightScore:rightScore withScore:score];
 
 
@@ -647,6 +825,7 @@ NSString *nextLevelData;
 
 -(void)updateScores{
 	//get current date&time
+	/*
 	NSDateFormatter *format = [[NSDateFormatter alloc] init];
 	[format setDateFormat:@"MMM dd, yyyy HH:mm"];
 	NSDate *now = [[NSDate alloc] init];
@@ -661,6 +840,16 @@ NSString *nextLevelData;
 							  [NSNumber numberWithInt:score], 
 							  nil] 
 					 atIndex:0];
+	 */
+	[scoreArray insertObject:[NSArray arrayWithObjects:
+							  playerScore.playerName,
+							  playerScore.startTime,
+							  [NSNumber numberWithInt:playerScore.leftScore], 
+							  [NSNumber numberWithInt:playerScore.rightScore], 
+							  [NSNumber numberWithInt:playerScore.totalScore], 
+							  nil] 
+					 atIndex:0];
+	
 }
 
 -(void)saveScores{

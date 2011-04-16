@@ -139,19 +139,6 @@
     // e.g. self.myOutlet = nil;
 }
 
-/*
--(IBAction)player1Pressed:(UIButton *)sender{
-	NSLog(@"player 1 button pressed");
-	player1Button.hidden=YES;
-	player1Draggable = [[draggable alloc] initWithImage:[UIImage imageNamed:@"green-peg.png"] withInitX:600 withInitY:126 withFinalX:181 withFinalY:156];
-	[player1Draggable setFrame:CGRectOffset([player1Draggable frame], 600, 126)];
-	[player1Draggable setUserInteractionEnabled:YES];
-	[self.view addSubview:player1Draggable];
-	player1Draggable.containingview=self;
-	[player1Draggable release];
-}
-*/
-
 -(IBAction)scoreButtonPressed:(UIButton *)sender {
 	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle]];
 	self.aScoreViewController = aViewController;
@@ -165,11 +152,53 @@
 -(void)piecePlacedAction:(draggable *)piece{
 	[piece scaleImageSmaller];
 	piece.canMove = YES;
-	//draggable1.alpha = 0.0;
-	//[self createPlayer1Draggable];
-	[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
-	[self makeLevel1WithLevelData:@"level_01_data" withLeftScore:0 withRightScore:0 withScore:0];
+	if (piece == draggable1) {
+		//[self makeLevel1WithLevelData:@"level_01_data" withLeftScore:0 withRightScore:0 withScore:0];
+		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Melissa"];
+		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
+		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
+
+	} else if (piece == draggable2) {
+		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Ann"];
+		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
+		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
+		
+	} else if (piece == draggable3) {
+		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Rahul"];
+		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
+		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
+		
+	} else if (piece == draggable4) {
+		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Greg"];
+		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
+		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
+		
+	} else if (piece == draggable5) {
+		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Guest"];
+		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
+		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
+		
+	}
+	//[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
 }
+
+-(void)makeLevel1WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score{
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:score];
+	self.level1ViewController = aViewController;
+	aViewController.containingView = self;
+	[aViewController release];
+	UIView *Level1View = [level1ViewController view];
+	[self.view addSubview:Level1View];
+}
+-(void)makeLevel2WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score{
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:score];
+	self.level2ViewController = aViewController;
+	aViewController.containingView = self;
+	[aViewController release];
+	UIView *Level2View = [level2ViewController view];
+	[self.view addSubview:Level2View];
+}
+
 
 -(void)makeLevel1WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore{
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData

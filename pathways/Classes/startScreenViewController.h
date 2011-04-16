@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "LevelViewController.h"
+#import "scoreObject.h"
 
 typedef enum
 {
@@ -54,5 +55,6 @@ typedef enum
 -(void)makeLevel1WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
 -(void)makeLevel2WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
 
+-(void)makeLevel1WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score;
 
 @end

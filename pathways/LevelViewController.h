@@ -12,6 +12,7 @@
 #import "mapBoard.h"
 #import "pieceBoard.h"
 #import "scoreViewController.h"
+#import "scoreObject.h"
 
 typedef enum
 {
@@ -68,11 +69,15 @@ typedef enum
 	int rightScore;
 	int score;
 	NSMutableArray *scoreArray;
+	
+	scoreObject *playerScore;
 
 	//nextLevel 
 	LevelViewController *nextLevelViewController;
 	
 	Level1Gamestate gamestate;
+	
+	UIViewController *containingView;
 	
 }
 
@@ -99,6 +104,9 @@ typedef enum
 @property (nonatomic, retain) scoreViewController *aScoreViewController;
 @property (nonatomic, retain) LevelViewController *nextLevelViewController;
 
+@property (nonatomic, retain) scoreObject *playerScore;
+@property (nonatomic, retain) UIViewController *containingView;
+
 @property (nonatomic, retain) IBOutlet UILabel *leftSideCompletedLabel;
 @property (nonatomic, retain) IBOutlet UILabel *rightSideCompletedLabel;
 
@@ -114,6 +122,8 @@ typedef enum
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData 
 		withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData withScoreObject:(scoreObject *)theScore;
+
 
 -(void)showOverlay;
 -(void)hideOverlay;

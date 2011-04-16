@@ -105,7 +105,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Player 1</string>
+						<string key="IBUIText">Melissa</string>
 						<object class="NSFont" key="IBUIFont" id="750659895">
 							<string key="NSName">Georgia</string>
 							<double key="NSSize">24</double>
@@ -134,7 +134,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Player 2</string>
+						<string key="IBUIText">Ann</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -153,7 +153,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Player 3</string>
+						<string key="IBUIText">Rahul</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -172,7 +172,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Player 4</string>
+						<string key="IBUIText">Greg</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -184,14 +184,14 @@
 					<object class="IBUILabel" id="46906023">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{814, 591}, {65, 29}}</string>
+						<string key="NSFrame">{{814, 591}, {136, 29}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Guest</string>
+						<string key="IBUIText">Guest Player</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>

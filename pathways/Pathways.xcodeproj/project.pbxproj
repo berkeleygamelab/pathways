@@ -23,6 +23,7 @@
 		9392098812642BA2007C9949 /* startScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392098712642BA2007C9949 /* startScreenView.m */; };
 		9392098B12642BB9007C9949 /* Level1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392098A12642BB9007C9949 /* Level1View.m */; };
 		9392098F12642BDF007C9949 /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392098D12642BDF007C9949 /* LevelViewController.m */; };
+		93937F59135937ED00FE9E88 /* scoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93937F58135937ED00FE9E88 /* scoreObject.m */; };
 		939F87391356E626007E06AC /* blue-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F87331356E626007E06AC /* blue-peg.png */; };
 		939F873A1356E626007E06AC /* green-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F87341356E626007E06AC /* green-peg.png */; };
 		939F873B1356E626007E06AC /* purple-peg.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F87351356E626007E06AC /* purple-peg.png */; };
@@ -139,6 +140,8 @@
 		9392098A12642BB9007C9949 /* Level1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level1View.m; sourceTree = "<group>"; };
 		9392098C12642BDF007C9949 /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
 		9392098D12642BDF007C9949 /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		93937F57135937ED00FE9E88 /* scoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreObject.h; sourceTree = "<group>"; };
+		93937F58135937ED00FE9E88 /* scoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreObject.m; sourceTree = "<group>"; };
 		939F87331356E626007E06AC /* blue-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue-peg.png"; path = "Resources/images/start_screen_images/blue-peg.png"; sourceTree = "<group>"; };
 		939F87341356E626007E06AC /* green-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-peg.png"; path = "Resources/images/start_screen_images/green-peg.png"; sourceTree = "<group>"; };
 		939F87351356E626007E06AC /* purple-peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "purple-peg.png"; path = "Resources/images/start_screen_images/purple-peg.png"; sourceTree = "<group>"; };
@@ -253,6 +256,8 @@
 				937D4045127E9ACD000B4B72 /* pieceBoard.m */,
 				937D4047127E9ADB000B4B72 /* mapBoard.h */,
 				937D4048127E9ADB000B4B72 /* mapBoard.m */,
+				93937F57135937ED00FE9E88 /* scoreObject.h */,
+				93937F58135937ED00FE9E88 /* scoreObject.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -699,6 +704,7 @@
 				937D4046127E9ACD000B4B72 /* pieceBoard.m in Sources */,
 				937D4049127E9ADB000B4B72 /* mapBoard.m in Sources */,
 				93908C8312EC1BEC00972FFE /* scoreViewController.m in Sources */,
+				93937F59135937ED00FE9E88 /* scoreObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
