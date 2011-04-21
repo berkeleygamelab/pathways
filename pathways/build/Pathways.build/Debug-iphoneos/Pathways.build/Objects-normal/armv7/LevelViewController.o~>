@@ -1,0 +1,23 @@
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController initWithNibName:bundle:withLevelData:withScoreObject:]':
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: 'LevelViewController' may not respond to '-createBoards'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: (Messages without a matching method signature
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: will be assumed to return 'id' and accept
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: '...' as arguments.)
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:164: warning: 'LevelViewController' may not respond to '-makeLeftPieces'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:165: warning: 'LevelViewController' may not respond to '-makeRightPieces'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController showOverlay]':
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:399: warning: 'LevelViewController' may not respond to '-makeScoreButton'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:402: warning: 'LevelViewController' may not respond to '-makeNextLevelButton'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController leftSideTouchUp:]':
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:456: warning: 'LevelViewController' may not respond to '-leftToCenter'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController rightSideTouchUp:]':
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:529: warning: 'LevelViewController' may not respond to '-rightToCenter'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController piecePlacedAction:]':
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:645: warning: 'LevelViewController' may not respond to '-completedAction'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController completedAction]':
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:671: warning: 'LevelViewController' may not respond to '-loadScores'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:672: warning: 'LevelViewController' may not respond to '-updateScores'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:673: warning: 'LevelViewController' may not respond to '-saveScores'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: At top level:
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: incomplete implementation of class 'LevelViewController'
+/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: method definition for '-initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:' not found

@@ -4,29 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Level1LeftTiles.txt</key>
-		<data>
-		pTrovkoYjGDv/3pw0al0ym9gKLs=
-		</data>
-		<key>Level1ViewController.nib</key>
-		<data>
-		Xhncb21ZXhJw+8U8A8y+OTy3/5Q=
-		</data>
 		<key>LevelViewController.nib</key>
 		<data>
-		PQo3c/qR99EDQUnwHRf3qRZVi94=
+		WUYvtFtC99m8q+tTYNPo4EKYxE8=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		VKCpgzbczV90l40tgjx4SFtbKR4=
+		9E4zl47N1LXI5R6Pt3F0zvJBbKs=
 		</data>
 		<key>Pathways_Icon_Final.png</key>
 		<data>
 		w6F9n4j96u/m0QBxK3iiXtqHR2Y=
-		</data>
-		<key>Pathways_Icon_Large.png</key>
-		<data>
-		sjqchZfezt4f1rgpZ2EcchpnlJ0=
 		</data>
 		<key>Pathways_Main_Screen_Icon.png</key>
 		<data>
@@ -48,17 +36,9 @@
 		<data>
 		INvE7FMHaU/2akWcYGj5sTwZrNo=
 		</data>
-		<key>drag-shape-grey.png</key>
-		<data>
-		vWiWg7DSSMCNp9fHXxAnWYZAeto=
-		</data>
-		<key>drag-shape.png</key>
-		<data>
-		VE+H8oD5l6nhgtMp5lYBNoznd04=
-		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		A0Y9WhO+/W3C0MlbNtLZaKp2JbQ=
+		8/aTHvfmCdfwIWya6aNe/TOG2kM=
 		</data>
 		<key>gem_china_edit_3.aif</key>
 		<data>
@@ -292,157 +272,9 @@
 		<data>
 		tv5DTs+oBZH3fJFwjzCun49RiRk=
 		</data>
-		<key>map-left.png</key>
-		<data>
-		sPlVVzcXPNROlSfcTj8fMAc38UE=
-		</data>
-		<key>map-right.png</key>
-		<data>
-		VvraOzYBPKC9d7Yx1dfNUZJ4D9Y=
-		</data>
-		<key>orange-peg.png</key>
-		<data>
-		jF2Od/UjYIB2nBstdfSMPI82mm4=
-		</data>
 		<key>overlay-image.png</key>
 		<data>
 		SeDCklm/RgkprkYTXeqDxRobOcw=
-		</data>
-		<key>peg01.png</key>
-		<data>
-		+S/ALjuBylEV66ox4IsP65o1Uf4=
-		</data>
-		<key>peg01f.png</key>
-		<data>
-		lQdKYeAYaYskPcDfSldBiPAxyHo=
-		</data>
-		<key>peg02.png</key>
-		<data>
-		gJ924bU2Kz9pO+VTbg+ZOuy/6S0=
-		</data>
-		<key>peg02f.png</key>
-		<data>
-		IpLpj4qXbX+NH/4dMkJhoB82pRo=
-		</data>
-		<key>peg03.png</key>
-		<data>
-		jkOD0INeBHHBuORj6MDz7pRzgoM=
-		</data>
-		<key>peg03f.png</key>
-		<data>
-		fm+CXaTk5ST/yOWEp+USvXp+G+s=
-		</data>
-		<key>peg04.png</key>
-		<data>
-		xyCB/kLOWRtrhS8mvr3IltimK4U=
-		</data>
-		<key>peg04f.png</key>
-		<data>
-		gxwl+qUt09PplKRhGkRxcPiBKeg=
-		</data>
-		<key>peg05.png</key>
-		<data>
-		uj7g4E1eb2kcF1s71AeE1bTesVw=
-		</data>
-		<key>peg05f.png</key>
-		<data>
-		6CjfLd2yg95SrENULcpN1Uepm54=
-		</data>
-		<key>peg06.png</key>
-		<data>
-		IIleeco0E/1NkrIH9P+XmldycQQ=
-		</data>
-		<key>peg06f.png</key>
-		<data>
-		+dAkHPhTtd9DTI+a2tBTGPns3Ls=
-		</data>
-		<key>peg07.png</key>
-		<data>
-		7YMZJ/uMjvSSZcd8E8E1U118/Vw=
-		</data>
-		<key>peg07f.png</key>
-		<data>
-		XTswu5mXHr+Eav1wO5wQLgyzIX4=
-		</data>
-		<key>peg08.png</key>
-		<data>
-		6iGeeK0X/LBNpc0hv3YUIcDU/OQ=
-		</data>
-		<key>peg08f.png</key>
-		<data>
-		EF40OGHIAOGka+jqjYpsVJe+5SM=
-		</data>
-		<key>peg09.png</key>
-		<data>
-		pSSzsgKdBCOjxULke6aGDhVlCgg=
-		</data>
-		<key>peg09f.png</key>
-		<data>
-		lSsFRsa+gjpL9NECoCKN3b/Kzbo=
-		</data>
-		<key>peg10.png</key>
-		<data>
-		zt1NR8nl3i159zzySMEm3hsz7sE=
-		</data>
-		<key>peg10f.png</key>
-		<data>
-		qSP3XVXqZLY5NU4FKxNCQRgA2aA=
-		</data>
-		<key>peg11.png</key>
-		<data>
-		n1unKlvEzg7XZ7pkKZdrOQ/EhTU=
-		</data>
-		<key>peg11f.png</key>
-		<data>
-		zRh6bddihUF5dfTSMJy0lq1LxDI=
-		</data>
-		<key>peg12.png</key>
-		<data>
-		kS/5G/oKCvQ+NcUh11HZ2ApvD9U=
-		</data>
-		<key>peg12f.png</key>
-		<data>
-		BcwpF/vFHPBatdf6RNz4GtwN0CA=
-		</data>
-		<key>peg13.png</key>
-		<data>
-		vPcHbs6Q1KJDc2a7QE7X3frP6zI=
-		</data>
-		<key>peg13f.png</key>
-		<data>
-		qFUXNFdmA2oPgjoG5PEHmNhKq0o=
-		</data>
-		<key>peg14.png</key>
-		<data>
-		ExpnAnULx+RGKcD6zVzqHeez8pc=
-		</data>
-		<key>peg14f.png</key>
-		<data>
-		68NeWv4WxIYoQMobepDJYrqfZHY=
-		</data>
-		<key>peg15.png</key>
-		<data>
-		WDan59MclSjPkNMfwV7aJE+cbWQ=
-		</data>
-		<key>peg15f.png</key>
-		<data>
-		EwoXSOOPiPt359nN50fRZD69E74=
-		</data>
-		<key>peg16.png</key>
-		<data>
-		B5tJwqgpzeZohlAinLiTScExPgQ=
-		</data>
-		<key>peg16f.png</key>
-		<data>
-		C9cJfSqNsY5GfSNEbB+8JxF7lC8=
-		</data>
-		<key>peg17.png</key>
-		<data>
-		OTLEtscY4LH3W1iQ0/S3bLeY09o=
-		</data>
-		<key>peg17f.png</key>
-		<data>
-		dEx6dOka5/4N//MEhnDD+AAV1i0=
 		</data>
 		<key>piece-board.png</key>
 		<data>
@@ -462,7 +294,7 @@
 		</data>
 		<key>scoreViewController.nib</key>
 		<data>
-		bhWhWimgSQA7ofjxVnGO/jz/JQM=
+		Bp6x3/PtP1CUqrU9+C9eElgYnzo=
 		</data>
 		<key>scores.plist</key>
 		<data>
@@ -478,15 +310,11 @@
 		</data>
 		<key>startScreenViewController.nib</key>
 		<data>
-		k86Hj/DXrZ4V0jrS4DOJ5QlyKb8=
+		8w+/yqfa1P7VWivD4MiSGtRVfO8=
 		</data>
 		<key>start_screen_arrow.png</key>
 		<data>
 		WuxtbJO+81pSoATqzbWIG5KcvME=
-		</data>
-		<key>start_screen_image.png</key>
-		<data>
-		Wr9IzF5t1HfgEgYa+R/KpeF01aw=
 		</data>
 		<key>urap1-0.mp3</key>
 		<data>

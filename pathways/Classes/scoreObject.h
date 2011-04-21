@@ -25,6 +25,7 @@
 
 -(void) addToRightScore:(int)moveScore;
 -(void) addToLeftScore:(int)moveScore;
+- (id)initWithPlayer:(NSString *)player;
 
 
 @end

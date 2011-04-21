@@ -19,6 +19,7 @@
 
 @implementation LevelViewController
 
+@synthesize appDelegate;
 @synthesize gamestate;
 @synthesize leftMapBoard, rightMapBoard;
 @synthesize leftPieces, rightPieces;
@@ -31,6 +32,7 @@
 @synthesize pausedLabel, pressButtonsLabel, blurbLabel, leftArrow, rightArrow, leftSideCompletedLabel, rightSideCompletedLabel;
 @synthesize quitAlert,infoAlert;
 @synthesize aScoreViewController, nextLevelViewController;
+@synthesize nextLevelData;
 
 @synthesize containingView;
 @synthesize playerScore;
@@ -45,14 +47,18 @@ NSString *rightMapImageName;
 NSString *leftPiecesTextFile;
 NSString *rightPiecesTextFile;
 int numPieces;
-NSString *nextLevelData;
+//NSString *nextLevelData;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 //- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+/*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData 
 		withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore{
 
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+		appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+		NSLog(@"appDelegate is: %@", appDelegate);
+		
 		gamestate = NONEACTIVE;
 		leftScore = oldLeftScore;
 		rightScore = oldRightScore;
@@ -86,107 +92,6 @@ NSString *nextLevelData;
 		[self makeLeftPieces];
 		[self makeRightPieces];
 
-		/*				
-		//PARSING LEFT PIECES TEXT FILE
-		NSString *filePath = [[NSBundle mainBundle] pathForResource:leftPiecesTextFile ofType:@"txt"];
-		NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-		
-		//array of lines e.g.: peg01.png 783 123
-		NSArray *piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
-		//int piecesCount = [piecesTextArray count];
-		//NSLog(@"sizeof array: %d",piecesCount);
-		
-		//array of piece .png names
-		NSString *leftPieceNames[numPieces];
-		
-		//array of piece locations
-		int leftPiecesFinalLocs[(numPieces*2)];
-		
-		int i = 0;
-		for (NSString *pieceTextArray in piecesTextArray) {
-			NSArray *pieceProperties = [pieceTextArray componentsSeparatedByString:@" "];
-			
-			leftPieceNames[i] = (@"%@", [pieceProperties objectAtIndex:0]);
-			leftPiecesFinalLocs[(2*i)] = [[pieceProperties objectAtIndex:1] intValue];
-			leftPiecesFinalLocs[(2*i+1)] = [[pieceProperties objectAtIndex:2] intValue];
-			i++;
-			
-		}
-		*/
-		/*
-		//PARSING RIGHT PIECES TEXT FILE
-		NSString *filePath = [[NSBundle mainBundle] pathForResource:rightPiecesTextFile ofType:@"txt"];
-		NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-		
-		//array of lines e.g.: peg01.png 783 123
-		NSArray *piecesTextArray = [fileContents componentsSeparatedByString:@"\n"];
-		
-		//array of piece .png names
-		NSString *rightPieceNames[numPieces];
-		
-		//array of piece locations
-		int rightPiecesFinalLocs[(numPieces*2)];
-		
-		int i = 0;
-		for (NSString *pieceTextArray in piecesTextArray) {
-			NSArray *pieceProperties = [pieceTextArray componentsSeparatedByString:@" "];
-			
-			rightPieceNames[i] = (@"%@", [pieceProperties objectAtIndex:0]);
-			rightPiecesFinalLocs[(2*i)] = [[pieceProperties objectAtIndex:1] intValue];
-			rightPiecesFinalLocs[(2*i+1)] = [[pieceProperties objectAtIndex:2] intValue];
-			i++;
-			
-		}
-		 */
-		/*
-		leftPieces = [[NSMutableArray alloc] init];
-		for (int i = 0; i < numPieces; i++) {
-			int initX;
-			int initY;
-			if(i < 6){
-				initX = LEFTBOARDACTIVE_X-OFFBOARDX+20;
-				initY = BOARD_Y+10+(i*110);
-			}else if((6 <= i) && (i < 12)){
-				initX = LEFTBOARDACTIVE_X-OFFBOARDX+140;
-				initY = BOARD_Y+10+((i-6)*110);
-			}else {
-				initX = LEFTBOARDACTIVE_X-OFFBOARDX+260;
-				initY = BOARD_Y+20+((i-12)*120);
-			}
-			draggable *piece = [[draggable alloc] initWithImage:[UIImage imageNamed:leftPieceNames[i]] withInitX:initX withInitY:initY withFinalX:leftPiecesFinalLocs[i*2] withFinalY:leftPiecesFinalLocs[i*2+1]];
-			[piece setFrame:CGRectOffset([piece frame], initX, initY)];
-			[piece setUserInteractionEnabled:YES];
-			[self.view addSubview:piece];
-			piece.containingview = self;
-			piece.alpha=0.60;
-			[leftPieces addObject:piece];
-		}
-		 
-		 */
-		/*
-		rightPieces = [[NSMutableArray alloc] init];
-		for (int i = 0; i < numPieces; i++) {
-			int initX;
-			int initY;
-			if(i < 6){
-				initX = RIGHTBOARDACTIVE_X+OFFBOARDX+20;
-				initY = BOARD_Y+10+(i*110);
-			}else if((6 <= i) && (i < 12)){
-				initX = RIGHTBOARDACTIVE_X+OFFBOARDX+140;
-				initY = BOARD_Y+10+((i-6)*110);
-			}else{
-				initX = RIGHTBOARDACTIVE_X+OFFBOARDX+260;
-				initY = BOARD_Y+10+((i-12)*120);
-			}
-			draggable *piece = [[draggable alloc] initWithImage:[UIImage imageNamed:rightPieceNames[i]] withInitX:initX withInitY:initY withFinalX:rightPiecesFinalLocs[i*2] withFinalY:rightPiecesFinalLocs[i*2+1]];
-			[piece setFrame:CGRectOffset([piece frame], initX, initY)];
-			[piece setUserInteractionEnabled:YES];
-			[self.view addSubview:piece];
-			piece.containingview = self;
-			piece.alpha=0.60;
-			[rightPieces addObject:piece];
-		}
-		*/
 		 
 		CGRect overlayRect = CGRectMake(0,0,1024,748);
 		overlayImage = [[UIImageView alloc] initWithFrame:overlayRect];
@@ -216,10 +121,14 @@ NSString *nextLevelData;
     }
     return self;
 }
+*/
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData withScoreObject:(scoreObject *)theScore{
     NSLog(@"making level with scoreobject");
 	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+		appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+		NSLog(@"appDelegate is: %@", appDelegate);
+
 		gamestate = NONEACTIVE;
 		//leftScore = oldLeftScore;
 		//rightScore = oldRightScore;
@@ -240,7 +149,8 @@ NSString *nextLevelData;
 		leftPiecesTextFile = [levelDataArray objectAtIndex:2];
 		rightPiecesTextFile = [levelDataArray objectAtIndex:3];
 		numPieces = [[levelDataArray objectAtIndex:4] intValue];
-		nextLevelData = [levelDataArray objectAtIndex:5];
+		nextLevelData = [[NSString alloc] initWithString:[levelDataArray objectAtIndex:5]];
+		//nextLevelData = [levelDataArray objectAtIndex:5];
 		NSLog(@"next level data is: %@", nextLevelData);
 		if ([nextLevelData isEqualToString:@"null"]) {
 			NSLog(@"islastlevel");
@@ -676,6 +586,10 @@ NSString *nextLevelData;
 		else{
 			NSLog(@"yes button was pressed\n");
 			[self.view removeFromSuperview];
+			[appDelegate showMainScreen];
+			NSLog(@"%@", appDelegate);
+
+			
 		}
 	}else if (alertView==infoAlert) {
 	}
@@ -787,8 +701,10 @@ NSString *nextLevelData;
 -(void)nextLevelButtonPressed{
 	NSLog(@"trying to go to newlevel now");
 	isLastLevel = YES;
+	appDelegate.currentScore = playerScore;
+	appDelegate.levelData = nextLevelData;
 	[self.view removeFromSuperview];
-	NSLog(@"should go to level 2");
+	[appDelegate switchLevel];
 
 	//[[self parentViewController] makeLevelWithLevelData:nextLevelData withLeftScore:leftScore withRightScore:rightScore withScore:score];
 

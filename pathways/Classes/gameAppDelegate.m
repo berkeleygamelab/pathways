@@ -14,6 +14,7 @@
 @synthesize window;
 @synthesize startViewController, aLevelViewController, aScoreViewController;
 
+@synthesize levelData, currentScore;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -21,20 +22,63 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
 	application.statusBarOrientation = UIInterfaceOrientationLandscapeRight;
-	startScreenViewController *aViewController = [[startScreenViewController alloc] initWithNibName:@"startScreenViewController" bundle:[NSBundle mainBundle]];
-	self.startViewController = aViewController;
-	[aViewController release];
+	//startScreenViewController *aViewController = [[startScreenViewController alloc] initWithNibName:@"startScreenViewController" bundle:[NSBundle mainBundle]];
+	//self.startViewController = aViewController;
+	//[aViewController release];
 	
 	
     // Override point for customization after application launch.
-	UIView *startScreenView = [startViewController view];
-	[window addSubview:startScreenView];
-
-    [window makeKeyAndVisible];
+	[self showMainScreen];
+	//UIView *startScreenView = [startViewController view];
+	//[window addSubview:startScreenView];
+    //[window makeKeyAndVisible];
     
     return YES;
 }
 
+- (void) showMainScreen{
+	NSLog(@"showing main screen");
+	startScreenViewController *aViewController = [[startScreenViewController alloc] initWithNibName:@"startScreenViewController" bundle:[NSBundle mainBundle]];
+	self.startViewController = aViewController;
+	[aViewController release];	
+	UIView *startScreenView = [startViewController view];
+	[window addSubview:startScreenView];
+    [window makeKeyAndVisible];	
+}
+
+- (void) switchLevel{
+	NSLog(@"switching to level data: %@", levelData);
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:currentScore];
+	self.aLevelViewController = aViewController;
+	[aViewController release];
+	UIView *Level1View = [aLevelViewController view];
+	[window addSubview:Level1View];
+	
+}
+
+/*
+- (void) makeLevel1WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score{
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:score];
+	self.aLevelViewController = aViewController;
+	//aViewController.containingView = self;
+	[aViewController release];
+	UIView *Level1View = [aLevelViewController view];
+	[window addSubview:Level1View];
+}
+
+- (void) switchToLevel2{
+	scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Melissa"];
+	[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
+}
+- (void) makeLevel2WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score{
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:score];
+	self.aLevelViewController = aViewController;
+	//aViewController.containingView = self;
+	[aViewController release];
+	UIView *Level1View = [aLevelViewController view];
+	[window addSubview:Level1View];
+}
+*/
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*

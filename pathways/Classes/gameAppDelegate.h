@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "startScreenViewController.h"
-#import "LevelViewController.h"
-#import "scoreViewController.h"
 
+@class	startScreenViewController;
+@class LevelViewController;
+@class scoreViewController;
+@class scoreObject;
 
 
 
@@ -19,11 +20,21 @@
 	startScreenViewController *startViewController;
 	LevelViewController *aLevelViewController;
 	scoreViewController *aScoreViewController;
+	
+	NSString *levelData;
+	scoreObject *currentScore;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) startScreenViewController *startViewController;
 @property (nonatomic, retain) LevelViewController *aLevelViewController;
 @property (nonatomic, retain) scoreViewController *aScoreViewController;
+
+@property (nonatomic, retain) NSString *levelData;
+@property (nonatomic, retain) scoreObject *currentScore;
+
+
+- (void) showMainScreen;
+- (void) switchLevel;
 
 @end

@@ -13,6 +13,7 @@
 #import "pieceBoard.h"
 #import "scoreViewController.h"
 #import "scoreObject.h"
+#import "gameAppDelegate.h"
 
 typedef enum
 {
@@ -24,6 +25,9 @@ typedef enum
 }Level1Gamestate;
 
 @interface LevelViewController : UIViewController {
+	//appdelegate
+	gameAppDelegate *appDelegate;
+	
 	//boards
 	mapBoard *leftMapBoard;
 	mapBoard *rightMapBoard;
@@ -74,13 +78,14 @@ typedef enum
 
 	//nextLevel 
 	LevelViewController *nextLevelViewController;
-	
+	NSString *nextLevelData;
 	Level1Gamestate gamestate;
 	
 	UIViewController *containingView;
 	
 }
 
+@property (nonatomic, retain) gameAppDelegate *appDelegate;
 @property Level1Gamestate gamestate;
 @property (nonatomic, retain) mapBoard *leftMapBoard;
 @property (nonatomic, retain) mapBoard *rightMapBoard;
@@ -103,7 +108,7 @@ typedef enum
 @property (nonatomic, retain) UIAlertView *infoAlert;
 @property (nonatomic, retain) scoreViewController *aScoreViewController;
 @property (nonatomic, retain) LevelViewController *nextLevelViewController;
-
+@property (nonatomic, retain) NSString *nextLevelData;
 @property (nonatomic, retain) scoreObject *playerScore;
 @property (nonatomic, retain) UIViewController *containingView;
 

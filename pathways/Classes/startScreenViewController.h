@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LevelViewController.h"
 #import "scoreObject.h"
+#import "gameAppDelegate.h"
 
 typedef enum
 {

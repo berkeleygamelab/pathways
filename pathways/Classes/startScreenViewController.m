@@ -150,35 +150,27 @@
 
  
 -(void)piecePlacedAction:(draggable *)piece{
+	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+	scoreObject *playerScore;
+	
 	[piece scaleImageSmaller];
 	piece.canMove = YES;
-	if (piece == draggable1) {
-		//[self makeLevel1WithLevelData:@"level_01_data" withLeftScore:0 withRightScore:0 withScore:0];
-		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Melissa"];
-		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
-		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
-
+	if (piece == draggable1) {		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"Melissa"];		
 	} else if (piece == draggable2) {
-		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Ann"];
-		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
-		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
-		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"Ann"];		
 	} else if (piece == draggable3) {
-		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Rahul"];
-		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
-		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
-		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"Rahul"];		
 	} else if (piece == draggable4) {
-		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Greg"];
-		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
-		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
-		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"Greg"];		
 	} else if (piece == draggable5) {
-		scoreObject *playerScore = [[scoreObject alloc] initWithPlayer:@"Guest"];
-		[self makeLevel2WithLevelData:@"level_02_data" withScoreObject:playerScore];
-		[self makeLevel1WithLevelData:@"level_01_data" withScoreObject:playerScore];
-		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"Guest"];		
 	}
+	
+	appDelegate.currentScore = playerScore;
+	appDelegate.levelData = @"level_01_data";
+	[self.view removeFromSuperview];
+	[appDelegate switchLevel];
 	//[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
 }
 
