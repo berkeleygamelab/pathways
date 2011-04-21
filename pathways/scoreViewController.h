@@ -26,6 +26,7 @@
 //-(void)updateScores;
 //-(void)saveScores;
 -(void)showScores;
+-(void) showGraph;
 
 
 @end

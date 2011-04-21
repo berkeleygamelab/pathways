@@ -2711,9 +2711,9 @@ i"scoreObject.h"
 i"gameAppDelegate.h"
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m
-c000000004DAFFC340000000000002116
-t1303378996
-s8470
+c000000004DAFFCAA000000000000200A
+t1303379114
+s8202
 i"startScreenViewController.h"
 i"LevelViewController.h"
 
@@ -3256,7 +3256,7 @@ s981
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
 t1303378997
-s115956
+s122352
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png
 t1303171953
@@ -4161,9 +4161,9 @@ s567
 i<UIKit/UIKit.h>
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m
-c000000004DA965F900000000000014CE
-t1302947321
-s5326
+c000000004DB0B0D70000000000001652
+t1303425239
+s5714
 i"scoreViewController.h"
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.xib

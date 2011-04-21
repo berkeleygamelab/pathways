@@ -124,10 +124,23 @@
 		[self.view addSubview:leftScoreLabel];
 		[self.view addSubview:rightScoreLabel];
 		[self.view addSubview:totalScoreLabel];
+		
 	}
+	[self showGraph];
+
 	
 }
 		 
+
+-(void) showGraph{
+	NSLog(@"trying to get image from URL");
+	NSURL *graphURL = [NSURL URLWithString:@"http://26.media.tumblr.com/tumblr_ljys5g16DL1qzj2dvo1_500.jpg"];
+	NSData *graphData = [NSData dataWithContentsOfURL:graphURL];
+	UIImage *graphImage = [UIImage imageWithData:graphData];
+	UIImageView *graphImageView = [[UIImageView alloc] initWithImage:graphImage];
+	[graphImageView setFrame:CGRectMake(100, 100, 200, 200)];
+	[self.view addSubview:graphImageView];
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Overriden to allow any orientation.
