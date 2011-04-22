@@ -15,10 +15,11 @@
 	int leftScore;
 	int rightScore;
 	NSMutableArray *scoreArray;
-	
+	IBOutlet UILabel *playerLabel;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *scoreScrollView;
+@property (nonatomic, retain) IBOutlet UILabel *playerLabel;
 
 -(IBAction)doneButtonPressed:(UIButton *)doneButton;
 

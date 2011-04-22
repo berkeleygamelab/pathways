@@ -13,6 +13,7 @@
 
 //@synthesize score1Label, score2Label, score3Label, score4Label, score5Label;
 @synthesize scoreScrollView;
+@synthesize playerLabel;
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -83,43 +84,45 @@
 		}else{
 			scoreColor = [UIColor whiteColor];
 		}
-		
+		/*
 		UILabel *playerNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(56, 140+20*i, 200, 20)];
 		playerNameLabel.text = [NSString stringWithFormat:@"%@", playerName];
 		playerNameLabel.backgroundColor = [UIColor clearColor];
 		playerNameLabel.textColor = scoreColor;
 		playerNameLabel.textAlignment = UITextAlignmentLeft;		
+		*/
+		playerLabel.text = [NSString stringWithFormat:@"%@", playerName];
 		
 		NSDateFormatter *format = [[NSDateFormatter alloc] init];
 		[format setDateFormat:@"MMM dd, yyyy HH:mm"];
 		NSString *dateString = [format stringFromDate:currScoreDate];
 		NSLog(@"inSCORES: date: %@", dateString);
 		
-		UILabel *dateAndTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(230, 140+20*i, 200, 20)];
+		UILabel *dateAndTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 140+20*i, 200, 20)];
 		dateAndTimeLabel.text = [NSString stringWithFormat:@"%@", dateString];
 		dateAndTimeLabel.backgroundColor = [UIColor clearColor];
 		dateAndTimeLabel.textColor = scoreColor;
 		dateAndTimeLabel.textAlignment = UITextAlignmentLeft;
 		
-		UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(444, 140+20*i, 130, 20)];
+		UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(188, 140+20*i, 130, 20)];
 		leftScoreLabel.text = [NSString stringWithFormat:@"%i", currLeftScore];
 		leftScoreLabel.backgroundColor = [UIColor clearColor];
 		leftScoreLabel.textColor = scoreColor;
 		leftScoreLabel.textAlignment = UITextAlignmentCenter;
 		
-		UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(627, 140+20*i, 130, 20)];
+		UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(326, 140+20*i, 130, 20)];
 		rightScoreLabel.text = [NSString stringWithFormat:@"%i", currRightScore];
 		rightScoreLabel.backgroundColor = [UIColor clearColor];
 		rightScoreLabel.textColor = scoreColor;
 		rightScoreLabel.textAlignment = UITextAlignmentCenter;
 		
-		UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(810, 140+20*i, 130, 20)];
+		UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(482, 140+20*i, 130, 20)];
 		totalScoreLabel.text = [NSString stringWithFormat:@"%i", currTotalScore];
 		totalScoreLabel.backgroundColor = [UIColor clearColor];
 		totalScoreLabel.textColor = scoreColor;
 		totalScoreLabel.textAlignment = UITextAlignmentCenter;
 		
-		[self.view addSubview:playerNameLabel];
+		//[self.view addSubview:playerNameLabel];
 		[self.view addSubview:dateAndTimeLabel];
 		[self.view addSubview:leftScoreLabel];
 		[self.view addSubview:rightScoreLabel];
@@ -134,11 +137,14 @@
 
 -(void) showGraph{
 	NSLog(@"trying to get image from URL");
-	NSURL *graphURL = [NSURL URLWithString:@"http://26.media.tumblr.com/tumblr_ljys5g16DL1qzj2dvo1_500.jpg"];
+	NSString *graphURLString = [NSString stringWithFormat:@"http://chart.apis.google.com/chart?chxl=0:|Jan|Feb|Mar|Jun|Jul|Aug|1:|100|50|0|2:|100|75|50|25|0&chxs=0,00AA00,14,0.5,l,676767&chxt=x,r,y&chs=375x275&cht=lc&chco=FF0000,0000FF&chd=s:DJGPMeGPVPYbekb,3483ghhasdfsdf&chdl=Right+Hand|Left+Hand&chdlp=t&chg=20,25&chls=1.333|4.333&chma=|41,31"];
+	graphURLString = [graphURLString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]; 
+	NSURL *graphURL = [NSURL URLWithString:graphURLString];
+	//NSURL *graphURL = [NSURL URLWithString:@"http://26.media.tumblr.com/tumblr_ljys5g16DL1qzj2dvo1_500.jpg"];
 	NSData *graphData = [NSData dataWithContentsOfURL:graphURL];
 	UIImage *graphImage = [UIImage imageWithData:graphData];
 	UIImageView *graphImageView = [[UIImageView alloc] initWithImage:graphImage];
-	[graphImageView setFrame:CGRectMake(100, 100, 200, 200)];
+	[graphImageView setFrame:CGRectMake(628, 111, 375, 275)];
 	[self.view addSubview:graphImageView];
 }
 
