@@ -1,5 +1,0 @@
-level_01_peg01r.png 180 376
-level_01_peg02r.png 283 324
-level_01_peg03r.png 168 221
-level_01_peg04r.png 254 235
-level_01_peg05r.png 207 295

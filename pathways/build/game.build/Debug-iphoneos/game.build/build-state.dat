@@ -1,766 +1,0 @@
-Tgame
-v7
-r0
-t310428175.334447
-cCheck dependencies
-cCpResource build/Debug-iphoneos/game.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Info.plist game-Info.plist
-cCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
-cCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-cCompileXIB /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/left-shape.png left-shape.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/right-shape.png right-shape.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/timer-shape.png timer-shape.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape.png drag-shape.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape-grey.png drag-shape-grey.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/leftSideButton.png leftSideButton.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/rightSideButton.png rightSideButton.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-background.png map-background.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/piece-board.png piece-board.png
-cCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
-cProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch.gch game_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/Melissa/game/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/Melissa/game/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1ViewController.o /Users/berkeleygamelab/Melissa/game/Level1ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/sideButton.o /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game normal armv7
-cGenerateDSYMFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app.dSYM /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game
-cProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/embedded.mobileprovision
-cTouch /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent
-cCodeSign /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004C5A53C10000000000000110
-t1280988097
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004C06E99F00000000000001A7
-t1275521439
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004C06E99F00000000000001E5
-t1275521439
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C005A1C00000000003B4B70
-t1275091484
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C005A45000000000036A640
-t1275091525
-s3581504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C005A310000000000001355
-t1275091505
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C00642C000000000000098F
-t1275094060
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0064A60000000002703220
-t1275094182
-s40907296
-
-N/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision
-c000000004CA2798C0000000000002CD4
-t1285716364
-s11476
-
-N/Users/berkeleygamelab/Melissa/game/Classes/draggable.h
-c000000004CCD3C5A000000000000018A
-t1288518746
-s394
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/draggable.m
-c000000004CCD41710000000000000852
-t1288520049
-s2130
-i"draggable.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h
-c000000004CCCEE5600000000000001EA
-t1288498774
-s490
-i<UIKit/UIKit.h>
-i"startScreenViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
-c000000004CB406D2000000000000089A
-t1286866642
-s2202
-i"gameAppDelegate.h"
-i"startScreenViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.h
-c000000004CCE64F800000000000000D2
-t1288594680
-s210
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m
-c000000004CCE635B000000000000023C
-t1288594267
-s572
-i"mapBoard.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.h
-c000000004CCFB4C800000000000000D6
-t1288680648
-s214
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m
-c000000004CCE634D0000000000000242
-t1288594253
-s578
-i"pieceBoard.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/sideButton.h
-c000000004CCE69A40000000000000111
-t1288595876
-s273
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m
-c000000004CCE69B60000000000000359
-t1288595894
-s857
-i"sideButton.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.h
-c000000004CB3FC9300000000000001C6
-t1286864019
-s454
-i<UIKit/UIKit.h>
-i"Level1ViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
-c000000004CB407870000000000000714
-t1286866823
-s1812
-i"startScreenViewController.h"
-i"Level1ViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-c000000004CB40A8C0000000000004DB9
-t1286867596
-s19897
-
-N/Users/berkeleygamelab/Melissa/game/Level1View.h
-c000000004CB3F43900000000000000D1
-t1286861881
-s209
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Level1View.m
-c000000004CB3F4390000000000000242
-t1286861881
-s578
-i"Level1View.h"
-
-N/Users/berkeleygamelab/Melissa/game/Level1ViewController.h
-c000000004CCFB8DF0000000000000668
-t1288681695
-s1640
-i<UIKit/UIKit.h>
-i"draggable.h"
-i"sideButton.h"
-i"mapBoard.h"
-i"pieceBoard.h"
-
-N/Users/berkeleygamelab/Melissa/game/Level1ViewController.m
-c000000004CCFC0C10000000000001827
-t1288683713
-s6183
-i"Level1ViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-c000000004CD072D0000000000000861F
-t1288729296
-s34335
-
-N/Users/berkeleygamelab/Melissa/game/MainWindow.xib
-c000000004CB3E6D50000000000003E5E
-t1286858453
-s15966
-
-N/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png
-c000000004CD08A22000000000000A778
-t1288735266
-s42872
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-t1288735375
-s782
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app.dSYM
-t1288683844
-s102
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Info.plist
-t1288735368
-s890
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Level1ViewController.nib
-t1288735371
-s2907
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/MainWindow.nib
-t1286866134
-s981
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Pathways_Icon_Final.png
-t1288735370
-s42237
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/PkgInfo
-t1288735368
-s8
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/ResourceRules.plist
-t1286866132
-s485
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape-grey.png
-t1288498438
-s2883
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape.png
-t1286872918
-s3574
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/embedded.mobileprovision
-t1288685524
-s11476
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game
-t1288683844
-s48512
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/left-shape.png
-t1286871685
-s6736
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/leftSideButton.png
-t1288515333
-s5824
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-background.png
-t1288516893
-s6571
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-shape.png
-t1286871686
-s6814
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/piece-board.png
-t1288683842
-s5007
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/right-shape.png
-t1286871686
-s7203
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/rightSideButton.png
-t1288515333
-s5847
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/startScreenViewController.nib
-t1286867764
-s1437
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/timer-shape.png
-t1286871686
-s3746
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1View.o
-t1286866136
-s9260
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1ViewController.o
-t1288683843
-s59712
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/draggable.o
-t1288597065
-s14320
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/game.LinkFileList
-c000000004CCE6E480000000000000484
-t1288597064
-s1156
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/gameAppDelegate.o
-t1288683843
-s46736
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/main.o
-t1286866135
-s6424
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/mapBoard.o
-t1288597065
-s9352
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/pieceBoard.o
-t1288683843
-s9384
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/sideButton.o
-t1288597065
-s11968
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenView.o
-t1286866135
-s9336
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenViewController.o
-t1288683843
-s39356
-
-N/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent
-t1288735371
-s414
-
-N/Users/berkeleygamelab/Melissa/game/drag-shape-grey.png
-c000000004CBDE4900000000000000B46
-t1287513232
-s2886
-
-N/Users/berkeleygamelab/Melissa/game/drag-shape.png
-c000000004CB41F0A0000000000000DA1
-t1286872842
-s3489
-
-N/Users/berkeleygamelab/Melissa/game/game_Prefix.pch
-c000000004CB3E6D500000000000000B1
-t1286858453
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/left-shape.png
-c000000004CB415B70000000000001860
-t1286870455
-s6240
-
-N/Users/berkeleygamelab/Melissa/game/leftSideButton.png
-c000000004CCD2A6F00000000000012E3
-t1288514159
-s4835
-
-N/Users/berkeleygamelab/Melissa/game/main.m
-c000000004CB3E6D5000000000000016C
-t1286858453
-s364
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/map-background.png
-c000000004CCD3515000000000000180E
-t1288516885
-s6158
-
-N/Users/berkeleygamelab/Melissa/game/map-shape.png
-c000000004CB4152A00000000000017E7
-t1286870314
-s6119
-
-N/Users/berkeleygamelab/Melissa/game/piece-board.png
-c000000004CCFB06D00000000000013D8
-t1288679533
-s5080
-
-N/Users/berkeleygamelab/Melissa/game/right-shape.png
-c000000004CB4158B0000000000001A60
-t1286870411
-s6752
-
-N/Users/berkeleygamelab/Melissa/game/rightSideButton.png
-c000000004CCD2A930000000000001302
-t1288514195
-s4866
-
-N/Users/berkeleygamelab/Melissa/game/startScreenView.h
-c000000004CB3F42200000000000000DB
-t1286861858
-s219
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/startScreenView.m
-c000000004CB3F4220000000000000251
-t1286861858
-s593
-i"startScreenView.h"
-
-N/Users/berkeleygamelab/Melissa/game/timer-shape.png
-c000000004CB415F80000000000000E53
-t1286870520
-s3667
-
-N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch.gch
-t1286866135
-s9421460
-
-Ngame-Info.plist
-c000000004CD08A4E0000000000000453
-t1288735310
-s1107
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies310428167#310428168#0(0"0(0#1#0"8605231904#0"0#
-
-CCodeSign /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-s310428171.856889
-e310428175.334296
-r1
-xCodeSign
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-o/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app: replacing invalid existing signature
-lSLF07#2@38"CodeSign build/Debug-iphoneos/game.app310428171#310428175#0(104"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app: replacing invalid existing signature0(0#0#65"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app8609524672#622"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Greg Niemeyer (DMKLZ66H9R)" --resource-rules=/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/ResourceRules.plist --entitlements /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s308558935.883598
-e308558936.024200
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1View.o
-x/Users/berkeleygamelab/Melissa/game/Level1View.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/berkeleygamelab/Melissa/game/Level1View.m308558935#308558936#0(0"0(0#0#48"/Users/berkeleygamelab/Melissa/game/Level1View.m8612855968#1643"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Level1View.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1View.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1ViewController.o /Users/berkeleygamelab/Melissa/game/Level1ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310376643.329479
-e310376643.501959
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1ViewController.o
-x/Users/berkeleygamelab/Melissa/game/Level1ViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/berkeleygamelab/Melissa/game/Level1ViewController.m310376643#310376643#0(0"0(0#0#58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m8619510080#1663"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Level1ViewController.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/Level1ViewController.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310289865.643972
-e310289865.741642
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/draggable.o
-x/Users/berkeleygamelab/Melissa/game/Classes/draggable.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/berkeleygamelab/Melissa/game/Classes/draggable.m310289865#310289865#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m8603108640#1649"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/draggable.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/draggable.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310376642.470239
-e310376643.338367
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/gameAppDelegate.o
-x/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m310376642#310376643#0(0"0(0#0#61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m8605338400#1661"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/gameAppDelegate.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/Melissa/game/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s308558935.672014
-e308558935.795035
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/main.o
-x/Users/berkeleygamelab/Melissa/game/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/berkeleygamelab/Melissa/game/main.m308558935#308558935#0(0"0(0#0#42"/Users/berkeleygamelab/Melissa/game/main.m8618687680#1631"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/main.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/main.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/mapBoard.o /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310289865.808173
-e310289865.864950
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/mapBoard.o
-x/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m310289865#310289865#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m8602862944#1647"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/mapBoard.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/pieceBoard.o /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310376643.338666
-e310376643.425442
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/pieceBoard.o
-x/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m310376643#310376643#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m8609472224#1651"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/pieceBoard.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/sideButton.o /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310289865.741752
-e310289865.808063
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/sideButton.o
-x/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m310289865#310289865#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m8604375968#1651"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/sideButton.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenView.o /Users/berkeleygamelab/Melissa/game/startScreenView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s308558935.808551
-e308558935.883497
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenView.o
-x/Users/berkeleygamelab/Melissa/game/startScreenView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/berkeleygamelab/Melissa/game/startScreenView.m308558935#308558935#0(0"0(0#0#53"/Users/berkeleygamelab/Melissa/game/startScreenView.m8619287456#1653"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/startScreenView.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenView.o0#
-
-CCompileC build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310376642.471496
-e310376643.328423
-r1
-xCompileC
-xbuild/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenViewController.o
-x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m310376642#310376643#0(0"0(0#0#71"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m8618328768#1681"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/startScreenViewController.o0#
-
-CCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-s308560563.684003
-e308560564.319640
-r1
-xCompileXIB
-x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-lSLF07#2@48"CompileXIB Classes/startScreenViewController.xib308560563#308560564#0(0"0(0#0#73"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib8619288064#568"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/startScreenViewController.nib /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-s310428168.241424
-e310428171.768274
-r1
-xCompileXIB
-x/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-lSLF07#2@35"CompileXIB Level1ViewController.xib310428168#310428171#0(0"0(0#0#60"/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib8608900384#550"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Level1ViewController.nib /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
-s308558932.704612
-e308558934.166780
-r1
-xCompileXIB
-x/Users/berkeleygamelab/Melissa/game/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib308558932#308558934#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/MainWindow.xib8605830336#530"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/MainWindow.nib /Users/berkeleygamelab/Melissa/game/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
-s310428168.243719
-e310428171.090661
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Pathways_Icon_Final.png
-xPathways_Icon_Final.png
-lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/game.app/Pathways_Icon_Final.png Pathways_Icon_Final.png310428168#310428171#0(0"0(0#0#59"/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png8608731680#574"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Pathways_Icon_Final.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape-grey.png drag-shape-grey.png
-s310191238.301126
-e310191238.629805
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape-grey.png
-xdrag-shape-grey.png
-lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/game.app/drag-shape-grey.png drag-shape-grey.png310191238#310191238#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/drag-shape-grey.png8604339712#566"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/drag-shape-grey.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape-grey.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape.png drag-shape.png
-s308565718.518651
-e308565718.753372
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape.png
-xdrag-shape.png
-lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/game.app/drag-shape.png drag-shape.png308565718#308565718#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/drag-shape.png8615935840#556"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/drag-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/drag-shape.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/left-shape.png left-shape.png
-s308564485.634021
-e308564485.990197
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/left-shape.png
-xleft-shape.png
-lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/game.app/left-shape.png left-shape.png308564485#308564485#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/left-shape.png8601972704#556"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/left-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/left-shape.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/leftSideButton.png leftSideButton.png
-s310208133.869991
-e310208133.922498
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/leftSideButton.png
-xleftSideButton.png
-lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/game.app/leftSideButton.png leftSideButton.png310208133#310208133#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/leftSideButton.png8616681728#564"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/leftSideButton.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/leftSideButton.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-background.png map-background.png
-s310209693.690548
-e310209693.887385
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-background.png
-xmap-background.png
-lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/game.app/map-background.png map-background.png310209693#310209693#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/map-background.png8617691552#564"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/map-background.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-background.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-shape.png map-shape.png
-s308564485.990419
-e308564486.176456
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-shape.png
-xmap-shape.png
-lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/game.app/map-shape.png map-shape.png308564485#308564486#0(0"0(0#0#49"/Users/berkeleygamelab/Melissa/game/map-shape.png8607204992#554"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/map-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/map-shape.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/piece-board.png piece-board.png
-s310376639.943300
-e310376642.116831
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/piece-board.png
-xpiece-board.png
-lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/game.app/piece-board.png piece-board.png310376639#310376642#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/piece-board.png8609249856#558"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/piece-board.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/piece-board.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/right-shape.png right-shape.png
-s308564486.176634
-e308564486.293479
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/right-shape.png
-xright-shape.png
-lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/game.app/right-shape.png right-shape.png308564486#308564486#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/right-shape.png8606638432#558"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/right-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/right-shape.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/rightSideButton.png rightSideButton.png
-s310208133.922598
-e310208133.994663
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/rightSideButton.png
-xrightSideButton.png
-lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/game.app/rightSideButton.png rightSideButton.png310208133#310208133#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/rightSideButton.png8616284032#566"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/rightSideButton.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/rightSideButton.png0#
-
-CCopyPNGFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/timer-shape.png timer-shape.png
-s308564486.293622
-e308564486.330903
-r1
-xCopyPNGFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/timer-shape.png
-xtimer-shape.png
-lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/game.app/timer-shape.png timer-shape.png308564486#308564486#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/timer-shape.png8604572160#558"    cd /Users/berkeleygamelab/Melissa/game    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/berkeleygamelab/Melissa/game/timer-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/timer-shape.png0#
-
-CCpResource build/Debug-iphoneos/game.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s308558932.669797
-e308558932.704519
-r1
-xCpResource
-xbuild/Debug-iphoneos/game.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist308558932#308558932#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8531300039613640704#471"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app0#
-
-CGenerateDSYMFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app.dSYM /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game
-s310376644.232673
-e310376644.297143
-r1
-xGenerateDSYMFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app.dSYM
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game
-lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/game.app.dSYM build/Debug-iphoneos/game.app/game310376644#310376644#0(0"0(0#0#70"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game8622053728#344"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app.dSYM0#
-
-CLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game normal armv7
-s310376643.502054
-e310376644.231681
-r1
-xLd
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game
-xnormal
-xarmv7
-lSLF07#2@75"Link /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game310376643#310376644#0(0"0(0#0#0"8622598720#792"    cd /Users/berkeleygamelab/Melissa/game    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -filelist /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/Objects-normal/armv7/game.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/game0#
-
-CProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Info.plist game-Info.plist
-s310428168.168159
-e310428168.240893
-r1
-xProcessInfoPlistFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Info.plist
-xgame-Info.plist
-lSLF07#2@23"Process game-Info.plist310428168#310428168#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/game-Info.plist8609207552#538"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility game-Info.plist -genpkginfo /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/ResourceRules.plist -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/Info.plist0#
-
-CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch.gch game_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s308558934.642489
-e308558935.671840
-r1
-xProcessPCH
-x/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch.gch
-xgame_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile game_Prefix.pch308558934#308558935#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/game_Prefix.pch8619139328#1535"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/DerivedSources -c /Users/berkeleygamelab/Melissa/game/game_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/game_Prefix-fwwxknmggljppzbecdndufpneagm/game_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/embedded.mobileprovision
-s310378324.800723
-e310378324.823834
-r1
-xProcessProductPackaging
-x/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/embedded.mobileprovision
-lSLF07#2@199"ProcessProductPackaging "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" build/Debug-iphoneos/game.app/embedded.mobileprovision310378324#310378324#0(0"0(0#0#90"/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/embedded.mobileprovision8610331104#424"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/berkeleygamelab/Library/MobileDevice/Provisioning Profiles/3099AD5F-798E-456E-BE04-25082E11EFEF.mobileprovision" -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent
-s310428171.772678
-e310428171.856763
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent
-lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/game.build/Debug-iphoneos/game.build/game.xcent310428171#310428171#0(0"0(0#0#89"/Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent8610403680#417"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/berkeleygamelab/Melissa/game/build/game.build/Debug-iphoneos/game.build/game.xcent0#
-
-CTouch /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-s310428171.769534
-e310428171.772594
-r1
-xTouch
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app
-lSLF07#2@71"Touch /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app310428171#310428171#0(0"0(0#0#0"8608511424#255"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/game.app0#
-

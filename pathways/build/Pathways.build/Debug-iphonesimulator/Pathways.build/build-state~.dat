@@ -1,681 +1,0 @@
-TPathways
-v7
-r0
-t310429498.758795
-cCheck dependencies
-cProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Info.plist Pathways-Info.plist
-cCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
-cCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-cCompileXIB /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-cCpResource build/Debug-iphonesimulator/Pathways.app/left-shape.png left-shape.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/right-shape.png right-shape.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/timer-shape.png timer-shape.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/drag-shape.png drag-shape.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/drag-shape-grey.png drag-shape-grey.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/leftSideButton.png leftSideButton.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/rightSideButton.png rightSideButton.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/map-background.png map-background.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/piece-board.png piece-board.png
-cCpResource build/Debug-iphonesimulator/Pathways.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
-cProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/main.o /Users/berkeleygamelab/Melissa/game/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenView.o /Users/berkeleygamelab/Melissa/game/startScreenView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1ViewController.o /Users/berkeleygamelab/Melissa/game/Level1ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/sideButton.o /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/pieceBoard.o /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/mapBoard.o /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways normal i386
-cGenerateDSYMFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app.dSYM /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways
-cTouch /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004C494D260000000000000110
-t1279872294
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BD1CD90000000000026F020
-t1272040848
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BD1FFC200000000002A96A0
-t1272053698
-s2791072
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BD1FF9E0000000000001355
-t1272053662
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BD20412000000000000098F
-t1272054802
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BD20471000000000222E640
-t1272054897
-s35841600
-
-N/Users/berkeleygamelab/Melissa/game/Classes/draggable.h
-c000000004CCD3C5A000000000000018A
-t1288518746
-s394
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/draggable.m
-c000000004CCD41710000000000000852
-t1288520049
-s2130
-i"draggable.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.h
-c000000004CCCEE5600000000000001EA
-t1288498774
-s490
-i<UIKit/UIKit.h>
-i"startScreenViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
-c000000004CB406D2000000000000089A
-t1286866642
-s2202
-i"gameAppDelegate.h"
-i"startScreenViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.h
-c000000004CCE64F800000000000000D2
-t1288594680
-s210
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m
-c000000004CCE635B000000000000023C
-t1288594267
-s572
-i"mapBoard.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.h
-c000000004CCFB4C800000000000000D6
-t1288680648
-s214
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m
-c000000004CCE634D0000000000000242
-t1288594253
-s578
-i"pieceBoard.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/sideButton.h
-c000000004CCE69A40000000000000111
-t1288595876
-s273
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m
-c000000004CCE69B60000000000000359
-t1288595894
-s857
-i"sideButton.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.h
-c000000004CB3FC9300000000000001C6
-t1286864019
-s454
-i<UIKit/UIKit.h>
-i"Level1ViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
-c000000004CB407870000000000000714
-t1286866823
-s1812
-i"startScreenViewController.h"
-i"Level1ViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-c000000004CB40A8C0000000000004DB9
-t1286867596
-s19897
-
-N/Users/berkeleygamelab/Melissa/game/Level1View.h
-c000000004CB3F43900000000000000D1
-t1286861881
-s209
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/Level1View.m
-c000000004CB3F4390000000000000242
-t1286861881
-s578
-i"Level1View.h"
-
-N/Users/berkeleygamelab/Melissa/game/Level1ViewController.h
-c000000004CCFB8DF0000000000000668
-t1288681695
-s1640
-i<UIKit/UIKit.h>
-i"draggable.h"
-i"sideButton.h"
-i"mapBoard.h"
-i"pieceBoard.h"
-
-N/Users/berkeleygamelab/Melissa/game/Level1ViewController.m
-c000000004CCFC0C10000000000001827
-t1288683713
-s6183
-i"Level1ViewController.h"
-
-N/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-c000000004CD072D0000000000000861F
-t1288729296
-s34335
-
-N/Users/berkeleygamelab/Melissa/game/MainWindow.xib
-c000000004CB3E6D50000000000003E5E
-t1286858453
-s15966
-
-N/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png
-c000000004CD08A22000000000000A778
-t1288735266
-s42872
-
-N/Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch
-c000000004CB3E6D500000000000000B1
-t1286858453
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app
-t1288736698
-s612
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app.dSYM
-t1288736698
-s102
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Info.plist
-t1288736695
-s771
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Level1ViewController.nib
-t1288736696
-s2913
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/MainWindow.nib
-t1288736695
-s981
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways
-t1288736698
-s43416
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways_Icon_Final.png
-t1288736695
-s42872
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/PkgInfo
-t1288736695
-s8
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/drag-shape-grey.png
-t1288736695
-s2886
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/drag-shape.png
-t1288736695
-s3489
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/left-shape.png
-t1288736695
-s6240
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/leftSideButton.png
-t1288736695
-s4835
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/map-background.png
-t1288736695
-s6158
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/piece-board.png
-t1288736695
-s5080
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/right-shape.png
-t1288736695
-s6752
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/rightSideButton.png
-t1288736695
-s4866
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/startScreenViewController.nib
-t1288736695
-s1437
-
-N/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/timer-shape.png
-t1288736695
-s3667
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1View.o
-t1288736697
-s9164
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1ViewController.o
-t1288736697
-s64528
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Pathways.LinkFileList
-c000000004CD08FB70000000000000510
-t1288736695
-s1296
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/draggable.o
-t1288736698
-s14708
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/gameAppDelegate.o
-t1288736697
-s47100
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/main.o
-t1288736697
-s6296
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/mapBoard.o
-t1288736698
-s9256
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/pieceBoard.o
-t1288736698
-s9292
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/sideButton.o
-t1288736698
-s12060
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenView.o
-t1288736697
-s9256
-
-N/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenViewController.o
-t1288736697
-s39836
-
-N/Users/berkeleygamelab/Melissa/game/drag-shape-grey.png
-c000000004CBDE4900000000000000B46
-t1287513232
-s2886
-
-N/Users/berkeleygamelab/Melissa/game/drag-shape.png
-c000000004CB41F0A0000000000000DA1
-t1286872842
-s3489
-
-N/Users/berkeleygamelab/Melissa/game/left-shape.png
-c000000004CB415B70000000000001860
-t1286870455
-s6240
-
-N/Users/berkeleygamelab/Melissa/game/leftSideButton.png
-c000000004CCD2A6F00000000000012E3
-t1288514159
-s4835
-
-N/Users/berkeleygamelab/Melissa/game/main.m
-c000000004CB3E6D5000000000000016C
-t1286858453
-s364
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/map-background.png
-c000000004CCD3515000000000000180E
-t1288516885
-s6158
-
-N/Users/berkeleygamelab/Melissa/game/piece-board.png
-c000000004CCFB06D00000000000013D8
-t1288679533
-s5080
-
-N/Users/berkeleygamelab/Melissa/game/right-shape.png
-c000000004CB4158B0000000000001A60
-t1286870411
-s6752
-
-N/Users/berkeleygamelab/Melissa/game/rightSideButton.png
-c000000004CCD2A930000000000001302
-t1288514195
-s4866
-
-N/Users/berkeleygamelab/Melissa/game/startScreenView.h
-c000000004CB3F42200000000000000DB
-t1286861858
-s219
-i<UIKit/UIKit.h>
-
-N/Users/berkeleygamelab/Melissa/game/startScreenView.m
-c000000004CB3F4220000000000000251
-t1286861858
-s593
-i"startScreenView.h"
-
-N/Users/berkeleygamelab/Melissa/game/timer-shape.png
-c000000004CB415F80000000000000E53
-t1286870520
-s3667
-
-N/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch.gch
-t1288736697
-s13825936
-
-NPathways-Info.plist
-c000000004CD08A4E0000000000000453
-t1288735310
-s1107
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies310429495#310429495#0(0"0(0#1#0"8609265344#0"0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.729242
-e310429497.840428
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1View.o
-x/Users/berkeleygamelab/Melissa/game/Level1View.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/berkeleygamelab/Melissa/game/Level1View.m310429497#310429497#0(0"0(0#0#48"/Users/berkeleygamelab/Melissa/game/Level1View.m8608879872#1954"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Level1View.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1View.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1ViewController.o /Users/berkeleygamelab/Melissa/game/Level1ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.730534
-e310429497.878657
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1ViewController.o
-x/Users/berkeleygamelab/Melissa/game/Level1ViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/berkeleygamelab/Melissa/game/Level1ViewController.m310429497#310429497#0(0"0(0#0#58"/Users/berkeleygamelab/Melissa/game/Level1ViewController.m8608449696#1974"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Level1ViewController.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Level1ViewController.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.840544
-e310429498.017921
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/draggable.o
-x/Users/berkeleygamelab/Melissa/game/Classes/draggable.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/berkeleygamelab/Melissa/game/Classes/draggable.m310429497#310429498#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Classes/draggable.m8610445152#1960"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/draggable.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/draggable.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/gameAppDelegate.o /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.510651
-e310429497.665215
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/gameAppDelegate.o
-x/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m310429497#310429497#0(0"0(0#0#61"/Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m8609941888#1972"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/gameAppDelegate.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/main.o /Users/berkeleygamelab/Melissa/game/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.509133
-e310429497.646308
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/main.o
-x/Users/berkeleygamelab/Melissa/game/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/berkeleygamelab/Melissa/game/main.m310429497#310429497#0(0"0(0#0#42"/Users/berkeleygamelab/Melissa/game/main.m8598225120#1942"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/main.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/main.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/mapBoard.o /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429498.018008
-e310429498.099721
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/mapBoard.o
-x/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m310429498#310429498#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m8608896640#1958"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/mapBoard.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/mapBoard.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/pieceBoard.o /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429498.016661
-e310429498.082848
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/pieceBoard.o
-x/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m310429498#310429498#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m8609287808#1962"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/pieceBoard.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/pieceBoard.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/sideButton.o /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.878772
-e310429498.016547
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/sideButton.o
-x/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m310429497#310429498#0(0"0(0#0#56"/Users/berkeleygamelab/Melissa/game/Classes/sideButton.m8609846720#1962"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/sideButton.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/sideButton.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenView.o /Users/berkeleygamelab/Melissa/game/startScreenView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.665325
-e310429497.730448
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenView.o
-x/Users/berkeleygamelab/Melissa/game/startScreenView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/berkeleygamelab/Melissa/game/startScreenView.m310429497#310429497#0(0"0(0#0#53"/Users/berkeleygamelab/Melissa/game/startScreenView.m8609137408#1964"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/startScreenView.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenView.o0#
-
-CCompileC build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenViewController.o /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429497.646416
-e310429497.729132
-r1
-xCompileC
-xbuild/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenViewController.o
-x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m310429497#310429497#0(0"0(0#0#71"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m8609315040#1992"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.m -o /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/startScreenViewController.o0#
-
-CCompileXIB /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-s310429495.322334
-e310429495.910152
-r1
-xCompileXIB
-x/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib
-lSLF07#2@48"CompileXIB Classes/startScreenViewController.xib310429495#310429495#0(0"0(0#0#73"/Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib8608894784#600"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/startScreenViewController.nib /Users/berkeleygamelab/Melissa/game/Classes/startScreenViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
-
-CCompileXIB /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-s310429495.881254
-e310429496.494609
-r1
-xCompileXIB
-x/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib
-lSLF07#2@35"CompileXIB Level1ViewController.xib310429495#310429496#0(0"0(0#0#60"/Users/berkeleygamelab/Melissa/game/Level1ViewController.xib8610845824#582"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Level1ViewController.nib /Users/berkeleygamelab/Melissa/game/Level1ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
-
-CCompileXIB /Users/berkeleygamelab/Melissa/game/MainWindow.xib
-s310429495.321153
-e310429495.881163
-r1
-xCompileXIB
-x/Users/berkeleygamelab/Melissa/game/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib310429495#310429495#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/MainWindow.xib8609758240#562"    cd /Users/berkeleygamelab/Melissa/game    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/MainWindow.nib /Users/berkeleygamelab/Melissa/game/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/Pathways_Icon_Final.png Pathways_Icon_Final.png
-s310429495.928074
-e310429495.953978
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/Pathways_Icon_Final.png
-xPathways_Icon_Final.png
-lSLF07#2@28"Copy Pathways_Icon_Final.png310429495#310429495#0(0"0(0#0#59"/Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png8609196512#459"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/Pathways_Icon_Final.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/drag-shape-grey.png drag-shape-grey.png
-s310429495.915569
-e310429495.937055
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/drag-shape-grey.png
-xdrag-shape-grey.png
-lSLF07#2@24"Copy drag-shape-grey.png310429495#310429495#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/drag-shape-grey.png8605588704#455"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/drag-shape-grey.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/drag-shape.png drag-shape.png
-s310429495.913786
-e310429495.928006
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/drag-shape.png
-xdrag-shape.png
-lSLF07#2@19"Copy drag-shape.png310429495#310429495#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/drag-shape.png8608695904#450"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/drag-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/left-shape.png left-shape.png
-s310429495.910269
-e310429495.927635
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/left-shape.png
-xleft-shape.png
-lSLF07#2@19"Copy left-shape.png310429495#310429495#0(0"0(0#0#50"/Users/berkeleygamelab/Melissa/game/left-shape.png8610182432#450"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/left-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/leftSideButton.png leftSideButton.png
-s310429495.917280
-e310429495.932953
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/leftSideButton.png
-xleftSideButton.png
-lSLF07#2@23"Copy leftSideButton.png310429495#310429495#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/leftSideButton.png8604445344#454"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/leftSideButton.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/map-background.png map-background.png
-s310429495.923892
-e310429495.933166
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/map-background.png
-xmap-background.png
-lSLF07#2@23"Copy map-background.png310429495#310429495#0(0"0(0#0#54"/Users/berkeleygamelab/Melissa/game/map-background.png8593669184#454"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/map-background.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/piece-board.png piece-board.png
-s310429495.925700
-e310429495.938700
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/piece-board.png
-xpiece-board.png
-lSLF07#2@20"Copy piece-board.png310429495#310429495#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/piece-board.png8609688512#451"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/piece-board.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/right-shape.png right-shape.png
-s310429495.911188
-e310429495.927763
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/right-shape.png
-xright-shape.png
-lSLF07#2@20"Copy right-shape.png310429495#310429495#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/right-shape.png8609440320#451"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/right-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/rightSideButton.png rightSideButton.png
-s310429495.919077
-e310429495.934054
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/rightSideButton.png
-xrightSideButton.png
-lSLF07#2@24"Copy rightSideButton.png310429495#310429495#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/rightSideButton.png8602886976#455"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/rightSideButton.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CCpResource build/Debug-iphonesimulator/Pathways.app/timer-shape.png timer-shape.png
-s310429495.912111
-e310429495.927884
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Pathways.app/timer-shape.png
-xtimer-shape.png
-lSLF07#2@20"Copy timer-shape.png310429495#310429495#0(0"0(0#0#51"/Users/berkeleygamelab/Melissa/game/timer-shape.png8608935872#451"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkeleygamelab/Melissa/game/timer-shape.png /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-
-CGenerateDSYMFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app.dSYM /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways
-s310429498.731331
-e310429498.754897
-r1
-xGenerateDSYMFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app.dSYM
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Pathways.app.dSYM build/Debug-iphonesimulator/Pathways.app/Pathways310429498#310429498#0(0"0(0#0#85"/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways8609992992#377"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app.dSYM0#
-
-CLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways normal i386
-s310429498.099813
-e310429498.731227
-r1
-xLd
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways
-xnormal
-xi386
-lSLF07#2@90"Link /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways310429498#310429498#0(0"0(0#0#0"8598528512#890"    cd /Users/berkeleygamelab/Melissa/game    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -filelist /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Objects-normal/i386/Pathways.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Pathways0#
-
-CProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Info.plist Pathways-Info.plist
-s310429495.316205
-e310429495.321053
-r1
-xProcessInfoPlistFile
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Info.plist
-xPathways-Info.plist
-lSLF07#2@27"Process Pathways-Info.plist310429495#310429495#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Pathways-Info.plist8609995744#473"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pathways-Info.plist -genpkginfo /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app/Info.plist0#
-
-CProcessPCH /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch.gch Pathways_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s310429496.494835
-e310429497.508829
-r1
-xProcessPCH
-x/var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch.gch
-xPathways_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile Pathways_Prefix.pch310429496#310429497#0(0"0(0#0#55"/Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch8598503968#1836"    cd /Users/berkeleygamelab/Melissa/game    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator -I/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/include -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources/i386 -I/Users/berkeleygamelab/Melissa/game/build/Pathways.build/Debug-iphonesimulator/Pathways.build/DerivedSources -c /Users/berkeleygamelab/Melissa/game/Pathways_Prefix.pch -o /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-eofeipvwijlovhbmynsnktybzmwo/Pathways_Prefix.pch.gch0#
-
-CTouch /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app
-s310429498.755008
-e310429498.758747
-r1
-xTouch
-x/Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app
-lSLF07#2@82"Touch /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app310429498#310429498#0(0"0(0#0#0"8609483104#273"    cd /Users/berkeleygamelab/Melissa/game    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkeleygamelab/Melissa/game/build/Debug-iphonesimulator/Pathways.app0#
-

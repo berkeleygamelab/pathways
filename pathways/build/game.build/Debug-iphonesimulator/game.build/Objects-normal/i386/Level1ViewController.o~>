@@ -1,7 +1,0 @@
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m: In function '-[Level1ViewController initWithNibName:bundle:]':
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:35: error: 'rect4' undeclared (first use in this function)
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:35: error: (Each undeclared identifier is reported only once
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:35: error: for each function it appears in.)
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:45: error: expected expression before '/' token
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:48: error: 'rect1' undeclared (first use in this function)
-/Users/berkeleygamelab/Melissa/game/Level1ViewController.m:34: warning: unused variable 'leftBoardRect'
