@@ -1,7 +1,7 @@
 TPathways
 v7
 r0
-t325071798.119730
+t325192210.066023
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Pathways.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Info.plist Pathways-Info.plist
@@ -3201,9 +3201,9 @@ t1286858453
 s15966
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib
-c000000004DA9643300000000000070C7
-t1302946867
-s28871
+c000000004DB1D2FE0000000000007D32
+t1303499518
+s32050
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/startScreenViewController.xib
 c000000004DA966610000000000007D28
@@ -3231,11 +3231,11 @@ t2
 s0
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-t1303378998
+t1303499410
 s3196
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM
-t1303378997
+t1303499409
 s102
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Info.plist
@@ -3255,8 +3255,8 @@ t1303171952
 s981
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
-t1303378997
-s122352
+t1303499409
+s122912
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways_Icon_Final.png
 t1303171953
@@ -3703,8 +3703,8 @@ t1303171954
 s5847
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/scoreViewController.nib
-t1303171953
-s2530
+t1303499211
+s2742
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/scores.plist
 t1303171952
@@ -3771,8 +3771,8 @@ t1303171957
 s37116
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o
-t1303378806
-s134700
+t1303428079
+s134724
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList
 c000000004DACD36F000000000000063B
@@ -3784,8 +3784,8 @@ t1303171958
 s57524
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o
-t1303378806
-s62748
+t1303428079
+s62772
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o
 t1303171957
@@ -3804,8 +3804,8 @@ t1303378806
 s13504
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o
-t1303171958
-s50652
+t1303499409
+s54072
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/sideButton.o
 t1303171958
@@ -3816,8 +3816,8 @@ t1303171957
 s37192
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o
-t1303378997
-s77812
+t1303428079
+s77836
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent
 t1303171959
@@ -4155,15 +4155,15 @@ t1288514195
 s4866
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.h
-c000000004D4A2EE30000000000000237
-t1296707299
-s567
+c000000004DB0BAC900000000000002A5
+t1303427785
+s677
 i<UIKit/UIKit.h>
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m
-c000000004DB0B0D70000000000001652
-t1303425239
-s5714
+c000000004DB1D2890000000000001917
+t1303499401
+s6423
 i"scoreViewController.h"
 
 N/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.xib
@@ -4489,7 +4489,7 @@ s1107
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies325071797#325071797#0(0"0(0#1#0"8625650528#0"0#
+lSLF07#2@18"Check dependencies325192209#325192209#0(0"0(0#1#0"8620909952#0"0#
 
 CCodeSign /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app
 s317947194.416067
@@ -4511,12 +4511,12 @@ CCodeSign /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathways.app
 r0
 
 CCodeSign /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-s325071797.912574
-e325071798.119678
+s325192209.878248
+e325192210.065976
 r1
 xCodeSign
 x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-lSLF07#2@42"CodeSign build/Debug-iphoneos/Pathways.app325071797#325071798#0(0"0(0#0#78"/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app8628275072#678"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Greg Niemeyer (DMKLZ66H9R)" --resource-rules=/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/ResourceRules.plist --entitlements /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Pathways.app325192209#325192210#0(0"0(0#0#78"/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app8619206976#678"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Greg Niemeyer (DMKLZ66H9R)" --resource-rules=/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/ResourceRules.plist --entitlements /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways.xcent /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Level1View.o /Users/berkeleygamelab/Melissa/game/Level1View.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465493.021335
@@ -4653,8 +4653,8 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s325071606.329719
-e325071606.737600
+s325120879.372554
+e325120879.852662
 r1
 xCompileC
 xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o
@@ -4686,7 +4686,7 @@ o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:673: warning
 o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: At top level:
 o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: incomplete implementation of class 'LevelViewController'
 o/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: method definition for '-initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:' not found
-lSLF07#2@74"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071606#325071606#0(3070"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController initWithNibName:bundle:withLevelData:withScoreObject:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: 'LevelViewController' may not respond to '-createBoards'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:164: warning: 'LevelViewController' may not respond to '-makeLeftPieces'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:165: warning: 'LevelViewController' may not respond to '-makeRightPieces'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController showOverlay]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:399: warning: 'LevelViewController' may not respond to '-makeScoreButton'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:402: warning: 'LevelViewController' may not respond to '-makeNextLevelButton'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController leftSideTouchUp:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:456: warning: 'LevelViewController' may not respond to '-leftToCenter'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController rightSideTouchUp:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:529: warning: 'LevelViewController' may not respond to '-rightToCenter'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController piecePlacedAction:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:645: warning: 'LevelViewController' may not respond to '-completedAction'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController completedAction]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:671: warning: 'LevelViewController' may not respond to '-loadScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:672: warning: 'LevelViewController' may not respond to '-updateScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:673: warning: 'LevelViewController' may not respond to '-saveScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: At top level:/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: incomplete implementation of class 'LevelViewController'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: method definition for '-initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:' not found15(22@56"'LevelViewController' may not respond to '-createBoards'325071606#160#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#163#0#163#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)325071606#298#127#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#163#0#163#0#0"0(22@58"'LevelViewController' may not respond to '-makeLeftPieces'325071606#650#140#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#164#0#164#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-makeRightPieces'325071606#790#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#165#0#165#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-makeScoreButton'325071606#1049#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#399#0#399#0#26"'*' may not respond to '*'0(22@63"'LevelViewController' may not respond to '-makeNextLevelButton'325071606#1190#145#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#402#0#402#0#26"'*' may not respond to '*'0(22@56"'LevelViewController' may not respond to '-leftToCenter'325071606#1458#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#456#0#456#0#26"'*' may not respond to '*'0(22@57"'LevelViewController' may not respond to '-rightToCenter'325071606#1720#139#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#529#0#529#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-completedAction'325071606#1984#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#645#0#645#0#26"'*' may not respond to '*'0(22@54"'LevelViewController' may not respond to '-loadScores'325071606#2247#136#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#671#0#671#0#26"'*' may not respond to '*'0(22@56"'LevelViewController' may not respond to '-updateScores'325071606#2383#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#672#0#672#0#26"'*' may not respond to '*'0(22@54"'LevelViewController' may not respond to '-saveScores'325071606#2521#136#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#673#0#673#0#26"'*' may not respond to '*'0(23@13"At top level:325071606#2657#82#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#0#0#0#0#0"0(22@56"Incomplete implementation of class 'LevelViewController'325071606#2739#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#789#0#789#0#38"incomplete implementation of class '*'0(22@111"Method definition for '-initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:' not found325071606#2877#193#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#789#0#789#0#35"method definition for '*' not found0(0#0#66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m8626845152#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o0#
+lSLF07#2@74"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325120879#325120879#0(3070"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController initWithNibName:bundle:withLevelData:withScoreObject:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: 'LevelViewController' may not respond to '-createBoards'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:163: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:164: warning: 'LevelViewController' may not respond to '-makeLeftPieces'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:165: warning: 'LevelViewController' may not respond to '-makeRightPieces'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController showOverlay]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:399: warning: 'LevelViewController' may not respond to '-makeScoreButton'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:402: warning: 'LevelViewController' may not respond to '-makeNextLevelButton'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController leftSideTouchUp:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:456: warning: 'LevelViewController' may not respond to '-leftToCenter'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController rightSideTouchUp:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:529: warning: 'LevelViewController' may not respond to '-rightToCenter'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController piecePlacedAction:]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:645: warning: 'LevelViewController' may not respond to '-completedAction'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: In function '-[LevelViewController completedAction]':/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:671: warning: 'LevelViewController' may not respond to '-loadScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:672: warning: 'LevelViewController' may not respond to '-updateScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:673: warning: 'LevelViewController' may not respond to '-saveScores'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m: At top level:/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: incomplete implementation of class 'LevelViewController'/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m:789: warning: method definition for '-initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:' not found15(22@56"'LevelViewController' may not respond to '-createBoards'325120879#160#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#163#0#163#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)325120879#298#127#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#163#0#163#0#0"0(22@58"'LevelViewController' may not respond to '-makeLeftPieces'325120879#650#140#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#164#0#164#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-makeRightPieces'325120879#790#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#165#0#165#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-makeScoreButton'325120879#1049#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#399#0#399#0#26"'*' may not respond to '*'0(22@63"'LevelViewController' may not respond to '-makeNextLevelButton'325120879#1190#145#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#402#0#402#0#26"'*' may not respond to '*'0(22@56"'LevelViewController' may not respond to '-leftToCenter'325120879#1458#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#456#0#456#0#26"'*' may not respond to '*'0(22@57"'LevelViewController' may not respond to '-rightToCenter'325120879#1720#139#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#529#0#529#0#26"'*' may not respond to '*'0(22@59"'LevelViewController' may not respond to '-completedAction'325120879#1984#141#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#645#0#645#0#26"'*' may not respond to '*'0(22@54"'LevelViewController' may not respond to '-loadScores'325120879#2247#136#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#671#0#671#0#26"'*' may not respond to '*'0(22@56"'LevelViewController' may not respond to '-updateScores'325120879#2383#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#672#0#672#0#26"'*' may not respond to '*'0(22@54"'LevelViewController' may not respond to '-saveScores'325120879#2521#136#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#673#0#673#0#26"'*' may not respond to '*'0(23@13"At top level:325120879#2657#82#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#0#0#0#0#0"0(22@56"Incomplete implementation of class 'LevelViewController'325120879#2739#138#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#789#0#789#0#38"incomplete implementation of class '*'0(22@111"Method definition for '-initWithNibName:bundle:withLevelData:withLeftScore:withRightScore:withScore:' not found325120879#2877#193#0(6@66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m325071497#789#0#789#0#35"method definition for '*' not found0(0#0#66"/Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m8615457344#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/LevelViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/LevelViewController.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/draggable.o /Users/berkeleygamelab/Melissa/game/Classes/draggable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465493.112057
@@ -4784,8 +4784,8 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s325071606.120768
-e325071606.329424
+s325120879.119508
+e325120879.372268
 r1
 xCompileC
 xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o
@@ -4794,7 +4794,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m325071606#325071606#0(0"0(0#0#70"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m8627283008#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o0#
+lSLF07#2@78"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m325120879#325120879#0(0"0(0#0#70"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m8619461952#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/gameAppDelegate.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/gameAppDelegate.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/main.o /Users/berkeleygamelab/Melissa/game/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s315465492.746222
@@ -4963,8 +4963,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/berkeleygamelab/Melissa/pathways/scoreViewController.m318509914#318509915#0(0"0(0#0#61"/Users/berkeleygamelab/Melissa/pathways/scoreViewController.m8620549856#1827"    cd /Users/berkeleygamelab/Melissa/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/Melissa/pathways -I/Users/berkeleygamelab/Melissa/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-fpwrnpzwxgtbdselkvdfubjwqexp/Pathways_Prefix.pch -c /Users/berkeleygamelab/Melissa/pathways/scoreViewController.m -o /Users/berkeleygamelab/Melissa/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s324864758.433164
-e324864758.557342
+s325192209.611068
+e325192209.786997
 r1
 xCompileC
 xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o
@@ -4973,7 +4973,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m324864758#324864758#0(0"0(0#0#66"/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m8608038720#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o0#
+lSLF07#2@74"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m325192209#325192209#0(0"0(0#0#66"/Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m8606304672#1887"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/scoreViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o0#
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/scoreViewController.o /Users/berkeleygamelab/pathwaysrepo/scoreViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -5098,8 +5098,8 @@ CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv
 r0
 
 CCompileC build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s325071797.613456
-e325071797.823818
+s325120879.145347
+e325120879.473761
 r1
 xCompileC
 xbuild/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o
@@ -5117,9 +5117,9 @@ o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.
 o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:31: warning: 'startScreenViewController' may not respond to '-createPlayer4Draggable'
 o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:32: warning: 'startScreenViewController' may not respond to '-createPlayer5Draggable'
 o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: At top level:
-o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:232: warning: property 'player1Draggable' requires method '-player1Draggable' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:232: warning: property 'player1Draggable' requires the method 'setPlayer1Draggable:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@88"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071797#325071797#0(1784"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: In function '-[startScreenViewController initWithNibName:bundle:]':/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: 'startScreenViewController' may not respond to '-createPlayer2Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:30: warning: 'startScreenViewController' may not respond to '-createPlayer3Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:31: warning: 'startScreenViewController' may not respond to '-createPlayer4Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:32: warning: 'startScreenViewController' may not respond to '-createPlayer5Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: At top level:/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:232: warning: property 'player1Draggable' requires method '-player1Draggable' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:232: warning: property 'player1Draggable' requires the method 'setPlayer1Draggable:' to be defined - use @synthesize, @dynamic or provide a method implementation8(22@72"'startScreenViewController' may not respond to '-createPlayer2Draggable'325071797#150#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)325071797#317#140#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#29#0#29#0#0"0(22@72"'startScreenViewController' may not respond to '-createPlayer3Draggable'325071797#708#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#30#0#30#0#26"'*' may not respond to '*'0(22@72"'startScreenViewController' may not respond to '-createPlayer4Draggable'325071797#875#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#31#0#31#0#26"'*' may not respond to '*'0(22@72"'startScreenViewController' may not respond to '-createPlayer5Draggable'325071797#1042#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#32#0#32#0#26"'*' may not respond to '*'0(23@13"At top level:325071797#1209#96#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#0#0#0#0#0"0(22@140"Property 'player1Draggable' requires method '-player1Draggable' to be defined - use @synthesize, @dynamic or provide a method implementation325071797#1305#236#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#232#0#232#0#0"0(22@147"Property 'player1Draggable' requires the method 'setPlayer1Draggable:' to be defined - use @synthesize, @dynamic or provide a method implementation325071797#1541#243#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071796#232#0#232#0#0"0(0#0#80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m8626493792#1907"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o0#
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:223: warning: property 'player1Draggable' requires method '-player1Draggable' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:223: warning: property 'player1Draggable' requires the method 'setPlayer1Draggable:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@88"Compile /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325120879#325120879#0(1784"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: In function '-[startScreenViewController initWithNibName:bundle:]':/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: 'startScreenViewController' may not respond to '-createPlayer2Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: (Messages without a matching method signature/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: will be assumed to return 'id' and accept/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:29: warning: '...' as arguments.)/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:30: warning: 'startScreenViewController' may not respond to '-createPlayer3Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:31: warning: 'startScreenViewController' may not respond to '-createPlayer4Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:32: warning: 'startScreenViewController' may not respond to '-createPlayer5Draggable'/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m: At top level:/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:223: warning: property 'player1Draggable' requires method '-player1Draggable' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m:223: warning: property 'player1Draggable' requires the method 'setPlayer1Draggable:' to be defined - use @synthesize, @dynamic or provide a method implementation8(22@72"'startScreenViewController' may not respond to '-createPlayer2Draggable'325120879#150#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)325120879#317#140#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#29#0#29#0#0"0(22@72"'startScreenViewController' may not respond to '-createPlayer3Draggable'325120879#708#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#30#0#30#0#26"'*' may not respond to '*'0(22@72"'startScreenViewController' may not respond to '-createPlayer4Draggable'325120879#875#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#31#0#31#0#26"'*' may not respond to '*'0(22@72"'startScreenViewController' may not respond to '-createPlayer5Draggable'325120879#1042#167#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#32#0#32#0#26"'*' may not respond to '*'0(23@13"At top level:325120879#1209#96#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#0#0#0#0#0"0(22@140"Property 'player1Draggable' requires method '-player1Draggable' to be defined - use @synthesize, @dynamic or provide a method implementation325120879#1305#236#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#223#0#223#0#0"0(22@147"Property 'player1Draggable' requires the method 'setPlayer1Draggable:' to be defined - use @synthesize, @dynamic or provide a method implementation325120879#1541#243#0(6@80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m325071914#223#0#223#0#0"0(0#0#80"/Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m8618784832#1907"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-generated-files.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-own-target-headers.hmap -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-all-target-headers.hmap -iquote /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Pathways-project-headers.hmap -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/include -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources/armv7 -I/Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/DerivedSources -include /var/folders/sA/sAO-lh0jEJ4Y1d-hEFN6nk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Pathways_Prefix-gowyazhktrfzgrercgmoulngmjej/Pathways_Prefix.pch -c /Users/berkeleygamelab/pathwaysrepo/pathways/Classes/startScreenViewController.m -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/startScreenViewController.o0#
 
 CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/LevelViewController.xib"
 s324864751.866173
@@ -5139,13 +5139,12 @@ x/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/MainWindow.xib
 lSLF07#2@47"CompileXIB "Resources/xib files/MainWindow.xib"324864752#324864752#0(0"0(0#0#79"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/MainWindow.xib8607501408#583"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/MainWindow.nib "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib"
-s324864752.601364
-e324864753.315524
+s325192010.104613
+e325192011.506458
 r1
 xCompileXIB
 x/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@56"CompileXIB "Resources/xib files/scoreViewController.xib"324864752#324864753#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#88"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib8607055104#601"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/scoreViewController.nib "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+lSLF07#2@56"CompileXIB "Resources/xib files/scoreViewController.xib"325192010#325192011#0(0"0(0#0#88"/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib8620920224#601"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/scoreViewController.nib "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/scoreViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCompileXIB "/Users/berkeleygamelab/pathwaysrepo/pathways/Resources/xib files/startScreenViewController.xib"
 s324864752.606309
@@ -7313,13 +7312,13 @@ CGenerateDSYMFile /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathw
 r0
 
 CGenerateDSYMFile /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
-s325071797.865227
-e325071797.908614
+s325192209.829600
+e325192209.874241
 r1
 xGenerateDSYMFile
 x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM
 x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
-lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Pathways.app.dSYM build/Debug-iphoneos/Pathways.app/Pathways325071797#325071797#0(0"0(0#0#87"/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways8626704864#383"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM0#
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Pathways.app.dSYM build/Debug-iphoneos/Pathways.app/Pathways325192209#325192209#0(0"0(0#0#87"/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways8623367072#383"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app.dSYM0#
 
 CLd /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
 s317947194.106003
@@ -7345,14 +7344,14 @@ CLd /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathways.app/Pathwa
 r0
 
 CLd /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways normal armv7
-s325071797.823913
-e325071797.865125
+s325192209.787082
+e325192209.829488
 r1
 xLd
 x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways
 xnormal
 xarmv7
-lSLF07#2@92"Link /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways325071797#325071797#0(0"0(0#0#0"8624251520#928"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -filelist /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways0#
+lSLF07#2@92"Link /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways325192209#325192209#0(0"0(0#0#0"8623480224#928"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos -F/Users/berkeleygamelab/pathwaysrepo/pathways -filelist /Users/berkeleygamelab/pathwaysrepo/pathways/build/Pathways.build/Debug-iphoneos/Pathways.build/Objects-normal/armv7/Pathways.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app/Pathways0#
 
 CProcessInfoPlistFile /Users/berkeleygamelab/Melissa/game/build/Debug-iphoneos/Pathways.app/Info.plist Pathways-Info.plist
 s315465487.711537
@@ -7540,10 +7539,10 @@ CTouch /Users/berkeleygamelab/pathwaysrepo/build/Debug-iphoneos/Pathways.app
 r0
 
 CTouch /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-s325071797.908808
-e325071797.912395
+s325192209.874463
+e325192209.877857
 r1
 xTouch
 x/Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app
-lSLF07#2@84"Touch /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app325071797#325071797#0(0"0(0#0#0"8625116864#277"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
+lSLF07#2@84"Touch /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app325192209#325192209#0(0"0(0#0#0"8620988128#277"    cd /Users/berkeleygamelab/pathwaysrepo/pathways    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkeleygamelab/pathwaysrepo/pathways/build/Debug-iphoneos/Pathways.app0#
 
