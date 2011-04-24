@@ -683,11 +683,16 @@ int numPieces;
 }
 
 -(void)scoresButtonPressed{
-	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle]];
+	/*
+	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle] withCurrentScore:playerScore];
 	self.aScoreViewController = aViewController;
 	[aViewController release];
 	UIView *ScoresView = [aScoreViewController view];
 	[self.view addSubview:ScoresView];	
+	*/
+	[self.view removeFromSuperview];
+	[appDelegate showPlayerScores];
+
 }	
 
 -(void)makeNextLevelButton{

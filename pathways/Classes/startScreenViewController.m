@@ -139,13 +139,19 @@
     // e.g. self.myOutlet = nil;
 }
 
+
 -(IBAction)scoreButtonPressed:(UIButton *)sender {
+	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+
+	/*
 	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle]];
 	self.aScoreViewController = aViewController;
 	[aViewController release];
 	UIView *ScoresView = [aScoreViewController view];
 	[self.view addSubview:ScoresView];
-	
+	*/
+	[self.view removeFromSuperview];
+	[appDelegate showHighScores];
 }
 
  

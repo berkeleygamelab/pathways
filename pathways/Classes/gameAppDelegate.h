@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class	startScreenViewController;
+@class startScreenViewController;
 @class LevelViewController;
 @class scoreViewController;
+@class highScoreViewController;
 @class scoreObject;
 
 
@@ -20,7 +21,7 @@
 	startScreenViewController *startViewController;
 	LevelViewController *aLevelViewController;
 	scoreViewController *aScoreViewController;
-	
+	highScoreViewController *aHighScoreViewController;
 	NSString *levelData;
 	scoreObject *currentScore;
 }
@@ -29,12 +30,15 @@
 @property (nonatomic, retain) startScreenViewController *startViewController;
 @property (nonatomic, retain) LevelViewController *aLevelViewController;
 @property (nonatomic, retain) scoreViewController *aScoreViewController;
-
+@property (nonatomic, retain) highScoreViewController *aHighScoreViewController;
 @property (nonatomic, retain) NSString *levelData;
 @property (nonatomic, retain) scoreObject *currentScore;
 
 
 - (void) showMainScreen;
 - (void) switchLevel;
+- (void) showPlayerScores;
+- (void) showHighScores;
+
 
 @end

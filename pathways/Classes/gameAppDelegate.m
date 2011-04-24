@@ -12,7 +12,7 @@
 @implementation gameAppDelegate
 
 @synthesize window;
-@synthesize startViewController, aLevelViewController, aScoreViewController;
+@synthesize startViewController, aLevelViewController, aScoreViewController, aHighScoreViewController;
 
 @synthesize levelData, currentScore;
 
@@ -53,6 +53,22 @@
 	[aViewController release];
 	UIView *Level1View = [aLevelViewController view];
 	[window addSubview:Level1View];
+}
+
+- (void) showPlayerScores{
+	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle] withCurrentScore:currentScore];
+	self.aScoreViewController = aViewController;
+	[aViewController release];
+	UIView *ScoreView = [aScoreViewController view];
+	[window addSubview:ScoreView];	
+}
+
+-(void) showHighScores{
+	highScoreViewController *aViewController = [[highScoreViewController alloc] initWithNibName:@"highScoreViewController" bundle:[NSBundle mainBundle]];
+	self.aHighScoreViewController = aViewController;
+	[aViewController release];
+	UIView *HighScoreView = [aHighScoreViewController view];
+	[window addSubview:HighScoreView];	
 	
 }
 

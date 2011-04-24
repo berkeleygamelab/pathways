@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "scoreObject.h"
+#import "gameAppDelegate.h"
 
 @interface scoreViewController : UIViewController {
 	//IBOutlet UIScrollView *scoreScrollView;
@@ -15,13 +16,20 @@
 	int leftScore;
 	int rightScore;
 	NSMutableArray *scoreArray;
+	UIImageView *graphImageView;
 	IBOutlet UILabel *playerLabel;
+	IBOutlet UIButton *graphViewButton;
+	NSString *currPlayerName;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *scoreScrollView;
 @property (nonatomic, retain) IBOutlet UILabel *playerLabel;
+@property (nonatomic, retain) IBOutlet UIButton *graphViewButton;
+@property (nonatomic, retain) UIImageView *graphImageView;
+@property (nonatomic, retain) NSString *currPlayerName;
 
 -(IBAction)doneButtonPressed:(UIButton *)doneButton;
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withCurrentScore:(scoreObject *)currScore;
 
 -(void)loadScores;
 //-(void)updateScores;

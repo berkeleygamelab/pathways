@@ -7,17 +7,13 @@
 \f0\fs24 \cf0 .DS_Store\
 *.swp\
 *~.nib\
-\
-build/\
-\
+pathways/build/\
+**/*.pbxuser
+\f1\i\fs26 \cf2 \
 \pard\pardeftab720\sl340\ql\qnatural
 
-\f1\i\fs26 \cf2 .xcodeproj/
-\i0  !*.xcodeproj/project.pbxproj
-\f0\fs24 \cf0 \
+\f0\i0\fs24 \cf0 *.mode1v3\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
-\cf0 \
-*.mode1v3\
-*.mode2v3\
-\
-xcuserdata}
+\cf0 *.mode2v3\
+xcuserdata\
+**/*.perspectivev*}
