@@ -413,8 +413,12 @@
 		9388871012FF51F7007BEE5D /* xib files */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				938CE4D41364349600AAA9E8 /* highScoreViewController.xib */,
+=======
 				D553E6471364D44400102C29 /* LevelPickViewController.xib */,
 				D553E64E1364D48600102C29 /* highScoreViewController.xib */,
+>>>>>>> testing
 				93AE661E130393DE00E370F7 /* LevelViewController.xib */,
 				93AE661F130393DE00E370F7 /* MainWindow.xib */,
 				93AE6620130393DE00E370F7 /* scoreViewController.xib */,
@@ -477,7 +481,11 @@
 			children = (
 				9392090A12641E88007C9949 /* startScreenViewController.h */,
 				9392090B12641E88007C9949 /* startScreenViewController.m */,
+				D553E6461364D43B00102C29 /* highScoreViewController.h */,
 				9392098C12642BDF007C9949 /* LevelViewController.h */,
+				D553E6441364D43400102C29 /* highScoreViewController.m */,
+				D553E6501364D48F00102C29 /* LevelPickViewController.h */,
+				D553E6511364D48F00102C29 /* LevelPickViewController.m */,
 				9392098D12642BDF007C9949 /* LevelViewController.m */,
 				93908C8012EC1BEC00972FFE /* scoreViewController.h */,
 				93908C8112EC1BEC00972FFE /* scoreViewController.m */,
@@ -764,8 +772,37 @@
 				939F875C1356E70E007E06AC /* urap1-13.mp3 in Resources */,
 				939F875D1356E70E007E06AC /* urap1-23.mp3 in Resources */,
 				939F875E1356E70E007E06AC /* urap1-123.mp3 in Resources */,
+<<<<<<< HEAD
+				938CE4D61364349600AAA9E8 /* highScoreViewController.xib in Resources */,
+				93B4398D1364D94C0094276C /* level_03_left_map.png in Resources */,
+				93B4398E1364D94C0094276C /* level_03_peg01l.png in Resources */,
+				93B4398F1364D94C0094276C /* level_03_peg02l.png in Resources */,
+				93B439901364D94C0094276C /* level_03_peg03l.png in Resources */,
+				93B439911364D94C0094276C /* level_03_peg04l.png in Resources */,
+				93B439921364D94C0094276C /* level_03_peg05l.png in Resources */,
+				93B439931364D94C0094276C /* level_03_peg06l.png in Resources */,
+				93B439941364D94C0094276C /* level_03_peg07l.png in Resources */,
+				93B439951364D94C0094276C /* level_03_peg08l.png in Resources */,
+				93B439961364D94C0094276C /* level_03_peg09l.png in Resources */,
+				93B439971364D94C0094276C /* level_03_peg10l.png in Resources */,
+				93B439981364D94C0094276C /* level_03_right_map.png in Resources */,
+				93B439991364D94C0094276C /* level_03_peg01r.png in Resources */,
+				93B4399A1364D94C0094276C /* level_03_peg02r.png in Resources */,
+				93B4399B1364D94C0094276C /* level_03_peg03r.png in Resources */,
+				93B4399C1364D94C0094276C /* level_03_peg04r.png in Resources */,
+				93B4399D1364D94C0094276C /* level_03_peg05r.png in Resources */,
+				93B4399E1364D94C0094276C /* level_03_peg06r.png in Resources */,
+				93B4399F1364D94C0094276C /* level_03_peg07r.png in Resources */,
+				93B439A01364D94C0094276C /* level_03_peg08r.png in Resources */,
+				93B439A11364D94C0094276C /* level_03_peg09r.png in Resources */,
+				93B439A21364D94C0094276C /* level_03_peg10r.png in Resources */,
+				93B439A71364D9710094276C /* level_03_data.txt in Resources */,
+				93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */,
+				93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */,
+=======
 				D553E6481364D44400102C29 /* LevelPickViewController.xib in Resources */,
 				D553E64F1364D48600102C29 /* highScoreViewController.xib in Resources */,
+>>>>>>> testing
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,8 +825,12 @@
 				937D4049127E9ADB000B4B72 /* mapBoard.m in Sources */,
 				93908C8312EC1BEC00972FFE /* scoreViewController.m in Sources */,
 				93937F59135937ED00FE9E88 /* scoreObject.m in Sources */,
+<<<<<<< HEAD
 				938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */,
-				93B5CC1213663DE5007D2BCF /* ScoreTableCell.m in Sources */,
+=======
+				D553E6451364D43400102C29 /* highScoreViewController.m in Sources */,
+				D553E6521364D48F00102C29 /* LevelPickViewController.m in Sources */,
+>>>>>>> testing
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
