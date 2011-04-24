@@ -16,6 +16,8 @@
 		93381D3C1264535D00C8DC8D /* draggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 93381D3B1264535D00C8DC8D /* draggable.m */; };
 		937D4046127E9ACD000B4B72 /* pieceBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D4045127E9ACD000B4B72 /* pieceBoard.m */; };
 		937D4049127E9ADB000B4B72 /* mapBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D4048127E9ADB000B4B72 /* mapBoard.m */; };
+		938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938CE4D31364349600AAA9E8 /* highScoreViewController.m */; };
+		938CE4D61364349600AAA9E8 /* highScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938CE4D41364349600AAA9E8 /* highScoreViewController.xib */; };
 		93908C7F12EC175E00972FFE /* scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93908C7E12EC175E00972FFE /* scores.plist */; };
 		93908C8312EC1BEC00972FFE /* scoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93908C8112EC1BEC00972FFE /* scoreViewController.m */; };
 		9390C0961289470900F7DE83 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9390C0951289470900F7DE83 /* AudioToolbox.framework */; };
@@ -128,6 +130,9 @@
 		937D4045127E9ACD000B4B72 /* pieceBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pieceBoard.m; sourceTree = "<group>"; };
 		937D4047127E9ADB000B4B72 /* mapBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapBoard.h; sourceTree = "<group>"; };
 		937D4048127E9ADB000B4B72 /* mapBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapBoard.m; sourceTree = "<group>"; };
+		938CE4D21364349600AAA9E8 /* highScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highScoreViewController.h; sourceTree = "<group>"; };
+		938CE4D31364349600AAA9E8 /* highScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = highScoreViewController.m; sourceTree = "<group>"; };
+		938CE4D41364349600AAA9E8 /* highScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = highScoreViewController.xib; sourceTree = "<group>"; };
 		93908C7E12EC175E00972FFE /* scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scores.plist; sourceTree = "<group>"; };
 		93908C8012EC1BEC00972FFE /* scoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreViewController.h; sourceTree = "<group>"; };
 		93908C8112EC1BEC00972FFE /* scoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreViewController.m; sourceTree = "<group>"; };
@@ -396,6 +401,7 @@
 		9388871012FF51F7007BEE5D /* xib files */ = {
 			isa = PBXGroup;
 			children = (
+				938CE4D41364349600AAA9E8 /* highScoreViewController.xib */,
 				93AE661E130393DE00E370F7 /* LevelViewController.xib */,
 				93AE661F130393DE00E370F7 /* MainWindow.xib */,
 				93AE6620130393DE00E370F7 /* scoreViewController.xib */,
@@ -462,6 +468,8 @@
 				9392098D12642BDF007C9949 /* LevelViewController.m */,
 				93908C8012EC1BEC00972FFE /* scoreViewController.h */,
 				93908C8112EC1BEC00972FFE /* scoreViewController.m */,
+				938CE4D21364349600AAA9E8 /* highScoreViewController.h */,
+				938CE4D31364349600AAA9E8 /* highScoreViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -683,6 +691,7 @@
 				939F875C1356E70E007E06AC /* urap1-13.mp3 in Resources */,
 				939F875D1356E70E007E06AC /* urap1-23.mp3 in Resources */,
 				939F875E1356E70E007E06AC /* urap1-123.mp3 in Resources */,
+				938CE4D61364349600AAA9E8 /* highScoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +714,7 @@
 				937D4049127E9ADB000B4B72 /* mapBoard.m in Sources */,
 				93908C8312EC1BEC00972FFE /* scoreViewController.m in Sources */,
 				93937F59135937ED00FE9E88 /* scoreObject.m in Sources */,
+				938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
