@@ -1,6 +1,6 @@
 .DS_Store
 pathways/build/
-*//**/*.pbxuser
-*/*.mode2v3
-*/*.mode1v3
-*/**/*.perspectivev*
+**/*.pbxuser
+*.mode2v3
+*.mode1v3
+**/*.perspectivev*
