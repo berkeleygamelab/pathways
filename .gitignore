@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 .DS_Store
 pathways/build/
 **/*.pbxuser
 *.mode2v3
 *.mode1v3
 **/*.perspectivev*
-=======
-pathways/build
-pathways/Pathways.xcodeproj/rahulgupta.pbxuser
-pathways/Pathways.xcodeproj/rahulgupta.mode1v3
-pathways/Pathways.xcodeproj/project.pbxproj
->>>>>>> test
