@@ -69,7 +69,7 @@
 		NSLog(@"in SCORES 3");
 
 		
-		 UILabel *playerNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(56, 140+20*i, 200, 20)];
+		 UILabel *playerNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(130, 140+20*i, 200, 20)];
 		 playerNameLabel.text = [NSString stringWithFormat:@"%@", playerName];
 		 playerNameLabel.backgroundColor = [UIColor clearColor];
 		 playerNameLabel.textColor = scoreColor;
@@ -80,25 +80,25 @@
 			NSString *dateString = [format stringFromDate:currScoreDate];
 			NSLog(@"inSCORES: date: %@", dateString);
 			
-			UILabel *dateAndTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(230, 140+20*i, 200, 20)];
+			UILabel *dateAndTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(283, 140+20*i, 200, 20)];
 			dateAndTimeLabel.text = [NSString stringWithFormat:@"%@", dateString];
 			dateAndTimeLabel.backgroundColor = [UIColor clearColor];
 			dateAndTimeLabel.textColor = scoreColor;
 			dateAndTimeLabel.textAlignment = UITextAlignmentLeft;
 			
-			UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(417, 140+20*i, 130, 20)];
+			UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(476, 140+20*i, 130, 20)];
 			leftScoreLabel.text = [NSString stringWithFormat:@"%i", currLeftScore];
 			leftScoreLabel.backgroundColor = [UIColor clearColor];
 			leftScoreLabel.textColor = scoreColor;
 			leftScoreLabel.textAlignment = UITextAlignmentCenter;
 			
-			UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(560, 140+20*i, 130, 20)];
+			UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(619, 140+20*i, 130, 20)];
 			rightScoreLabel.text = [NSString stringWithFormat:@"%i", currRightScore];
 			rightScoreLabel.backgroundColor = [UIColor clearColor];
 			rightScoreLabel.textColor = scoreColor;
 			rightScoreLabel.textAlignment = UITextAlignmentCenter;
 			
-			UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(703, 140+20*i, 130, 20)];
+			UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(762, 140+20*i, 130, 20)];
 			totalScoreLabel.text = [NSString stringWithFormat:@"%i", currTotalScore];
 			totalScoreLabel.backgroundColor = [UIColor clearColor];
 			totalScoreLabel.textColor = scoreColor;

@@ -14,7 +14,14 @@
 @class highScoreViewController;
 @class scoreObject;
 
-
+typedef enum
+{
+	MAINSCREEN,
+	CHOOSELEVEL,
+	LEVEL,
+	PLAYERSCORES,
+	HIGHSCORES
+}DelegateGameState;
 
 @interface gameAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
@@ -24,8 +31,10 @@
 	highScoreViewController *aHighScoreViewController;
 	NSString *levelData;
 	scoreObject *currentScore;
+	DelegateGameState gameState;
 }
 
+@property DelegateGameState gameState;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) startScreenViewController *startViewController;
 @property (nonatomic, retain) LevelViewController *aLevelViewController;

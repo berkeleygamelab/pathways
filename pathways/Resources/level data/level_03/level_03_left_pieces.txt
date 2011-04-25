@@ -1,0 +1,10 @@
+level_03_peg01l.png 734 216
+level_03_peg02l.png 699 333
+level_03_peg03l.png 657 225
+level_03_peg04l.png 660 454
+level_03_peg05l.png 637 365
+level_03_peg06l.png 803 153
+level_03_peg07l.png 579 237
+level_03_peg08l.png 563 327
+level_03_peg09l.png 814 306
+level_03_peg10l.png 621 167

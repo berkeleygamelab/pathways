@@ -74,7 +74,7 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleColor">
+						<object class="NSColor" key="IBUINormalTitleColor" id="628745761">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
 						</object>
@@ -98,14 +98,14 @@
 					<object class="IBUILabel" id="1023365712">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{814, 192}, {90, 29}}</string>
+						<string key="NSFrame">{{814, 192}, {109, 29}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Melissa</string>
+						<string key="IBUIText">1-10 years</string>
 						<object class="NSFont" key="IBUIFont" id="750659895">
 							<string key="NSName">Georgia</string>
 							<double key="NSSize">24</double>
@@ -127,14 +127,14 @@
 					<object class="IBUILabel" id="783296268">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{814, 294}, {90, 29}}</string>
+						<string key="NSFrame">{{814, 294}, {121, 29}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Ann</string>
+						<string key="IBUIText">10-17 years</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -146,14 +146,14 @@
 					<object class="IBUILabel" id="101295644">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{814, 395}, {90, 29}}</string>
+						<string key="NSFrame">{{814, 395}, {125, 29}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Rahul</string>
+						<string key="IBUIText">18-29 years</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -165,14 +165,14 @@
 					<object class="IBUILabel" id="309858635">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{814, 490}, {90, 29}}</string>
+						<string key="NSFrame">{{814, 490}, {126, 29}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Greg</string>
+						<string key="IBUIText">30-55 years</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -191,7 +191,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Guest Player</string>
+						<string key="IBUIText">55+ years</string>
 						<reference key="IBUIFont" ref="750659895"/>
 						<reference key="IBUITextColor" ref="309735651"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
@@ -203,24 +203,26 @@
 					<object class="IBUILabel" id="724459550">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{676, 87}, {340, 53}}</string>
+						<string key="NSFrame">{{683, 43}, {290, 82}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Select a player and place its piece in the correct place on the left to begin</string>
+						<string key="IBUIText">Select your age range and place its piece in the correct place on the left to begin</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Georgia-Bold</string>
-							<double key="NSSize">17</double>
+							<double key="NSSize">20</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<reference key="IBUITextColor" ref="599224355"/>
 						<reference key="IBUIHighlightedColor" ref="599224355"/>
+						<reference key="IBUIShadowColor" ref="628745761"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">2</int>
+						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUITextAlignment">1</int>
 					</object>
 				</object>
 				<string key="NSFrameSize">{1024, 748}</string>
@@ -383,7 +385,7 @@
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">P4AAAL+AAABEPEAAxDWAAA</bytes>
 					</object>
-					<string>{{323, 88}, {1024, 768}}</string>
+					<string>{{135, 88}, {1024, 768}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -411,7 +413,7 @@
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABEKQAAwxgAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABELYAAwwEAAA</bytes>
 					</object>
 				</object>
 			</object>

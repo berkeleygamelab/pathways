@@ -162,15 +162,15 @@
 	[piece scaleImageSmaller];
 	piece.canMove = YES;
 	if (piece == draggable1) {		
-		playerScore = [[scoreObject alloc] initWithPlayer:@"Melissa"];		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"1-10 years"];		
 	} else if (piece == draggable2) {
-		playerScore = [[scoreObject alloc] initWithPlayer:@"Ann"];		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"10-17 years"];		
 	} else if (piece == draggable3) {
-		playerScore = [[scoreObject alloc] initWithPlayer:@"Rahul"];		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"18-29 years"];		
 	} else if (piece == draggable4) {
-		playerScore = [[scoreObject alloc] initWithPlayer:@"Greg"];		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"30-55 years"];		
 	} else if (piece == draggable5) {
-		playerScore = [[scoreObject alloc] initWithPlayer:@"Guest"];		
+		playerScore = [[scoreObject alloc] initWithPlayer:@"55+ years"];		
 	}
 	
 	appDelegate.currentScore = playerScore;

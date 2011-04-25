@@ -420,7 +420,7 @@ int numPieces;
 	
 	if(gamestate==NONEACTIVE){
 		gamestate = RIGHTACTIVE;
-	}
+	
 	[self hideOverlay];
 	rightButton.enabled = FALSE;
 	rightButton.hidden = YES;
@@ -451,16 +451,27 @@ int numPieces;
 	}
 	[piece release];
 	[UIView commitAnimations]; // End animations
+	}
 }
 -(IBAction)leftSideTouchUp:(UIButton *)leftButton{
-	[self leftToCenter];
+	//[self leftToCenter];
+	[self shiftToCenter];
 	rightSideCompletedLabel.hidden=YES;
 }
+
+-(void)shiftToCenter{
+	if(gamestate == RIGHTACTIVE){
+		[self leftToCenter];
+	}else if (gamestate == LEFTACTIVE) {
+		[self rightToCenter];
+	}
+}
+
 
 -(void)leftToCenter{
 	if (gamestate==RIGHTACTIVE) {
 		gamestate=NONEACTIVE;
-	}
+	
 	[self showOverlay];
 	rightButton.hidden = NO;
 	
@@ -488,12 +499,13 @@ int numPieces;
 	}
 	[piece release];
 	[UIView commitAnimations]; // End animations
+	}
 }
 
 -(IBAction)rightSideTouchDown:(UIButton *)rightButton{
 	if(gamestate==NONEACTIVE){
 		gamestate = LEFTACTIVE;
-	}
+	
 	[self hideOverlay];
 	leftButton.enabled = NO;
 	leftButton.hidden = YES;
@@ -524,16 +536,18 @@ int numPieces;
 	}
 	[piece release];
 	[UIView commitAnimations]; // End animations
+	}
 }
 -(IBAction)rightSideTouchUp:(UIButton *)rightButton{
-	[self rightToCenter];
+	//[self rightToCenter];
+	[self shiftToCenter];
 	leftSideCompletedLabel.hidden = YES;
 }
 
 -(void)rightToCenter{
 	if(gamestate == LEFTACTIVE){
 		gamestate = NONEACTIVE;
-	}
+	
 	[self showOverlay];
 	leftButton.hidden = NO;
 	
@@ -560,6 +574,7 @@ int numPieces;
 	}
 	[piece release];
 	[UIView commitAnimations]; // End animations
+	}
 }
 
 -(IBAction)backButtonPressed:(UIButton *)backButton {
@@ -641,7 +656,6 @@ int numPieces;
 	
 	
 	if(numBlocks==0){
-		gamestate = COMPLETE;
 		[self completedAction];
 	}
 }
@@ -661,10 +675,12 @@ int numPieces;
 }
 
 -(void)completedAction {
+	[self shiftToCenter];
 	gamestate = COMPLETE;
+	[self showOverlay];
 	NSLog(@"GAMESTATE: %i", gamestate);
 	pausedLabel.text = [NSString stringWithFormat:@"GREAT JOB!"];
-	pressButtonsLabel.text = [NSString stringWithFormat:@"Your final score is: %i", playerScore.totalScore];
+	pressButtonsLabel.text = [NSString stringWithFormat:@"Your score is: %i", playerScore.totalScore];
 	[self.view bringSubviewToFront:pausedLabel];
 	[self.view bringSubviewToFront:pressButtonsLabel];
 	if(isLastLevel){

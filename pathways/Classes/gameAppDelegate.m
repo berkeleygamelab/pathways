@@ -12,6 +12,7 @@
 @implementation gameAppDelegate
 
 @synthesize window;
+@synthesize gameState;
 @synthesize startViewController, aLevelViewController, aScoreViewController, aHighScoreViewController;
 
 @synthesize levelData, currentScore;
@@ -37,6 +38,7 @@
 }
 
 - (void) showMainScreen{
+	gameState = MAINSCREEN;
 	NSLog(@"showing main screen");
 	startScreenViewController *aViewController = [[startScreenViewController alloc] initWithNibName:@"startScreenViewController" bundle:[NSBundle mainBundle]];
 	self.startViewController = aViewController;
@@ -47,6 +49,7 @@
 }
 
 - (void) switchLevel{
+	gameState = LEVEL;
 	NSLog(@"switching to level data: %@", levelData);
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:currentScore];
 	self.aLevelViewController = aViewController;
@@ -56,6 +59,7 @@
 }
 
 - (void) showPlayerScores{
+	gameState = PLAYERSCORES;
 	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle] withCurrentScore:currentScore];
 	self.aScoreViewController = aViewController;
 	[aViewController release];
@@ -64,6 +68,7 @@
 }
 
 -(void) showHighScores{
+	gameState = HIGHSCORES;
 	highScoreViewController *aViewController = [[highScoreViewController alloc] initWithNibName:@"highScoreViewController" bundle:[NSBundle mainBundle]];
 	self.aHighScoreViewController = aViewController;
 	[aViewController release];
@@ -101,6 +106,9 @@
      Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
      Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
      */
+	if (gameState == LEVEL) {
+		[aLevelViewController shiftToCenter];
+	}
 }
 
 
