@@ -12,14 +12,17 @@
 
 @interface scoreViewController : UIViewController {
 	//IBOutlet UIScrollView *scoreScrollView;
-	int totalScore;
-	int leftScore;
-	int rightScore;
+	//int totalScore;
+	//int leftScore;
+	//int rightScore;
 	NSMutableArray *scoreArray;
 	UIImageView *graphImageView;
 	IBOutlet UILabel *playerLabel;
 	IBOutlet UIButton *graphViewButton;
 	NSString *currPlayerName;
+	NSMutableString *LHDataString;
+	NSMutableString *RHDataString;	
+	NSMutableString *TotalDataString;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *scoreScrollView;
@@ -27,6 +30,9 @@
 @property (nonatomic, retain) IBOutlet UIButton *graphViewButton;
 @property (nonatomic, retain) UIImageView *graphImageView;
 @property (nonatomic, retain) NSString *currPlayerName;
+@property (nonatomic, retain) NSMutableString *LHDataString;
+@property (nonatomic, retain) NSMutableString *RHDataString;
+@property (nonatomic, retain) NSMutableString *TotalDataString;
 
 -(IBAction)doneButtonPressed:(UIButton *)doneButton;
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withCurrentScore:(scoreObject *)currScore;

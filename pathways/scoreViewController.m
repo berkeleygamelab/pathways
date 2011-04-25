@@ -18,6 +18,7 @@
 @synthesize graphViewButton;
 @synthesize graphImageView;
 @synthesize currPlayerName;
+@synthesize LHDataString, RHDataString, TotalDataString;
 
 int viewtype;
 
@@ -28,6 +29,9 @@ int viewtype;
 		//totalScore = newScore;
 		currPlayerName = currScore.playerName;
 		NSLog(@"init-ing score screen setting player to %@", currPlayerName);
+		LHDataString = [NSMutableString stringWithFormat:@""];
+		RHDataString = [NSMutableString stringWithFormat:@""];
+		TotalDataString = [NSMutableString stringWithFormat:@""];
 
 
 	}
@@ -39,13 +43,14 @@ int viewtype;
 - (void)viewDidLoad {
     [super viewDidLoad];
 	playerLabel.text = currPlayerName;
-	NSLog(@"%i", totalScore);
+	//NSLog(@"%i", totalScore);
 	[self loadScores];
 	[self showScores];
 	[self showGraph];
 	viewtype = 0;
 	[graphViewButton addTarget:self action:@selector(graphViewButtonPressed) forControlEvents:UIControlEventTouchUpInside];
 
+	
 
 }
 
@@ -110,14 +115,6 @@ int viewtype;
 		}else{
 			scoreColor = [UIColor whiteColor];
 		}
-		/*
-		UILabel *playerNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(56, 140+20*i, 200, 20)];
-		playerNameLabel.text = [NSString stringWithFormat:@"%@", playerName];
-		playerNameLabel.backgroundColor = [UIColor clearColor];
-		playerNameLabel.textColor = scoreColor;
-		playerNameLabel.textAlignment = UITextAlignmentLeft;		
-		*/
-		//playerLabel.text = [NSString stringWithFormat:@"%@", playerName];
 		
 		if([playerName isEqualToString:currPlayerName]){
 		
@@ -133,24 +130,26 @@ int viewtype;
 			dateAndTimeLabel.textAlignment = UITextAlignmentLeft;
 		
 			UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(417, 140+20*j, 130, 20)];
-			leftScoreLabel.text = [NSString stringWithFormat:@"%i", currLeftScore];
+			leftScoreLabel.text = [NSString stringWithFormat:@"%i", currLeftScore];			
 			leftScoreLabel.backgroundColor = [UIColor clearColor];
 			leftScoreLabel.textColor = scoreColor;
 			leftScoreLabel.textAlignment = UITextAlignmentCenter;
+			[self addToDataList:LHDataString dataPoint:currLeftScore];
 		
 			UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(560, 140+20*j, 130, 20)];
 			rightScoreLabel.text = [NSString stringWithFormat:@"%i", currRightScore];
 			rightScoreLabel.backgroundColor = [UIColor clearColor];
 			rightScoreLabel.textColor = scoreColor;
 			rightScoreLabel.textAlignment = UITextAlignmentCenter;
+			[self addToDataList:RHDataString dataPoint:currRightScore];
 		
 			UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(703, 140+20*j, 130, 20)];
 			totalScoreLabel.text = [NSString stringWithFormat:@"%i", currTotalScore];
 			totalScoreLabel.backgroundColor = [UIColor clearColor];
 			totalScoreLabel.textColor = scoreColor;
 			totalScoreLabel.textAlignment = UITextAlignmentCenter;
+			[self addToDataList:TotalDataString dataPoint:currTotalScore];
 		
-			//[self.view addSubview:playerNameLabel];
 			[self.view addSubview:dateAndTimeLabel];
 			[self.view addSubview:leftScoreLabel];
 			[self.view addSubview:rightScoreLabel];
@@ -163,13 +162,30 @@ int viewtype;
 	
 }
 		 
+-(void) addToDataList:(NSMutableString *)dataSetString dataPoint:(int)scoreData{
+	int scaledScore = scoreData / 20;
+	if ([dataSetString isEqualToString:@""]) {
+		[dataSetString appendFormat:@"%i", scaledScore];
+	} else {
+		NSString *scaledScoreString = [NSString stringWithFormat:@"%i,", scaledScore];
+		[dataSetString insertString:scaledScoreString atIndex:0];
+	}
+
+}
 
 -(void) showGraph{
 	NSLog(@"trying to get image from URL");
-	NSString *graphURLString = [NSString stringWithFormat:@"http://chart.apis.google.com/chart?chxl=0:|Jan|Feb|Mar|Jun|Jul|Aug|1:|100|75|50|25|0&chxr=0,-3.333,100|2,0,0&chxs=0,00AA00,14,0.5,l,676767&chxt=x,y,r&chs=648x462&cht=lc&chco=FF0000,0000FF,FF9900&chd=s:ndcYSZmnot,oqrofXcbfb,eotvpkVRPY&chdl=Right+Hand|Left+Hand|Total+Score&chls=1.333|4.333|1&chma=15,17,15,15|68,44"];
+
+	NSString *preDataString = [NSString stringWithFormat:@"http://chart.apis.google.com/chart?chxl=0:|0|500|1000|1500|2000&chxr=1,0,0&chxt=y,r&chs=648x462&cht=lc&chco=FF0000,0000FF,FF9900&chd=t:"];
+	//LHDataString = [NSString stringWithFormat:@"63.934"];
+	//RHDataString = [NSString stringWithFormat:@"65.574"];
+	//TotalDataString = [NSString stringWithFormat:@"49.18"];
+	NSString *postDataString = [NSString stringWithFormat:@"&chdl=Left+Hand|Right+Hand|Total+Score&chls=2|2|3&chma=15,17,15,15|68,44"];
+	
+	NSString *graphURLString = [NSString stringWithFormat:@"%@%@|%@|%@%@", preDataString, LHDataString, RHDataString, TotalDataString, postDataString];
+	
 	graphURLString = [graphURLString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]; 
 	NSURL *graphURL = [NSURL URLWithString:graphURLString];
-	//NSURL *graphURL = [NSURL URLWithString:@"http://26.media.tumblr.com/tumblr_ljys5g16DL1qzj2dvo1_500.jpg"];
 	NSData *graphData = [NSData dataWithContentsOfURL:graphURL];
 	UIImage *graphImage = [UIImage imageWithData:graphData];
 	graphImageView = [[UIImageView alloc] initWithImage:graphImage];
