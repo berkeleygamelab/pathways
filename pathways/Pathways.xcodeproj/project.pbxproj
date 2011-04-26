@@ -135,6 +135,7 @@
 		93B439A71364D9710094276C /* level_03_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A41364D9710094276C /* level_03_data.txt */; };
 		93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A51364D9710094276C /* level_03_left_pieces.txt */; };
 		93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A61364D9710094276C /* level_03_right_pieces.txt */; };
+		93B5CC1213663DE5007D2BCF /* ScoreTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -281,6 +282,8 @@
 		93B439A41364D9710094276C /* level_03_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_data.txt; sourceTree = "<group>"; };
 		93B439A51364D9710094276C /* level_03_left_pieces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_left_pieces.txt; sourceTree = "<group>"; };
 		93B439A61364D9710094276C /* level_03_right_pieces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_right_pieces.txt; sourceTree = "<group>"; };
+		93B5CC1013663DE5007D2BCF /* ScoreTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableCell.h; sourceTree = "<group>"; };
+		93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -522,6 +525,8 @@
 				93908C8112EC1BEC00972FFE /* scoreViewController.m */,
 				938CE4D21364349600AAA9E8 /* highScoreViewController.h */,
 				938CE4D31364349600AAA9E8 /* highScoreViewController.m */,
+				93B5CC1013663DE5007D2BCF /* ScoreTableCell.h */,
+				93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -850,6 +855,7 @@
 				93908C8312EC1BEC00972FFE /* scoreViewController.m in Sources */,
 				93937F59135937ED00FE9E88 /* scoreObject.m in Sources */,
 				938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */,
+				93B5CC1213663DE5007D2BCF /* ScoreTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

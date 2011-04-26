@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "gameAppDelegate.h"
+#import "ScoreTableCell.h"
 
-@interface highScoreViewController : UIViewController {
+@interface highScoreViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
 	NSMutableArray *scoreArray;
 	NSMutableArray *topScores;
+	IBOutlet UITableView *scoreTableView;
 }
 
 @property (nonatomic, retain) NSMutableArray *scoreArray;
 @property (nonatomic, retain) NSMutableArray *topScores;
-
+@property (nonatomic, retain) IBOutlet UITableView *scoreTableView;
 
 -(IBAction)doneButtonPressed:(UIButton *)doneButton;
 

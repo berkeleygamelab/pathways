@@ -1,4 +1,4 @@
-    //
+//
 //  highScoreViewController.m
 //  Pathways
 //
@@ -8,10 +8,10 @@
 
 #import "highScoreViewController.h"
 
-
 @implementation highScoreViewController
 
 @synthesize scoreArray, topScores;
+@synthesize scoreTableView;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
@@ -19,18 +19,86 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization.
-		
     }
     return self;
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return [scoreArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	static NSString *CellIdentifier = @"Cell";
+	
+	ScoreTableCell *cell = (ScoreTableCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+	if (cell == nil) {
+		
+		cell = [[[ScoreTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+	}
+	NSMutableArray *currScoreField = [scoreArray objectAtIndex:indexPath.row];
+			
+	NSString *playerName = [currScoreField objectAtIndex:0];
+	NSDate *currScoreDate = [currScoreField objectAtIndex:1];
+	int *currLeftScore = (int *)[[currScoreField objectAtIndex:2] intValue];
+	int *currRightScore = (int *)[[currScoreField objectAtIndex:3] intValue];
+	int *currTotalScore = (int *)[[currScoreField objectAtIndex:4] intValue];
+	
+	NSDateFormatter *format = [[NSDateFormatter alloc] init];
+	[format setDateFormat:@"MMM dd, yyyy HH:mm"];
+	NSString *dateString = [format stringFromDate:currScoreDate];
+	
+	
+	UILabel *label = [[[UILabel alloc] initWithFrame:CGRectMake(10.0, 0.0, 120.0, tableView.rowHeight)] autorelease];
+	label.text = playerName;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:140];
+	[cell.contentView addSubview:label];
+	
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(150.0, 0.0, 180.0, tableView.rowHeight)] autorelease];
+	label.text = dateString;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:350];
+	[cell.contentView addSubview:label];
+	
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(360.0, 0.0, 115.0, tableView.rowHeight)] autorelease];
+	label.text = [NSString stringWithFormat:@"%i", currLeftScore];
+	label.textAlignment = UITextAlignmentCenter;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:485];
+	[cell.contentView addSubview:label];
+	
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(495.0, 0.0, 115.0, tableView.rowHeight)] autorelease];
+	label.text = [NSString stringWithFormat:@"%i", currRightScore];
+	label.textAlignment = UITextAlignmentCenter;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:620];
+	[cell.contentView addSubview:label];
+		
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(630.0, 0.0, 120.0, tableView.rowHeight)] autorelease];
+	label.text = [NSString stringWithFormat:@"%i", currTotalScore];
+	label.textAlignment = UITextAlignmentCenter;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell.contentView addSubview:label];
+	
+	
+	// Set up the cell...
+	//[[cell textLabel] setText:@"awpoibj"];
+
+	return cell;
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	scoreTableView.allowsSelection = NO;
+	NSLog(@"high score view loading");
     [super viewDidLoad];
 	[self loadScores];
-	[self showTopScores];
+	//[self showTopScores];
 }
 
 
@@ -58,8 +126,7 @@
 	for (int i = 0; i < [scoreArray count]; i++) {
 		NSLog(@"in SCORES 1");
 		NSMutableArray *currScoreField = [scoreArray objectAtIndex:i];
-		NSLog(@"in SCORES 2");
-
+		
 		NSString *playerName = [currScoreField objectAtIndex:0];
 		NSDate *currScoreDate = [currScoreField objectAtIndex:1];
 		int *currLeftScore = (int *)[[currScoreField objectAtIndex:2] intValue];
