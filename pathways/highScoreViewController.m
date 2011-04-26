@@ -35,7 +35,6 @@
 	static NSString *CellIdentifier = @"Cell";
 	
 	ScoreTableCell *cell = (ScoreTableCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 	if (cell == nil) {
 		
 		cell = [[[ScoreTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
@@ -110,10 +109,10 @@
 }
 
 
--(void)showTopScores{
-	[self findTopScores];
-	[self showScores];
-}
+//-(void)showTopScores{
+//	[self findTopScores];
+//	[self showScores];
+//}
 
 -(void)findTopScores{
 	

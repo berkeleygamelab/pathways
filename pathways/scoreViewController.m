@@ -13,15 +13,15 @@
 @implementation scoreViewController
 
 //@synthesize score1Label, score2Label, score3Label, score4Label, score5Label;
-@synthesize scoreScrollView;
+//@synthesize scoreScrollView;
 @synthesize playerLabel;
 @synthesize graphViewButton;
 @synthesize graphImageView;
 @synthesize currPlayerName;
 @synthesize LHDataString, RHDataString, TotalDataString;
+@synthesize scoreTableView;
 
 int viewtype;
-
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withCurrentScore:(scoreObject *)currScore{
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -38,14 +38,73 @@ int viewtype;
     return self;
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return [playerScoreArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	static NSString *CellIdentifier = @"Cell";
+	
+	ScoreTableCell *cell = (ScoreTableCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+	if (cell == nil) {
+		
+		cell = [[[ScoreTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+	}
+	
+	NSMutableArray *currScoreField = [playerScoreArray objectAtIndex:indexPath.row];
+	
+	NSDate *currScoreDate = [currScoreField objectAtIndex:1];
+	int *currLeftScore = (int *)[[currScoreField objectAtIndex:2] intValue];
+	int *currRightScore = (int *)[[currScoreField objectAtIndex:3] intValue];
+	int *currTotalScore = (int *)[[currScoreField objectAtIndex:4] intValue];
+	
+	NSDateFormatter *format = [[NSDateFormatter alloc] init];
+	[format setDateFormat:@"MMM dd, yyyy HH:mm"];
+	NSString *dateString = [format stringFromDate:currScoreDate];
+	
+	UILabel *label = [[[UILabel alloc] initWithFrame:CGRectMake(10.0, 0.0, 180.0, tableView.rowHeight)] autorelease];
+	label.text = dateString;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:190];
+	[cell.contentView addSubview:label];
+	
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(200.0, 0.0, 120.0, tableView.rowHeight)] autorelease];
+	label.text = [NSString stringWithFormat:@"%i", currLeftScore];
+	label.textAlignment = UITextAlignmentCenter;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:330];
+	[cell.contentView addSubview:label];
+	
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(340.0, 0.0, 120.0, tableView.rowHeight)] autorelease];
+	label.text = [NSString stringWithFormat:@"%i", currRightScore];
+	label.textAlignment = UITextAlignmentCenter;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell addColumn:470];
+	[cell.contentView addSubview:label];
+	
+	label = [[[UILabel alloc] initWithFrame:CGRectMake(480.0, 0.0, 120.0, tableView.rowHeight)] autorelease];
+	label.text = [NSString stringWithFormat:@"%i", currTotalScore];
+	label.textAlignment = UITextAlignmentCenter;
+	label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+	[cell.contentView addSubview:label];
+	
+	return cell;
+}	
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	scoreTableView.allowsSelection = NO;
 	playerLabel.text = currPlayerName;
 	//NSLog(@"%i", totalScore);
 	[self loadScores];
-	[self showScores];
+	[self getPlayerScores];
+	//[self showScores];
 	[self showGraph];
 	viewtype = 0;
 	[graphViewButton addTarget:self action:@selector(graphViewButtonPressed) forControlEvents:UIControlEventTouchUpInside];
@@ -96,14 +155,17 @@ int viewtype;
 	}
 }
 
--(void)showScores{
+-(void)getPlayerScores{
 	NSLog(@"displaying scores");
+	playerScoreArray = [[NSMutableArray alloc] init];
 	
-	int j = 0;
+	//int j = 0;
 	for (int i = 0; i < [scoreArray count]; i++) {
 		
 		NSMutableArray *currScoreField = [scoreArray objectAtIndex:i];
 		NSString *playerName = [currScoreField objectAtIndex:0];
+		
+		/*
 		NSDate *currScoreDate = [currScoreField objectAtIndex:1];
 		int *currLeftScore = (int *)[[currScoreField objectAtIndex:2] intValue];
 		int *currRightScore = (int *)[[currScoreField objectAtIndex:3] intValue];
@@ -115,47 +177,49 @@ int viewtype;
 		}else{
 			scoreColor = [UIColor whiteColor];
 		}
+		*/
 		
 		if([playerName isEqualToString:currPlayerName]){
-		
-			NSDateFormatter *format = [[NSDateFormatter alloc] init];
-			[format setDateFormat:@"MMM dd, yyyy HH:mm"];
-			NSString *dateString = [format stringFromDate:currScoreDate];
-			NSLog(@"inSCORES: date: %@", dateString);
-		
-			UILabel *dateAndTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(230, 140+20*j, 200, 20)];
-			dateAndTimeLabel.text = [NSString stringWithFormat:@"%@", dateString];
-			dateAndTimeLabel.backgroundColor = [UIColor clearColor];
-			dateAndTimeLabel.textColor = scoreColor;
-			dateAndTimeLabel.textAlignment = UITextAlignmentLeft;
-		
-			UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(417, 140+20*j, 130, 20)];
-			leftScoreLabel.text = [NSString stringWithFormat:@"%i", currLeftScore];			
-			leftScoreLabel.backgroundColor = [UIColor clearColor];
-			leftScoreLabel.textColor = scoreColor;
-			leftScoreLabel.textAlignment = UITextAlignmentCenter;
-			[self addToDataList:LHDataString dataPoint:currLeftScore];
-		
-			UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(560, 140+20*j, 130, 20)];
-			rightScoreLabel.text = [NSString stringWithFormat:@"%i", currRightScore];
-			rightScoreLabel.backgroundColor = [UIColor clearColor];
-			rightScoreLabel.textColor = scoreColor;
-			rightScoreLabel.textAlignment = UITextAlignmentCenter;
-			[self addToDataList:RHDataString dataPoint:currRightScore];
-		
-			UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(703, 140+20*j, 130, 20)];
-			totalScoreLabel.text = [NSString stringWithFormat:@"%i", currTotalScore];
-			totalScoreLabel.backgroundColor = [UIColor clearColor];
-			totalScoreLabel.textColor = scoreColor;
-			totalScoreLabel.textAlignment = UITextAlignmentCenter;
-			[self addToDataList:TotalDataString dataPoint:currTotalScore];
-		
-			[self.view addSubview:dateAndTimeLabel];
-			[self.view addSubview:leftScoreLabel];
-			[self.view addSubview:rightScoreLabel];
-			[self.view addSubview:totalScoreLabel];
+			[playerScoreArray addObject:currScoreField];
 			
-			j++;
+			//NSDateFormatter *format = [[NSDateFormatter alloc] init];
+//			[format setDateFormat:@"MMM dd, yyyy HH:mm"];
+//			NSString *dateString = [format stringFromDate:currScoreDate];
+//			NSLog(@"inSCORES: date: %@", dateString);
+//		
+//			UILabel *dateAndTimeLabel = [[UILabel alloc] initWithFrame:CGRectMake(230, 140+20*j, 200, 20)];
+//			dateAndTimeLabel.text = [NSString stringWithFormat:@"%@", dateString];
+//			dateAndTimeLabel.backgroundColor = [UIColor clearColor];
+//			dateAndTimeLabel.textColor = scoreColor;
+//			dateAndTimeLabel.textAlignment = UITextAlignmentLeft;
+//		
+//			UILabel *leftScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(417, 140+20*j, 130, 20)];
+//			leftScoreLabel.text = [NSString stringWithFormat:@"%i", currLeftScore];			
+//			leftScoreLabel.backgroundColor = [UIColor clearColor];
+//			leftScoreLabel.textColor = scoreColor;
+//			leftScoreLabel.textAlignment = UITextAlignmentCenter;
+//			[self addToDataList:LHDataString dataPoint:currLeftScore];
+//		
+//			UILabel *rightScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(560, 140+20*j, 130, 20)];
+//			rightScoreLabel.text = [NSString stringWithFormat:@"%i", currRightScore];
+//			rightScoreLabel.backgroundColor = [UIColor clearColor];
+//			rightScoreLabel.textColor = scoreColor;
+//			rightScoreLabel.textAlignment = UITextAlignmentCenter;
+//			[self addToDataList:RHDataString dataPoint:currRightScore];
+//		
+//			UILabel *totalScoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(703, 140+20*j, 130, 20)];
+//			totalScoreLabel.text = [NSString stringWithFormat:@"%i", currTotalScore];
+//			totalScoreLabel.backgroundColor = [UIColor clearColor];
+//			totalScoreLabel.textColor = scoreColor;
+//			totalScoreLabel.textAlignment = UITextAlignmentCenter;
+//			[self addToDataList:TotalDataString dataPoint:currTotalScore];
+//		
+//			[self.view addSubview:dateAndTimeLabel];
+//			[self.view addSubview:leftScoreLabel];
+//			[self.view addSubview:rightScoreLabel];
+//			[self.view addSubview:totalScoreLabel];
+//			
+			//j++;
 		}
 	}
 
@@ -173,9 +237,22 @@ int viewtype;
 
 }
 
+
+-(void)createDataLists{
+	for (int i =0; i < [playerScoreArray count]; i++) {
+		NSMutableArray *currScoreField = [playerScoreArray objectAtIndex:i];
+		int currLeftScore = (int)[[currScoreField objectAtIndex:2] intValue];
+		int currRightScore = (int)[[currScoreField objectAtIndex:3] intValue];
+		int currTotalScore = (int)[[currScoreField objectAtIndex:4] intValue];
+		[self addToDataList:LHDataString dataPoint:currLeftScore];
+		[self addToDataList:RHDataString dataPoint:currRightScore];
+		[self addToDataList:TotalDataString dataPoint:currTotalScore];
+	}
+}
+
 -(void) showGraph{
 	NSLog(@"trying to get image from URL");
-
+	[self createDataLists];
 	NSString *preDataString = [NSString stringWithFormat:@"http://chart.apis.google.com/chart?chxl=0:|0|500|1000|1500|2000&chxr=1,0,0&chxt=y,r&chs=648x462&cht=lc&chco=FF0000,0000FF,FF9900&chd=t:"];
 	//LHDataString = [NSString stringWithFormat:@"63.934"];
 	//RHDataString = [NSString stringWithFormat:@"65.574"];
