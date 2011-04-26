@@ -9,16 +9,10 @@
 #import "startScreenViewController.h"
 #import "LevelViewController.h"
 
-
-
 @implementation startScreenViewController
 
 @synthesize draggable1, draggable2, draggable3, draggable4, draggable5;
-@synthesize level1ViewController, level2ViewController;
 @synthesize gamestate;
-@synthesize aScoreViewController;
-@synthesize player1Button;
-
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -40,17 +34,6 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-*/
-
-/*
--(void) createDraggable {
-	draggable1 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"start-piece.png"] withInitX:720 withInitY:130 withFinalX:336 withFinalY:147];
-	[draggable1 setFrame:CGRectOffset([draggable1 frame], 720, 130)];
-	[draggable1 setUserInteractionEnabled:YES];
-	[self.view addSubview:draggable1];
-	draggable1.containingview = self;
-	[draggable release];
 }
 */
 
@@ -142,18 +125,9 @@
 
 -(IBAction)scoreButtonPressed:(UIButton *)sender {
 	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
-
-	/*
-	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle]];
-	self.aScoreViewController = aViewController;
-	[aViewController release];
-	UIView *ScoresView = [aScoreViewController view];
-	[self.view addSubview:ScoresView];
-	*/
 	[self.view removeFromSuperview];
 	[appDelegate showHighScores];
 }
-
  
 -(void)piecePlacedAction:(draggable *)piece{
 	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -177,43 +151,8 @@
 	appDelegate.levelData = @"level_01_data";
 	[self.view removeFromSuperview];
 	[appDelegate switchLevel];
-	//[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
 }
 
--(void)makeLevel1WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score{
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:score];
-	self.level1ViewController = aViewController;
-	aViewController.containingView = self;
-	[aViewController release];
-	UIView *Level1View = [level1ViewController view];
-	[self.view addSubview:Level1View];
-}
--(void)makeLevel2WithLevelData:(NSString *)levelData withScoreObject:(scoreObject *)score{
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData withScoreObject:score];
-	self.level2ViewController = aViewController;
-	aViewController.containingView = self;
-	[aViewController release];
-	UIView *Level2View = [level2ViewController view];
-	[self.view addSubview:Level2View];
-}
-
-
--(void)makeLevel1WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore{
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData
-																		  withLeftScore:oldLeftScore withRightScore:oldRightScore withScore:oldTotalScore];
-	self.level1ViewController = aViewController;
-	[aViewController release];
-	UIView *Level1View = [level1ViewController view];
-	[self.view addSubview:Level1View];
-}
--(void)makeLevel2WithLevelData:(NSString *) levelData withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore{
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:levelData
-																		  withLeftScore:oldLeftScore withRightScore:oldRightScore withScore:oldTotalScore];
-	self.level2ViewController = aViewController;
-	[aViewController release];
-	UIView *Level2View = [level2ViewController view];
-	[self.view addSubview:Level2View];
-}
 
 -(void)pieceMisplacedAction:(draggable *)piece{
 	[piece scaleImageSmaller];
@@ -221,7 +160,6 @@
 
 - (void)dealloc {
 	[draggable1 dealloc];
-	[level1ViewController dealloc];
     [super dealloc];
 }
 

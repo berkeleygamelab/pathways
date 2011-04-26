@@ -31,10 +31,8 @@
 @synthesize overlayImage;
 @synthesize pausedLabel, pressButtonsLabel, blurbLabel, leftArrow, rightArrow, leftSideCompletedLabel, rightSideCompletedLabel;
 @synthesize quitAlert,infoAlert;
-@synthesize aScoreViewController, nextLevelViewController;
 @synthesize nextLevelData;
 
-@synthesize containingView;
 @synthesize playerScore;
 
 BOOL leftSideCompleted;
@@ -47,92 +45,11 @@ NSString *rightMapImageName;
 NSString *leftPiecesTextFile;
 NSString *rightPiecesTextFile;
 int numPieces;
-//NSString *nextLevelData;
-
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData 
-		withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore{
-
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-		appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
-		NSLog(@"appDelegate is: %@", appDelegate);
-		
-		gamestate = NONEACTIVE;
-		leftScore = oldLeftScore;
-		rightScore = oldRightScore;
-		score = oldTotalScore;
-		
-		leftSideCompleted = NO;
-		rightSideCompleted = NO;
-		leftSideCompletedLabel.hidden = YES;
-		rightSideCompletedLabel.hidden = YES;
-		
-		//PARSE LEVEL DATA TEXT FILE
-		NSString *levelDataFilePath = [[NSBundle mainBundle] pathForResource:levelData ofType:@"txt"];
-		NSString *levelDataFileContents = [NSString stringWithContentsOfFile:levelDataFilePath encoding:NSUTF8StringEncoding error:nil];
-		NSArray *levelDataArray = [levelDataFileContents componentsSeparatedByString:@"\n"];
-		leftMapImageName = [levelDataArray objectAtIndex:0];
-		rightMapImageName = [levelDataArray objectAtIndex:1];
-		leftPiecesTextFile = [levelDataArray objectAtIndex:2];
-		rightPiecesTextFile = [levelDataArray objectAtIndex:3];
-		numPieces = [[levelDataArray objectAtIndex:4] intValue];
-		nextLevelData = [levelDataArray objectAtIndex:5];
-		NSLog(@"next level data is: %@", nextLevelData);
-		if ([nextLevelData isEqualToString:@"null"]) {
-			NSLog(@"islastlevel");
-			isLastLevel = YES;
-		}
-		else {
-			isLastLevel = NO;
-		}
-
-		[self createBoards];
-		[self makeLeftPieces];
-		[self makeRightPieces];
-
-		 
-		CGRect overlayRect = CGRectMake(0,0,1024,748);
-		overlayImage = [[UIImageView alloc] initWithFrame:overlayRect];
-		[overlayImage setImage:[UIImage imageNamed:@"overlay-image.png"]];
-		overlayImage.alpha = 0.85;
-		[self.view addSubview:overlayImage];
-		[overlayImage release];
-		
-		[self.view sendSubviewToBack:overlayImage];
-		[self.view sendSubviewToBack:leftMapBoard];
-		[self.view sendSubviewToBack:rightMapBoard];
-		[self.view sendSubviewToBack:leftPieceBoard];
-		[self.view sendSubviewToBack:rightPieceBoard];
-		
-		numBlocksLeft = [leftPieces count];
-		numBlocksRight = [rightPieces count];
-		numBlocks = [leftPieces count] + [rightPieces count];
-		
-		timerValid = YES;
-		leftTime = MAXPIECEPOINTS;
-		rightTime = MAXPIECEPOINTS;
-		timerLabel.hidden = YES;
-		
-		[self showOverlay];
-		
-
-    }
-    return self;
-}
-*/
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData withScoreObject:(scoreObject *)theScore{
-    NSLog(@"making level with scoreobject");
 	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
 		appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
-		NSLog(@"appDelegate is: %@", appDelegate);
-
 		gamestate = NONEACTIVE;
-		//leftScore = oldLeftScore;
-		//rightScore = oldRightScore;
-		//score = oldTotalScore;
 		self.playerScore = theScore;
 		
 		leftSideCompleted = NO;
@@ -150,7 +67,6 @@ int numPieces;
 		rightPiecesTextFile = [levelDataArray objectAtIndex:3];
 		numPieces = [[levelDataArray objectAtIndex:4] intValue];
 		nextLevelData = [[NSString alloc] initWithString:[levelDataArray objectAtIndex:5]];
-		//nextLevelData = [levelDataArray objectAtIndex:5];
 		NSLog(@"next level data is: %@", nextLevelData);
 		if ([nextLevelData isEqualToString:@"null"]) {
 			NSLog(@"islastlevel");
@@ -454,7 +370,6 @@ int numPieces;
 	}
 }
 -(IBAction)leftSideTouchUp:(UIButton *)leftButton{
-	//[self leftToCenter];
 	[self shiftToCenter];
 	rightSideCompletedLabel.hidden=YES;
 }
@@ -539,7 +454,6 @@ int numPieces;
 	}
 }
 -(IBAction)rightSideTouchUp:(UIButton *)rightButton{
-	//[self rightToCenter];
 	[self shiftToCenter];
 	leftSideCompletedLabel.hidden = YES;
 }
@@ -589,22 +503,10 @@ int numPieces;
 - (void)alertView : (UIAlertView *)alertView clickedButtonAtIndex : (NSInteger)buttonIndex{	
 	if(alertView == quitAlert){
 		if(buttonIndex == 0){
-			NSLog(@"no button was pressed\n");
-			/*
-			if (gamestate==LEFTACTIVE) {
-				[self leftToCenter];
-			}else if (gamestate==RIGHTACTIVE) {
-				[self rightToCenter];
-			}
-			 */
 		}
 		else{
-			NSLog(@"yes button was pressed\n");
 			[self.view removeFromSuperview];
 			[appDelegate showMainScreen];
-			NSLog(@"%@", appDelegate);
-
-			
 		}
 	}else if (alertView==infoAlert) {
 	}
@@ -628,8 +530,6 @@ int numPieces;
 	piece.canMove = NO;
 	piece.active = NO;
 	if(gamestate == LEFTACTIVE){
-		//leftScore = (leftScore + leftTime);
-		//score = (score+leftTime);
 		[playerScore addToLeftScore:leftTime];
 		
 		leftTime = MAXPIECEPOINTS+1;
@@ -639,8 +539,6 @@ int numPieces;
 			leftSideCompletedLabel.hidden=NO;
 		}
 	} else if (gamestate == RIGHTACTIVE) {
-		//rightScore = (rightScore + rightTime);
-		//score = (score+rightTime);
 		[playerScore addToRightScore:rightTime];
 		
 		rightTime = MAXPIECEPOINTS+1;
@@ -650,7 +548,6 @@ int numPieces;
 			rightSideCompletedLabel.hidden=NO;
 		}
 	}
-	//scoreLabel.text = [NSString stringWithFormat:@" SCORE: %i",score];
 	scoreLabel.text	= [NSString stringWithFormat:@" SCORE: %i", playerScore.totalScore];
 	numBlocks--;
 	
@@ -699,13 +596,6 @@ int numPieces;
 }
 
 -(void)scoresButtonPressed{
-	/*
-	scoreViewController *aViewController = [[scoreViewController alloc] initWithNibName:@"scoreViewController" bundle:[NSBundle mainBundle] withCurrentScore:playerScore];
-	self.aScoreViewController = aViewController;
-	[aViewController release];
-	UIView *ScoresView = [aScoreViewController view];
-	[self.view addSubview:ScoresView];	
-	*/
 	[self.view removeFromSuperview];
 	[appDelegate showPlayerScores];
 
@@ -720,33 +610,15 @@ int numPieces;
 }
 
 -(void)nextLevelButtonPressed{
-	NSLog(@"trying to go to newlevel now");
-	isLastLevel = YES;
+	//isLastLevel = YES;
 	appDelegate.currentScore = playerScore;
 	appDelegate.levelData = nextLevelData;
 	[self.view removeFromSuperview];
 	[appDelegate switchLevel];
-
-	//[[self parentViewController] makeLevelWithLevelData:nextLevelData withLeftScore:leftScore withRightScore:rightScore withScore:score];
-
-
-	/*
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:nextLevelData
-																		  withLeftScore:leftScore withRightScore:rightScore withScore:score];
-	NSLog(@"here 1");
-	self.nextLevelViewController = aViewController;
-	NSLog(@"here 2");
-	[aViewController release];
-	NSLog(@"here 3");
-	UIView *nextLevelView = [nextLevelViewController view];
-	NSLog(@"here 4");
-	[self.view addSubview:nextLevelView];	
-	 */
 }	
 
 //score handling methods
 -(void)loadScores{
-	NSLog(@"loading scores");
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	scoreArray = nil;
 	scoreArray = [[NSMutableArray alloc] initWithArray:[defaults objectForKey:@"scores"]];
@@ -762,22 +634,6 @@ int numPieces;
 
 -(void)updateScores{
 	//get current date&time
-	/*
-	NSDateFormatter *format = [[NSDateFormatter alloc] init];
-	[format setDateFormat:@"MMM dd, yyyy HH:mm"];
-	NSDate *now = [[NSDate alloc] init];
-	NSString *dateString = [format stringFromDate:now];
-	NSLog(@"date: %@", dateString);
-	
-	NSLog(@"updating scores");
-	[scoreArray insertObject:[NSArray arrayWithObjects:
-							  now,
-							  [NSNumber numberWithInt:leftScore], 
-							  [NSNumber numberWithInt:rightScore], 
-							  [NSNumber numberWithInt:score], 
-							  nil] 
-					 atIndex:0];
-	 */
 	[scoreArray insertObject:[NSArray arrayWithObjects:
 							  playerScore.playerName,
 							  playerScore.startTime,

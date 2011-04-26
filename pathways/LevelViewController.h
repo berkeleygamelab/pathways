@@ -22,7 +22,7 @@ typedef enum
 	RIGHTACTIVE,
 	COMPLETE
 	
-}Level1Gamestate;
+}LevelGamestate;
 
 @interface LevelViewController : UIViewController {
 	//appdelegate
@@ -68,31 +68,25 @@ typedef enum
 	UIAlertView *infoAlert;
 	
 	//score handling
-	scoreViewController *aScoreViewController;
-	int leftScore;
-	int rightScore;
-	int score;
 	NSMutableArray *scoreArray;
-	
 	scoreObject *playerScore;
 
 	//nextLevel 
-	LevelViewController *nextLevelViewController;
 	NSString *nextLevelData;
-	Level1Gamestate gamestate;
-	
-	UIViewController *containingView;
-	
+	LevelGamestate gamestate;
+		
 }
 
 @property (nonatomic, retain) gameAppDelegate *appDelegate;
-@property Level1Gamestate gamestate;
+@property LevelGamestate gamestate;
+
 @property (nonatomic, retain) mapBoard *leftMapBoard;
 @property (nonatomic, retain) mapBoard *rightMapBoard;
 @property (nonatomic, retain) NSMutableArray *leftPieces;
 @property (nonatomic, retain) NSMutableArray *rightPieces;
 @property (nonatomic, retain) pieceBoard *leftPieceBoard;
 @property (nonatomic, retain) pieceBoard *rightPieceBoard;
+
 @property (nonatomic, retain) IBOutlet UILabel *scoreLabel;
 @property (nonatomic, retain) IBOutlet UILabel *timerLabel;
 @property (nonatomic, retain) NSTimer *timer;
@@ -104,13 +98,11 @@ typedef enum
 @property (nonatomic, retain) IBOutlet UILabel *blurbLabel;
 @property (nonatomic, retain) IBOutlet UIImageView *leftArrow;
 @property (nonatomic, retain) IBOutlet UIImageView *rightArrow;
+
 @property (nonatomic, retain) UIAlertView *quitAlert;
 @property (nonatomic, retain) UIAlertView *infoAlert;
-@property (nonatomic, retain) scoreViewController *aScoreViewController;
-@property (nonatomic, retain) LevelViewController *nextLevelViewController;
 @property (nonatomic, retain) NSString *nextLevelData;
 @property (nonatomic, retain) scoreObject *playerScore;
-@property (nonatomic, retain) UIViewController *containingView;
 
 @property (nonatomic, retain) IBOutlet UILabel *leftSideCompletedLabel;
 @property (nonatomic, retain) IBOutlet UILabel *rightSideCompletedLabel;
@@ -125,13 +117,21 @@ typedef enum
 -(void)piecePlacedAction:(draggable *)piece;
 -(void)pieceMisplacedAction:(draggable *)piece;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData 
-		withLeftScore:(int)oldLeftScore withRightScore:(int)oldRightScore withScore:(int)oldTotalScore;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withLevelData:(NSString *)levelData withScoreObject:(scoreObject *)theScore;
-
 
 -(void)showOverlay;
 -(void)hideOverlay;
-
+-(void)createBoards;
+-(void) makeLeftPieces;
+-(void) makeRightPieces;
+-(void) makeScoreButton;
+-(void) makeNextLevelButton;
+-(void) shiftToCenter;
+-(void) leftToCenter;
+-(void) rightToCenter;
+-(void) completedAction;
+-(void) loadScores;
+-(void) updateScores;
+-(void) saveScores;
 
 @end

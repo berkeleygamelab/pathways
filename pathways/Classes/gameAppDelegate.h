@@ -21,6 +21,7 @@ typedef enum
 	LEVEL,
 	PLAYERSCORES,
 	HIGHSCORES
+	
 }DelegateGameState;
 
 @interface gameAppDelegate : NSObject <UIApplicationDelegate> {

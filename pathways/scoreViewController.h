@@ -25,7 +25,6 @@
 	IBOutlet UITableView *scoreTableView;
 }
 
-//@property (nonatomic, retain) IBOutlet UILabel *scoreScrollView;
 @property (nonatomic, retain) IBOutlet UILabel *playerLabel;
 @property (nonatomic, retain) IBOutlet UIButton *graphViewButton;
 @property (nonatomic, retain) UIImageView *graphImageView;
@@ -39,10 +38,8 @@
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withCurrentScore:(scoreObject *)currScore;
 
 -(void)loadScores;
-//-(void)updateScores;
-//-(void)saveScores;
-//-(void)showScores;
 -(void) showGraph;
+-(void)getPlayerScores;
 
 
 @end

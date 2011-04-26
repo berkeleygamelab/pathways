@@ -21,5 +21,7 @@
 @property (nonatomic, retain) IBOutlet UITableView *scoreTableView;
 
 -(IBAction)doneButtonPressed:(UIButton *)doneButton;
+-(void)loadScores;
+
 
 @end
