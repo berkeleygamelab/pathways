@@ -461,7 +461,7 @@
 		9388871012FF51F7007BEE5D /* xib files */ = {
 			isa = PBXGroup;
 			children = (
-				D590DE011367A94C00C258D3 /* LevelPickViewController.xib */,
+				D55CBC2913667C980079F8C0 /* LevelPickViewController.xib */,
 				938CE4D41364349600AAA9E8 /* highScoreViewController.xib */,
 				93AE661E130393DE00E370F7 /* LevelViewController.xib */,
 				93AE661F130393DE00E370F7 /* MainWindow.xib */,
@@ -525,8 +525,8 @@
 			children = (
 				9392090A12641E88007C9949 /* startScreenViewController.h */,
 				9392090B12641E88007C9949 /* startScreenViewController.m */,
-				D590DDFE1367A94500C258D3 /* LevelPickViewController.h */,
-				D590DDFF1367A94500C258D3 /* LevelPickViewController.m */,
+				D55CBC2613667C830079F8C0 /* LevelPickViewController.h */,
+				D55CBC2713667C830079F8C0 /* LevelPickViewController.m */,
 				9392098C12642BDF007C9949 /* LevelViewController.h */,
 				9392098D12642BDF007C9949 /* LevelViewController.m */,
 				93908C8012EC1BEC00972FFE /* scoreViewController.h */,
@@ -840,7 +840,7 @@
 				93B439A71364D9710094276C /* level_03_data.txt in Resources */,
 				93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */,
 				93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */,
-				D590DE021367A94C00C258D3 /* LevelPickViewController.xib in Resources */,
+				D55CBC2A13667C980079F8C0 /* LevelPickViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

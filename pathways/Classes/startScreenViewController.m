@@ -152,7 +152,7 @@
 	
 //	appDelegate.levelData = @"level_01_data";
 	//[self.view removeFromSuperview];
-	levelPick = [[LevelPickViewController alloc] initWithNibName:@"LevelPickViewController" bundle:[NSBundle mainBundle] andPlayerScore:playerScore];
+	levelPick = [[LevelPickViewController alloc] initWithNibName:@"LevelPickViewController" bundle:[NSBundle mainBundle]];
 	[self.view addSubview:levelPick.view];
 	
 	
