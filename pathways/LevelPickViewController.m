@@ -13,9 +13,10 @@
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andPlayerScore:playerScore{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+		score = playerScore;
         // Custom initialization.
     }
     return self;
@@ -53,16 +54,37 @@
 
 - (IBAction) loadLevel1: (UIButton *) sender
 {
-	//gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_01_data" withScoreObject:score];
-	aViewController.containingView = self;
 	[aViewController release];
-	UIView *Level1View = [level1ViewController view];
+	UIView *Level1View = [aViewController view];
 	[self.view addSubview:Level1View];
 	
 	
 }
 
+- (IBAction) loadLevel2: (UIButton *) sender
+{
+	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_02_data" withScoreObject:score];
+	[aViewController release];
+	UIView *Level1View = [aViewController view];
+	[self.view addSubview:Level1View];
+	
+	
+}
+
+
+- (IBAction) loadLevel3: (UIButton *) sender
+{
+	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_03_data" withScoreObject:score];
+	[aViewController release];
+	UIView *Level1View = [aViewController view];
+	[self.view addSubview:Level1View];
+	
+	
+}
 - (void)dealloc {
     [super dealloc];
 }

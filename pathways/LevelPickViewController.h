@@ -13,6 +13,7 @@
 
 @interface LevelPickViewController : UIViewController {
 
+	scoreObject *score;
 
 }
 
