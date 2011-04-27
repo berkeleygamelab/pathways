@@ -7,10 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "gameAppDelegate.h"
+#import "LevelViewController.h"
+#import "scoreObject.h"
 
 @interface LevelPickViewController : UIViewController {
 
+
 }
+
+- (IBAction) loadLevel1: (UIButton *) sender;
+
+- (IBAction) loadLevel2: (UIButton *) sender;
+
+- (IBAction) loadLevel3: (UIButton *) sender;
+
+- (IBAction) loadRandomLevel: (UIButton *) sender;
+
+
 
 @end

@@ -173,10 +173,16 @@
 		playerScore = [[scoreObject alloc] initWithPlayer:@"55+ years"];		
 	}
 	
+	
 	appDelegate.currentScore = playerScore;
-	appDelegate.levelData = @"level_01_data";
-	[self.view removeFromSuperview];
-	[appDelegate switchLevel];
+	
+//	appDelegate.levelData = @"level_01_data";
+	//[self.view removeFromSuperview];
+	levelPick = [[LevelPickViewController alloc] initWithNibName:@"LevelPickViewController" bundle:[NSBundle mainBundle]];
+	[self.view addSubview:levelPick.view];
+	
+	
+//	[appDelegate switchLevel];
 	//[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];
 }
 

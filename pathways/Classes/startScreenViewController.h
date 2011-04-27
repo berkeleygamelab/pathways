@@ -10,6 +10,7 @@
 #import "LevelViewController.h"
 #import "scoreObject.h"
 #import "gameAppDelegate.h"
+#import "LevelPickViewController.h"
 
 typedef enum
 {
@@ -21,6 +22,7 @@ typedef enum
 @interface startScreenViewController : UIViewController {
 	LevelViewController *level1ViewController;
 	LevelViewController *level2ViewController;
+	LevelPickViewController * levelPick;
 	draggable *draggable1;
 	draggable *draggable2;
 	draggable *draggable3;
