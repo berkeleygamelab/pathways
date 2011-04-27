@@ -13,6 +13,7 @@
 
 @synthesize draggable1, draggable2, draggable3, draggable4, draggable5;
 @synthesize gamestate;
+@synthesize levelPick;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -30,12 +31,17 @@
     return self;
 }
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	[self createPlayer1Draggable];
+	[self createPlayer2Draggable];
+	[self createPlayer3Draggable];
+	[self createPlayer4Draggable];
+	[self createPlayer5Draggable];
 }
-*/
+
 
 -(void) createPlayer1Draggable {
 	draggable1 = [[draggable alloc] initWithImage:[UIImage imageNamed:@"green-peg.png"] 
@@ -152,9 +158,9 @@
 	
 //	appDelegate.levelData = @"level_01_data";
 	//[self.view removeFromSuperview];
-	levelPick = [[LevelPickViewController alloc] initWithNibName:@"LevelPickViewController" bundle:[NSBundle mainBundle]];
-	[self.view addSubview:levelPick.view];
-	
+	self.levelPick = [[LevelPickViewController alloc] initWithNibName:@"LevelPickViewController" bundle:[NSBundle mainBundle] andPlayerScore:playerScore];
+	NSLog(@"testing");
+	[[self navigationController] pushViewController:levelPick animated:YES];
 	
 //	[appDelegate switchLevel];
 	//[self makeLevel2WithLevelData:@"level_02_data" withLeftScore:0 withRightScore:0 withScore:0];

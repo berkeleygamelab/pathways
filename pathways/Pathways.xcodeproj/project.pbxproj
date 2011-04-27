@@ -42,7 +42,6 @@
 		939F875E1356E70E007E06AC /* urap1-123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 939F87561356E70E007E06AC /* urap1-123.mp3 */; };
 		93AE661D1303939F00E370F7 /* gem_china_edit_3.aif in Resources */ = {isa = PBXBuildFile; fileRef = 93AE661C1303939F00E370F7 /* gem_china_edit_3.aif */; };
 		93AE6622130393DE00E370F7 /* LevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AE661E130393DE00E370F7 /* LevelViewController.xib */; };
-		93AE6623130393DE00E370F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AE661F130393DE00E370F7 /* MainWindow.xib */; };
 		93AE6624130393DE00E370F7 /* scoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AE6620130393DE00E370F7 /* scoreViewController.xib */; };
 		93AE6625130393DE00E370F7 /* startScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AE6621130393DE00E370F7 /* startScreenViewController.xib */; };
 		93AE6629130395DC00E370F7 /* level_01_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93AE6626130395DC00E370F7 /* level_01_data.txt */; };
@@ -136,8 +135,10 @@
 		93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A51364D9710094276C /* level_03_left_pieces.txt */; };
 		93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A61364D9710094276C /* level_03_right_pieces.txt */; };
 		93B5CC1213663DE5007D2BCF /* ScoreTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */; };
-		D590DE001367A94500C258D3 /* LevelPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D590DDFF1367A94500C258D3 /* LevelPickViewController.m */; };
-		D590DE021367A94C00C258D3 /* LevelPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D590DE011367A94C00C258D3 /* LevelPickViewController.xib */; };
+		D5876AF21367FAA600030D08 /* LevelPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5876AF11367FAA600030D08 /* LevelPickViewController.m */; };
+		D5876AF41367FAAF00030D08 /* LevelPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5876AF31367FAAF00030D08 /* LevelPickViewController.xib */; };
+		D5876AFA1367FBD300030D08 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5876AF91367FBD300030D08 /* SwitchViewController.m */; };
+		D5876B8113680E2700030D08 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5876B8013680E2700030D08 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -191,7 +192,6 @@
 		939F87561356E70E007E06AC /* urap1-123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "urap1-123.mp3"; path = "Resources/sounds/level_music_1/urap1-123.mp3"; sourceTree = "<group>"; };
 		93AE661C1303939F00E370F7 /* gem_china_edit_3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = gem_china_edit_3.aif; path = Resources/sounds/gem_china_edit_3.aif; sourceTree = "<group>"; };
 		93AE661E130393DE00E370F7 /* LevelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LevelViewController.xib; path = "Resources/xib files/LevelViewController.xib"; sourceTree = "<group>"; };
-		93AE661F130393DE00E370F7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources/xib files/MainWindow.xib"; sourceTree = "<group>"; };
 		93AE6620130393DE00E370F7 /* scoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = scoreViewController.xib; path = "Resources/xib files/scoreViewController.xib"; sourceTree = "<group>"; };
 		93AE6621130393DE00E370F7 /* startScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = startScreenViewController.xib; path = "Resources/xib files/startScreenViewController.xib"; sourceTree = "<group>"; };
 		93AE6626130395DC00E370F7 /* level_01_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level_01_data.txt; path = "Resources/level data/level 01/level_01_data.txt"; sourceTree = "<group>"; };
@@ -286,9 +286,12 @@
 		93B439A61364D9710094276C /* level_03_right_pieces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_right_pieces.txt; sourceTree = "<group>"; };
 		93B5CC1013663DE5007D2BCF /* ScoreTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableCell.h; sourceTree = "<group>"; };
 		93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableCell.m; sourceTree = "<group>"; };
-		D590DDFE1367A94500C258D3 /* LevelPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPickViewController.h; sourceTree = "<group>"; };
-		D590DDFF1367A94500C258D3 /* LevelPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPickViewController.m; sourceTree = "<group>"; };
-		D590DE011367A94C00C258D3 /* LevelPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelPickViewController.xib; sourceTree = "<group>"; };
+		D5876AF01367FAA600030D08 /* LevelPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPickViewController.h; sourceTree = "<group>"; };
+		D5876AF11367FAA600030D08 /* LevelPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPickViewController.m; sourceTree = "<group>"; };
+		D5876AF31367FAAF00030D08 /* LevelPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelPickViewController.xib; sourceTree = "<group>"; };
+		D5876AF81367FBD300030D08 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		D5876AF91367FBD300030D08 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		D5876B8013680E2700030D08 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -461,12 +464,12 @@
 		9388871012FF51F7007BEE5D /* xib files */ = {
 			isa = PBXGroup;
 			children = (
-				D55CBC2913667C980079F8C0 /* LevelPickViewController.xib */,
+				D5876AF31367FAAF00030D08 /* LevelPickViewController.xib */,
 				938CE4D41364349600AAA9E8 /* highScoreViewController.xib */,
 				93AE661E130393DE00E370F7 /* LevelViewController.xib */,
-				93AE661F130393DE00E370F7 /* MainWindow.xib */,
 				93AE6620130393DE00E370F7 /* scoreViewController.xib */,
 				93AE6621130393DE00E370F7 /* startScreenViewController.xib */,
+				D5876B8013680E2700030D08 /* MainWindow.xib */,
 			);
 			name = "xib files";
 			sourceTree = "<group>";
@@ -525,16 +528,18 @@
 			children = (
 				9392090A12641E88007C9949 /* startScreenViewController.h */,
 				9392090B12641E88007C9949 /* startScreenViewController.m */,
-				D55CBC2613667C830079F8C0 /* LevelPickViewController.h */,
-				D55CBC2713667C830079F8C0 /* LevelPickViewController.m */,
 				9392098C12642BDF007C9949 /* LevelViewController.h */,
 				9392098D12642BDF007C9949 /* LevelViewController.m */,
 				93908C8012EC1BEC00972FFE /* scoreViewController.h */,
+				D5876AF01367FAA600030D08 /* LevelPickViewController.h */,
+				D5876AF11367FAA600030D08 /* LevelPickViewController.m */,
 				93908C8112EC1BEC00972FFE /* scoreViewController.m */,
 				938CE4D21364349600AAA9E8 /* highScoreViewController.h */,
 				938CE4D31364349600AAA9E8 /* highScoreViewController.m */,
 				93B5CC1013663DE5007D2BCF /* ScoreTableCell.h */,
 				93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */,
+				D5876AF81367FBD300030D08 /* SwitchViewController.h */,
+				D5876AF91367FBD300030D08 /* SwitchViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -732,7 +737,6 @@
 				93908C7F12EC175E00972FFE /* scores.plist in Resources */,
 				93AE661D1303939F00E370F7 /* gem_china_edit_3.aif in Resources */,
 				93AE6622130393DE00E370F7 /* LevelViewController.xib in Resources */,
-				93AE6623130393DE00E370F7 /* MainWindow.xib in Resources */,
 				93AE6624130393DE00E370F7 /* scoreViewController.xib in Resources */,
 				93AE6625130393DE00E370F7 /* startScreenViewController.xib in Resources */,
 				93AE6629130395DC00E370F7 /* level_01_data.txt in Resources */,
@@ -840,7 +844,8 @@
 				93B439A71364D9710094276C /* level_03_data.txt in Resources */,
 				93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */,
 				93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */,
-				D55CBC2A13667C980079F8C0 /* LevelPickViewController.xib in Resources */,
+				D5876AF41367FAAF00030D08 /* LevelPickViewController.xib in Resources */,
+				D5876B8113680E2700030D08 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,7 +870,8 @@
 				93937F59135937ED00FE9E88 /* scoreObject.m in Sources */,
 				938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */,
 				93B5CC1213663DE5007D2BCF /* ScoreTableCell.m in Sources */,
-				D590DE001367A94500C258D3 /* LevelPickViewController.m in Sources */,
+				D5876AF21367FAA600030D08 /* LevelPickViewController.m in Sources */,
+				D5876AFA1367FBD300030D08 /* SwitchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

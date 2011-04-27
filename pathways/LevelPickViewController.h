@@ -14,8 +14,13 @@
 @interface LevelPickViewController : UIViewController {
 
 	scoreObject *score;
+	LevelViewController *levelController;
 
 }
+
+@property (nonatomic,retain) LevelViewController *levelController;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andPlayerScore:playerScore;
 
 - (IBAction) loadLevel1: (UIButton *) sender;
 

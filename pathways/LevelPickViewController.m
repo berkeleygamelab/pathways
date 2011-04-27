@@ -13,6 +13,8 @@
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
+@synthesize levelController;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andPlayerScore:playerScore{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -23,12 +25,12 @@
 }
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-*/
+
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -56,9 +58,10 @@
 {
 	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_01_data" withScoreObject:score];
+	self.levelController = aViewController;
 	[aViewController release];
-	UIView *Level1View = [aViewController view];
-	[self.view addSubview:Level1View];
+	[self.navigationController pushViewController:self.levelController animated:NO];
+	//[self.view addSubview:Level1View];
 	
 	
 }
@@ -67,9 +70,10 @@
 {
 	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_02_data" withScoreObject:score];
-	[aViewController release];
-	UIView *Level1View = [aViewController view];
-	[self.view addSubview:Level1View];
+	//[aViewController release];
+	//UIView *Level1View = [aViewController view];
+	//[self.view removeFromSuperview];
+	//[self.view addSubview:Level1View];
 	
 	
 }

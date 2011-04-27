@@ -25,7 +25,8 @@ typedef enum
 }DelegateGameState;
 
 @interface gameAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
+    IBOutlet UIWindow *window;
+	IBOutlet UINavigationController *navigationController;
 	startScreenViewController *startViewController;
 	LevelViewController *aLevelViewController;
 	scoreViewController *aScoreViewController;
@@ -37,6 +38,7 @@ typedef enum
 
 @property DelegateGameState gameState;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) UINavigationController * navigationController;
 @property (nonatomic, retain) startScreenViewController *startViewController;
 @property (nonatomic, retain) LevelViewController *aLevelViewController;
 @property (nonatomic, retain) scoreViewController *aScoreViewController;

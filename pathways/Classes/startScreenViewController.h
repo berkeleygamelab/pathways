@@ -41,6 +41,7 @@ typedef enum
 @property (nonatomic, retain) draggable *draggable3;
 @property (nonatomic, retain) draggable *draggable4;
 @property (nonatomic, retain) draggable *draggable5;
+@property (nonatomic, retain) LevelPickViewController *levelPick;
 @property PathwaysGamestate gamestate;
 
 
