@@ -12,7 +12,7 @@
 @implementation LevelPickViewController
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -20,7 +20,7 @@
     }
     return self;
 }
-*/
+
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -50,6 +50,18 @@
     // e.g. self.myOutlet = nil;
 }
 
+
+- (IBAction) loadLevel1: (UIButton *) sender
+{
+	//gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_01_data" withScoreObject:score];
+	aViewController.containingView = self;
+	[aViewController release];
+	UIView *Level1View = [level1ViewController view];
+	[self.view addSubview:Level1View];
+	
+	
+}
 
 - (void)dealloc {
     [super dealloc];

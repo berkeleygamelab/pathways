@@ -110,10 +110,40 @@
 		93AE66B01303A63100E370F7 /* level_02_peg15r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AE669F1303A63100E370F7 /* level_02_peg15r.png */; };
 		93AE66B11303A63100E370F7 /* level_02_peg16r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AE66A01303A63100E370F7 /* level_02_peg16r.png */; };
 		93AE66B21303A63100E370F7 /* level_02_peg17r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AE66A11303A63100E370F7 /* level_02_peg17r.png */; };
+<<<<<<< HEAD
 		D553E6451364D43400102C29 /* highScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D553E6441364D43400102C29 /* highScoreViewController.m */; };
 		D553E6481364D44400102C29 /* LevelPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D553E6471364D44400102C29 /* LevelPickViewController.xib */; };
 		D553E64F1364D48600102C29 /* highScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D553E64E1364D48600102C29 /* highScoreViewController.xib */; };
 		D553E6521364D48F00102C29 /* LevelPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D553E6511364D48F00102C29 /* LevelPickViewController.m */; };
+=======
+		93B4398D1364D94C0094276C /* level_03_left_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439751364D94C0094276C /* level_03_left_map.png */; };
+		93B4398E1364D94C0094276C /* level_03_peg01l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439771364D94C0094276C /* level_03_peg01l.png */; };
+		93B4398F1364D94C0094276C /* level_03_peg02l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439781364D94C0094276C /* level_03_peg02l.png */; };
+		93B439901364D94C0094276C /* level_03_peg03l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439791364D94C0094276C /* level_03_peg03l.png */; };
+		93B439911364D94C0094276C /* level_03_peg04l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4397A1364D94C0094276C /* level_03_peg04l.png */; };
+		93B439921364D94C0094276C /* level_03_peg05l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4397B1364D94C0094276C /* level_03_peg05l.png */; };
+		93B439931364D94C0094276C /* level_03_peg06l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4397C1364D94C0094276C /* level_03_peg06l.png */; };
+		93B439941364D94C0094276C /* level_03_peg07l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4397D1364D94C0094276C /* level_03_peg07l.png */; };
+		93B439951364D94C0094276C /* level_03_peg08l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4397E1364D94C0094276C /* level_03_peg08l.png */; };
+		93B439961364D94C0094276C /* level_03_peg09l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4397F1364D94C0094276C /* level_03_peg09l.png */; };
+		93B439971364D94C0094276C /* level_03_peg10l.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439801364D94C0094276C /* level_03_peg10l.png */; };
+		93B439981364D94C0094276C /* level_03_right_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439811364D94C0094276C /* level_03_right_map.png */; };
+		93B439991364D94C0094276C /* level_03_peg01r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439831364D94C0094276C /* level_03_peg01r.png */; };
+		93B4399A1364D94C0094276C /* level_03_peg02r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439841364D94C0094276C /* level_03_peg02r.png */; };
+		93B4399B1364D94C0094276C /* level_03_peg03r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439851364D94C0094276C /* level_03_peg03r.png */; };
+		93B4399C1364D94C0094276C /* level_03_peg04r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439861364D94C0094276C /* level_03_peg04r.png */; };
+		93B4399D1364D94C0094276C /* level_03_peg05r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439871364D94C0094276C /* level_03_peg05r.png */; };
+		93B4399E1364D94C0094276C /* level_03_peg06r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439881364D94C0094276C /* level_03_peg06r.png */; };
+		93B4399F1364D94C0094276C /* level_03_peg07r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B439891364D94C0094276C /* level_03_peg07r.png */; };
+		93B439A01364D94C0094276C /* level_03_peg08r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4398A1364D94C0094276C /* level_03_peg08r.png */; };
+		93B439A11364D94C0094276C /* level_03_peg09r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4398B1364D94C0094276C /* level_03_peg09r.png */; };
+		93B439A21364D94C0094276C /* level_03_peg10r.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4398C1364D94C0094276C /* level_03_peg10r.png */; };
+		93B439A71364D9710094276C /* level_03_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A41364D9710094276C /* level_03_data.txt */; };
+		93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A51364D9710094276C /* level_03_left_pieces.txt */; };
+		93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93B439A61364D9710094276C /* level_03_right_pieces.txt */; };
+		D55CBC2813667C830079F8C0 /* LevelPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55CBC2713667C830079F8C0 /* LevelPickViewController.m */; };
+		D55CBC2A13667C980079F8C0 /* LevelPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55CBC2913667C980079F8C0 /* LevelPickViewController.xib */; };
+>>>>>>> trying to add levelpick
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -235,12 +265,43 @@
 		93AE669F1303A63100E370F7 /* level_02_peg15r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level_02_peg15r.png; path = Resources/images/level_02_images/level_02_right_pegs/level_02_peg15r.png; sourceTree = "<group>"; };
 		93AE66A01303A63100E370F7 /* level_02_peg16r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level_02_peg16r.png; path = Resources/images/level_02_images/level_02_right_pegs/level_02_peg16r.png; sourceTree = "<group>"; };
 		93AE66A11303A63100E370F7 /* level_02_peg17r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level_02_peg17r.png; path = Resources/images/level_02_images/level_02_right_pegs/level_02_peg17r.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		D553E6441364D43400102C29 /* highScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = highScoreViewController.m; sourceTree = "<group>"; };
 		D553E6461364D43B00102C29 /* highScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highScoreViewController.h; sourceTree = "<group>"; };
 		D553E6471364D44400102C29 /* LevelPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelPickViewController.xib; sourceTree = "<group>"; };
 		D553E64E1364D48600102C29 /* highScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = highScoreViewController.xib; sourceTree = "<group>"; };
 		D553E6501364D48F00102C29 /* LevelPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPickViewController.h; sourceTree = "<group>"; };
 		D553E6511364D48F00102C29 /* LevelPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPickViewController.m; sourceTree = "<group>"; };
+=======
+		93B439751364D94C0094276C /* level_03_left_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level_03_left_map.png; path = Resources/images/level_03_images/level_03_left_map.png; sourceTree = "<group>"; };
+		93B439771364D94C0094276C /* level_03_peg01l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg01l.png; sourceTree = "<group>"; };
+		93B439781364D94C0094276C /* level_03_peg02l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg02l.png; sourceTree = "<group>"; };
+		93B439791364D94C0094276C /* level_03_peg03l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg03l.png; sourceTree = "<group>"; };
+		93B4397A1364D94C0094276C /* level_03_peg04l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg04l.png; sourceTree = "<group>"; };
+		93B4397B1364D94C0094276C /* level_03_peg05l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg05l.png; sourceTree = "<group>"; };
+		93B4397C1364D94C0094276C /* level_03_peg06l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg06l.png; sourceTree = "<group>"; };
+		93B4397D1364D94C0094276C /* level_03_peg07l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg07l.png; sourceTree = "<group>"; };
+		93B4397E1364D94C0094276C /* level_03_peg08l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg08l.png; sourceTree = "<group>"; };
+		93B4397F1364D94C0094276C /* level_03_peg09l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg09l.png; sourceTree = "<group>"; };
+		93B439801364D94C0094276C /* level_03_peg10l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg10l.png; sourceTree = "<group>"; };
+		93B439811364D94C0094276C /* level_03_right_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level_03_right_map.png; path = Resources/images/level_03_images/level_03_right_map.png; sourceTree = "<group>"; };
+		93B439831364D94C0094276C /* level_03_peg01r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg01r.png; sourceTree = "<group>"; };
+		93B439841364D94C0094276C /* level_03_peg02r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg02r.png; sourceTree = "<group>"; };
+		93B439851364D94C0094276C /* level_03_peg03r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg03r.png; sourceTree = "<group>"; };
+		93B439861364D94C0094276C /* level_03_peg04r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg04r.png; sourceTree = "<group>"; };
+		93B439871364D94C0094276C /* level_03_peg05r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg05r.png; sourceTree = "<group>"; };
+		93B439881364D94C0094276C /* level_03_peg06r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg06r.png; sourceTree = "<group>"; };
+		93B439891364D94C0094276C /* level_03_peg07r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg07r.png; sourceTree = "<group>"; };
+		93B4398A1364D94C0094276C /* level_03_peg08r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg08r.png; sourceTree = "<group>"; };
+		93B4398B1364D94C0094276C /* level_03_peg09r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg09r.png; sourceTree = "<group>"; };
+		93B4398C1364D94C0094276C /* level_03_peg10r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_03_peg10r.png; sourceTree = "<group>"; };
+		93B439A41364D9710094276C /* level_03_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_data.txt; sourceTree = "<group>"; };
+		93B439A51364D9710094276C /* level_03_left_pieces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_left_pieces.txt; sourceTree = "<group>"; };
+		93B439A61364D9710094276C /* level_03_right_pieces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level_03_right_pieces.txt; sourceTree = "<group>"; };
+		D55CBC2613667C830079F8C0 /* LevelPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPickViewController.h; sourceTree = "<group>"; };
+		D55CBC2713667C830079F8C0 /* LevelPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPickViewController.m; sourceTree = "<group>"; };
+		D55CBC2913667C980079F8C0 /* LevelPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelPickViewController.xib; sourceTree = "<group>"; };
+>>>>>>> trying to add levelpick
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +475,10 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+				D55CBC2913667C980079F8C0 /* LevelPickViewController.xib */,
+>>>>>>> trying to add levelpick
 				938CE4D41364349600AAA9E8 /* highScoreViewController.xib */,
 =======
 				D553E6471364D44400102C29 /* LevelPickViewController.xib */,
@@ -481,7 +546,12 @@
 			children = (
 				9392090A12641E88007C9949 /* startScreenViewController.h */,
 				9392090B12641E88007C9949 /* startScreenViewController.m */,
+<<<<<<< HEAD
 				D553E6461364D43B00102C29 /* highScoreViewController.h */,
+=======
+				D55CBC2613667C830079F8C0 /* LevelPickViewController.h */,
+				D55CBC2713667C830079F8C0 /* LevelPickViewController.m */,
+>>>>>>> trying to add levelpick
 				9392098C12642BDF007C9949 /* LevelViewController.h */,
 				D553E6441364D43400102C29 /* highScoreViewController.m */,
 				D553E6501364D48F00102C29 /* LevelPickViewController.h */,
@@ -799,10 +869,14 @@
 				93B439A71364D9710094276C /* level_03_data.txt in Resources */,
 				93B439A81364D9710094276C /* level_03_left_pieces.txt in Resources */,
 				93B439A91364D9710094276C /* level_03_right_pieces.txt in Resources */,
+<<<<<<< HEAD
 =======
 				D553E6481364D44400102C29 /* LevelPickViewController.xib in Resources */,
 				D553E64F1364D48600102C29 /* highScoreViewController.xib in Resources */,
 >>>>>>> testing
+=======
+				D55CBC2A13667C980079F8C0 /* LevelPickViewController.xib in Resources */,
+>>>>>>> trying to add levelpick
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,10 +901,14 @@
 				93937F59135937ED00FE9E88 /* scoreObject.m in Sources */,
 <<<<<<< HEAD
 				938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */,
+<<<<<<< HEAD
 =======
 				D553E6451364D43400102C29 /* highScoreViewController.m in Sources */,
 				D553E6521364D48F00102C29 /* LevelPickViewController.m in Sources */,
 >>>>>>> testing
+=======
+				D55CBC2813667C830079F8C0 /* LevelPickViewController.m in Sources */,
+>>>>>>> trying to add levelpick
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
