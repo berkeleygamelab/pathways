@@ -56,7 +56,6 @@
 
 - (IBAction) loadLevel1: (UIButton *) sender
 {
-	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_01_data" withScoreObject:score];
 	self.levelController = aViewController;
 	[aViewController release];
@@ -68,8 +67,10 @@
 
 - (IBAction) loadLevel2: (UIButton *) sender
 {
-	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_02_data" withScoreObject:score];
+	self.levelController = aViewController;
+	[aViewController release];
+	[self.navigationController pushViewController:self.levelController animated:NO];
 	//[aViewController release];
 	//UIView *Level1View = [aViewController view];
 	//[self.view removeFromSuperview];
@@ -81,11 +82,10 @@
 
 - (IBAction) loadLevel3: (UIButton *) sender
 {
-	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_03_data" withScoreObject:score];
+	self.levelController = aViewController;
 	[aViewController release];
-	UIView *Level1View = [aViewController view];
-	[self.view addSubview:Level1View];
+	[self.navigationController pushViewController:self.levelController animated:NO];
 	
 	
 }

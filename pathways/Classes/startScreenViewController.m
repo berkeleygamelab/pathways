@@ -14,6 +14,7 @@
 @synthesize draggable1, draggable2, draggable3, draggable4, draggable5;
 @synthesize gamestate;
 @synthesize levelPick;
+@synthesize ahighScoreViewController;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -130,9 +131,14 @@
 
 
 -(IBAction)scoreButtonPressed:(UIButton *)sender {
-	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
-	[self.view removeFromSuperview];
-	[appDelegate showHighScores];
+//	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+//	[self.view removeFromSuperview];
+//	[appDelegate showHighScores];
+	highScoreViewController *aViewController = [[highScoreViewController alloc] initWithNibName:@"highScoreViewController" bundle:[NSBundle mainBundle]];
+	self.ahighScoreViewController = aViewController;
+	[aViewController release];
+	[self.navigationController pushViewController:ahighScoreViewController animated:NO];
+	
 }
  
 -(void)piecePlacedAction:(draggable *)piece{
