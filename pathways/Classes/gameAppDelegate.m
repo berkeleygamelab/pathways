@@ -15,18 +15,20 @@
 @synthesize window;
 @synthesize gameState;
 @synthesize startViewController, aLevelViewController, aScoreViewController, aHighScoreViewController;
-
+@synthesize navigationController;
 @synthesize levelData, currentScore;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
-	application.statusBarOrientation = UIInterfaceOrientationLandscapeRight;
+-(void) applicationDidFinishLaunching:(UIApplication *)application
+{
+	//application.statusBarOrientation = UIInterfaceOrientationLandscapeRight;
     // Override point for customization after application launch.
-	[self showMainScreen];
-    return YES;
+	[window addSubview:[navigationController view]];
+	[window makeKeyAndVisible];
+	//[self showMainScreen];
+	//return YES;
 }
 
 - (void) showMainScreen{
@@ -105,6 +107,7 @@
 
 
 - (void)dealloc {
+	[navigationController release];
 	[startViewController release];
     [window release];
     [super dealloc];

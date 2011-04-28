@@ -505,8 +505,8 @@ int numPieces;
 		if(buttonIndex == 0){
 		}
 		else{
-			[self.view removeFromSuperview];
-			[appDelegate showMainScreen];
+			//startScreen = [[startScreenViewController alloc] initWithNibName:@"startScreenViewController" bundle:[NSBundle mainBundle]];
+			[[self navigationController] popToRootViewControllerAnimated:NO];
 		}
 	}else if (alertView==infoAlert) {
 	}

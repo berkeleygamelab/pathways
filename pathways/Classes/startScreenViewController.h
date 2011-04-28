@@ -10,6 +10,8 @@
 #import "LevelViewController.h"
 #import "scoreObject.h"
 #import "gameAppDelegate.h"
+#import "LevelPickViewController.h"
+#import "highScoreViewController.h"
 
 typedef enum
 {
@@ -19,12 +21,21 @@ typedef enum
 }PathwaysGamestate;
 
 @interface startScreenViewController : UIViewController {
+	LevelViewController *level1ViewController;
+	LevelViewController *level2ViewController;
+	LevelPickViewController * levelPick;
 	draggable *draggable1;
 	draggable *draggable2;
 	draggable *draggable3;
 	draggable *draggable4;
 	draggable *draggable5;
 	PathwaysGamestate gamestate;
+	scoreViewController *aScoreViewController;
+	draggable *player1Draggable;
+	IBOutlet UIButton *player1Button;
+	highScoreViewController *ahighScoreViewController;
+
+
 }
 
 @property (nonatomic, retain) draggable *draggable1;
@@ -32,6 +43,8 @@ typedef enum
 @property (nonatomic, retain) draggable *draggable3;
 @property (nonatomic, retain) draggable *draggable4;
 @property (nonatomic, retain) draggable *draggable5;
+@property (nonatomic, retain) LevelPickViewController *levelPick;
+@property (nonatomic, retain) highScoreViewController * ahighScoreViewController;
 @property PathwaysGamestate gamestate;
 
 

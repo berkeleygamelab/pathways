@@ -74,7 +74,8 @@ typedef enum
 	//nextLevel 
 	NSString *nextLevelData;
 	LevelGamestate gamestate;
-		
+	
+	startScreenViewController * startScreen;
 }
 
 @property (nonatomic, retain) gameAppDelegate *appDelegate;
