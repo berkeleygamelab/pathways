@@ -183,11 +183,12 @@
 }
 
 -(IBAction)doneButtonPressed:(UIButton *)doneButton {
-	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
-
-	
-	[self.view removeFromSuperview];
-	[appDelegate showMainScreen];
+//	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+//
+//	
+//	[self.view removeFromSuperview];
+//	[appDelegate showMainScreen];
+	[self.navigationController popToRootViewControllerAnimated:NO];
 	
 }	
 
