@@ -142,7 +142,7 @@
 }
  
 -(void)piecePlacedAction:(draggable *)piece{
-	gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
+	//gameAppDelegate *appDelegate = (gameAppDelegate *)[[UIApplication sharedApplication] delegate];
 	scoreObject *playerScore;
 	
 	[piece scaleImageSmaller];
@@ -160,7 +160,7 @@
 	}
 	
 	
-	appDelegate.currentScore = playerScore;
+	//appDelegate.currentScore = playerScore;
 	
 //	appDelegate.levelData = @"level_01_data";
 	//[self.view removeFromSuperview];

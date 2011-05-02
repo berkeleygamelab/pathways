@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Pathways_Icon_Final.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.msdosx.spring11.Pathways</string>
+	<string>com.msdosx.spring2011.Pathways</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
