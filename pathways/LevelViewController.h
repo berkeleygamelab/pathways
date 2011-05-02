@@ -76,6 +76,8 @@ typedef enum
 	LevelGamestate gamestate;
 	
 	startScreenViewController * startScreen;
+	
+	LevelViewController *nextLevel;
 }
 
 @property (nonatomic, retain) gameAppDelegate *appDelegate;

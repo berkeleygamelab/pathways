@@ -613,8 +613,13 @@ int numPieces;
 	//isLastLevel = YES;
 	appDelegate.currentScore = playerScore;
 	appDelegate.levelData = nextLevelData;
-	[self.view removeFromSuperview];
-	[appDelegate switchLevel];
+	//[self.view removeFromSuperview];
+	//[appDelegate switchLevel];
+	UINavigationController *nav = [self navigationController];
+	nextLevel = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:nextLevelData withScoreObject:playerScore];
+	[[self retain] autorelease];
+	[nav popViewControllerAnimated:NO];
+	[nav pushViewController:nextLevel animated:NO];
 }	
 
 //score handling methods
