@@ -596,8 +596,11 @@ int numPieces;
 }
 
 -(void)scoresButtonPressed{
-	[self.view removeFromSuperview];
-	[appDelegate showPlayerScores];
+	UINavigationController *nav = [self navigationController];
+	scores = [[scoreViewController alloc] initWithNibName:@"ScoreViewController" bundle:[NSBundle mainBundle] withCurrentScore:playerScore];
+	[[self retain] autorelease];
+	[nav popViewControllerAnimated:NO];
+	[nav pushViewController:scores animated:NO];
 
 }	
 
