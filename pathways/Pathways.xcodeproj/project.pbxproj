@@ -138,6 +138,22 @@
 		D5876AF21367FAA600030D08 /* LevelPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5876AF11367FAA600030D08 /* LevelPickViewController.m */; };
 		D5876AF41367FAAF00030D08 /* LevelPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5876AF31367FAAF00030D08 /* LevelPickViewController.xib */; };
 		D5876B8113680E2700030D08 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5876B8013680E2700030D08 /* MainWindow.xib */; };
+		D59708D413738B1200862EC1 /* arc.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708B713738B1200862EC1 /* arc.m */; };
+		D59708D513738B1200862EC1 /* bigTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708B913738B1200862EC1 /* bigTest.m */; };
+		D59708D613738B1200862EC1 /* event.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708BB13738B1200862EC1 /* event.m */; };
+		D59708D713738B1200862EC1 /* JAPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708BD13738B1200862EC1 /* JAPriorityQueue.m */; };
+		D59708D813738B1200862EC1 /* point.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708BF13738B1200862EC1 /* point.m */; };
+		D59708D913738B1200862EC1 /* Seg.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708C113738B1200862EC1 /* Seg.m */; };
+		D59708DA13738B1200862EC1 /* LeftUnMovable.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708C313738B1200862EC1 /* LeftUnMovable.m */; };
+		D59708DB13738B1200862EC1 /* RightUnMovable.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708C513738B1200862EC1 /* RightUnMovable.m */; };
+		D59708DC13738B1200862EC1 /* Voronoi.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708C713738B1200862EC1 /* Voronoi.m */; };
+		D59708DD13738B1200862EC1 /* voronAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708C913738B1200862EC1 /* voronAppDelegate.m */; };
+		D59708DE13738B1200862EC1 /* voronViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708CB13738B1200862EC1 /* voronViewController.m */; };
+		D59708DF13738B1200862EC1 /* LeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708CD13738B1200862EC1 /* LeftCell.m */; };
+		D59708E013738B1200862EC1 /* RightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708CF13738B1200862EC1 /* RightCell.m */; };
+		D59708E113738B1200862EC1 /* LeftMovable.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708D113738B1200862EC1 /* LeftMovable.m */; };
+		D59708E213738B1200862EC1 /* RightMovable.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708D313738B1200862EC1 /* RightMovable.m */; };
+		D59708F313738CBC00862EC1 /* VoronoiLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59708F213738CBC00862EC1 /* VoronoiLevelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -289,6 +305,38 @@
 		D5876AF11367FAA600030D08 /* LevelPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPickViewController.m; sourceTree = "<group>"; };
 		D5876AF31367FAAF00030D08 /* LevelPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelPickViewController.xib; sourceTree = "<group>"; };
 		D5876B8013680E2700030D08 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D59708B613738B1200862EC1 /* arc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arc.h; sourceTree = "<group>"; };
+		D59708B713738B1200862EC1 /* arc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arc.m; sourceTree = "<group>"; };
+		D59708B813738B1200862EC1 /* bigTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bigTest.h; sourceTree = "<group>"; };
+		D59708B913738B1200862EC1 /* bigTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bigTest.m; sourceTree = "<group>"; };
+		D59708BA13738B1200862EC1 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		D59708BB13738B1200862EC1 /* event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = event.m; sourceTree = "<group>"; };
+		D59708BC13738B1200862EC1 /* JAPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAPriorityQueue.h; sourceTree = "<group>"; };
+		D59708BD13738B1200862EC1 /* JAPriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAPriorityQueue.m; sourceTree = "<group>"; };
+		D59708BE13738B1200862EC1 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		D59708BF13738B1200862EC1 /* point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = point.m; sourceTree = "<group>"; };
+		D59708C013738B1200862EC1 /* Seg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seg.h; sourceTree = "<group>"; };
+		D59708C113738B1200862EC1 /* Seg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seg.m; sourceTree = "<group>"; };
+		D59708C213738B1200862EC1 /* LeftUnMovable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftUnMovable.h; sourceTree = "<group>"; };
+		D59708C313738B1200862EC1 /* LeftUnMovable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftUnMovable.m; sourceTree = "<group>"; };
+		D59708C413738B1200862EC1 /* RightUnMovable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightUnMovable.h; sourceTree = "<group>"; };
+		D59708C513738B1200862EC1 /* RightUnMovable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightUnMovable.m; sourceTree = "<group>"; };
+		D59708C613738B1200862EC1 /* Voronoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voronoi.h; sourceTree = "<group>"; };
+		D59708C713738B1200862EC1 /* Voronoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voronoi.m; sourceTree = "<group>"; };
+		D59708C813738B1200862EC1 /* voronAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voronAppDelegate.h; sourceTree = "<group>"; };
+		D59708C913738B1200862EC1 /* voronAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voronAppDelegate.m; sourceTree = "<group>"; };
+		D59708CA13738B1200862EC1 /* voronViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voronViewController.h; sourceTree = "<group>"; };
+		D59708CB13738B1200862EC1 /* voronViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voronViewController.m; sourceTree = "<group>"; };
+		D59708CC13738B1200862EC1 /* LeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftCell.h; sourceTree = "<group>"; };
+		D59708CD13738B1200862EC1 /* LeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftCell.m; sourceTree = "<group>"; };
+		D59708CE13738B1200862EC1 /* RightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCell.h; sourceTree = "<group>"; };
+		D59708CF13738B1200862EC1 /* RightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCell.m; sourceTree = "<group>"; };
+		D59708D013738B1200862EC1 /* LeftMovable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMovable.h; sourceTree = "<group>"; };
+		D59708D113738B1200862EC1 /* LeftMovable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMovable.m; sourceTree = "<group>"; };
+		D59708D213738B1200862EC1 /* RightMovable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMovable.h; sourceTree = "<group>"; };
+		D59708D313738B1200862EC1 /* RightMovable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMovable.m; sourceTree = "<group>"; };
+		D59708F113738CBC00862EC1 /* VoronoiLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiLevelViewController.h; sourceTree = "<group>"; };
+		D59708F213738CBC00862EC1 /* VoronoiLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiLevelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +357,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D597089813738AFD00862EC1 /* Voronoi */,
 				1D3623240D0F684500981E51 /* gameAppDelegate.h */,
 				1D3623250D0F684500981E51 /* gameAppDelegate.m */,
 				93381D3A1264535D00C8DC8D /* draggable.h */,
@@ -535,6 +584,8 @@
 				938CE4D31364349600AAA9E8 /* highScoreViewController.m */,
 				93B5CC1013663DE5007D2BCF /* ScoreTableCell.h */,
 				93B5CC1113663DE5007D2BCF /* ScoreTableCell.m */,
+				D59708F113738CBC00862EC1 /* VoronoiLevelViewController.h */,
+				D59708F213738CBC00862EC1 /* VoronoiLevelViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -678,6 +729,51 @@
 				93AE66341303993900E370F7 /* start-piece.png */,
 			);
 			name = start_screen_images;
+			sourceTree = "<group>";
+		};
+		D597089813738AFD00862EC1 /* Voronoi */ = {
+			isa = PBXGroup;
+			children = (
+				D59708B513738B1200862EC1 /* Classes */,
+			);
+			name = Voronoi;
+			sourceTree = "<group>";
+		};
+		D59708B513738B1200862EC1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D59708B613738B1200862EC1 /* arc.h */,
+				D59708B713738B1200862EC1 /* arc.m */,
+				D59708B813738B1200862EC1 /* bigTest.h */,
+				D59708B913738B1200862EC1 /* bigTest.m */,
+				D59708BA13738B1200862EC1 /* event.h */,
+				D59708BB13738B1200862EC1 /* event.m */,
+				D59708BC13738B1200862EC1 /* JAPriorityQueue.h */,
+				D59708BD13738B1200862EC1 /* JAPriorityQueue.m */,
+				D59708BE13738B1200862EC1 /* point.h */,
+				D59708BF13738B1200862EC1 /* point.m */,
+				D59708C013738B1200862EC1 /* Seg.h */,
+				D59708C113738B1200862EC1 /* Seg.m */,
+				D59708C213738B1200862EC1 /* LeftUnMovable.h */,
+				D59708C313738B1200862EC1 /* LeftUnMovable.m */,
+				D59708C413738B1200862EC1 /* RightUnMovable.h */,
+				D59708C513738B1200862EC1 /* RightUnMovable.m */,
+				D59708C613738B1200862EC1 /* Voronoi.h */,
+				D59708C713738B1200862EC1 /* Voronoi.m */,
+				D59708C813738B1200862EC1 /* voronAppDelegate.h */,
+				D59708C913738B1200862EC1 /* voronAppDelegate.m */,
+				D59708CA13738B1200862EC1 /* voronViewController.h */,
+				D59708CB13738B1200862EC1 /* voronViewController.m */,
+				D59708CC13738B1200862EC1 /* LeftCell.h */,
+				D59708CD13738B1200862EC1 /* LeftCell.m */,
+				D59708CE13738B1200862EC1 /* RightCell.h */,
+				D59708CF13738B1200862EC1 /* RightCell.m */,
+				D59708D013738B1200862EC1 /* LeftMovable.h */,
+				D59708D113738B1200862EC1 /* LeftMovable.m */,
+				D59708D213738B1200862EC1 /* RightMovable.h */,
+				D59708D313738B1200862EC1 /* RightMovable.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -866,6 +962,22 @@
 				938CE4D51364349600AAA9E8 /* highScoreViewController.m in Sources */,
 				93B5CC1213663DE5007D2BCF /* ScoreTableCell.m in Sources */,
 				D5876AF21367FAA600030D08 /* LevelPickViewController.m in Sources */,
+				D59708D413738B1200862EC1 /* arc.m in Sources */,
+				D59708D513738B1200862EC1 /* bigTest.m in Sources */,
+				D59708D613738B1200862EC1 /* event.m in Sources */,
+				D59708D713738B1200862EC1 /* JAPriorityQueue.m in Sources */,
+				D59708D813738B1200862EC1 /* point.m in Sources */,
+				D59708D913738B1200862EC1 /* Seg.m in Sources */,
+				D59708DA13738B1200862EC1 /* LeftUnMovable.m in Sources */,
+				D59708DB13738B1200862EC1 /* RightUnMovable.m in Sources */,
+				D59708DC13738B1200862EC1 /* Voronoi.m in Sources */,
+				D59708DD13738B1200862EC1 /* voronAppDelegate.m in Sources */,
+				D59708DE13738B1200862EC1 /* voronViewController.m in Sources */,
+				D59708DF13738B1200862EC1 /* LeftCell.m in Sources */,
+				D59708E013738B1200862EC1 /* RightCell.m in Sources */,
+				D59708E113738B1200862EC1 /* LeftMovable.m in Sources */,
+				D59708E213738B1200862EC1 /* RightMovable.m in Sources */,
+				D59708F313738CBC00862EC1 /* VoronoiLevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
