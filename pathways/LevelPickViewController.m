@@ -14,6 +14,7 @@
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
 @synthesize levelController;
+@synthesize voronoiController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andPlayerScore:playerScore{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -67,8 +68,9 @@
 
 - (IBAction) loadLevel2: (UIButton *) sender
 {
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_02_data" withScoreObject:score];
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_03_data" withScoreObject:score];
 	self.levelController = aViewController;
+	NSLog(@"help");
 	[aViewController release];
 	[self.navigationController pushViewController:self.levelController animated:NO];
 	//[aViewController release];
@@ -82,11 +84,22 @@
 
 - (IBAction) loadLevel3: (UIButton *) sender
 {
-	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_03_data" withScoreObject:score];
+	LevelViewController *aViewController = [[LevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withLevelData:@"level_02_data" withScoreObject:score];
 	self.levelController = aViewController;
+	NSLog(@"help");
 	[aViewController release];
 	[self.navigationController pushViewController:self.levelController animated:NO];
 	
+	
+}
+
+- (IBAction) loadRandomLevel: (UIButton *) sender
+{
+	VoronoiLevelViewController *aViewController = [[VoronoiLevelViewController alloc] initWithNibName:@"LevelViewController" bundle:[NSBundle mainBundle] withScoreObject:score];
+	self.voronoiController = aViewController;
+	NSLog(@"help");
+	[aViewController release];
+	[self.navigationController pushViewController:self.voronoiController animated:NO];
 	
 }
 - (void)dealloc {

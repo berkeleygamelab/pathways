@@ -78,6 +78,7 @@ typedef enum
 	startScreenViewController * startScreen;
 	
 	LevelViewController *nextLevel;
+	scoreViewController *scores;
 }
 
 @property (nonatomic, retain) gameAppDelegate *appDelegate;

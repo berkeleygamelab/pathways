@@ -10,15 +10,18 @@
 #import "gameAppDelegate.h"
 #import "LevelViewController.h"
 #import "scoreObject.h"
+#import "VoronoiLevelViewController.h"
 
 @interface LevelPickViewController : UIViewController {
 
 	scoreObject *score;
 	LevelViewController *levelController;
+	VoronoiLevelViewController *voronoiController;
 
 }
 
 @property (nonatomic,retain) LevelViewController *levelController;
+@property (nonatomic,retain) VoronoiLevelViewController *voronoiController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andPlayerScore:playerScore;
 
